@@ -37,3 +37,4 @@ INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Programs/Workspace/Xilinx_
 INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/ov5640_cap_data'.
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2023.1/data/ip'.
 open_project: Time (s): cpu = 00:00:21 ; elapsed = 00:00:26 . Memory (MB): peak = 3082.359 ; gain = 521.656
+update_compile_order -fileset sources_1

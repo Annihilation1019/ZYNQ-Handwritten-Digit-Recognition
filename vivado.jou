@@ -13,3 +13,4 @@
 #-----------------------------------------------------------
 start_gui
 open_project D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.xpr
+update_compile_order -fileset sources_1

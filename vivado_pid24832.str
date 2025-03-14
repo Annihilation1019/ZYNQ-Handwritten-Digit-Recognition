@@ -207,3 +207,17 @@ Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 // [GUI Memory]: 178 MB (+11844kb) [00:00:52]
 // HMemoryUtils.trashcanNow. Engine heap size: 2,689 MB. GUI used memory: 99 MB. Current time: 3/14/25, 5:17:42 PM CST
 // Tcl Message: open_project: Time (s): cpu = 00:00:21 ; elapsed = 00:00:26 . Memory (MB): peak = 3082.359 ; gain = 521.656 
+// Project name: ZYNQ_CNN; location: D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN; part: xc7z020clg484-1
+dismissDialog("Open Project"); // bq
+// Elapsed Time for: 'L.f': 22s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Elapsed Time for: 'L.f': 24s
+// Elapsed Time for: 'L.f': 28s
+// Tcl Message: update_compile_order -fileset sources_1 
