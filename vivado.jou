@@ -12,3 +12,4 @@
 # Running On: LAPTOP-DUUNQKAE, OS: Windows, CPU Frequency: 2918 MHz, CPU Physical cores: 14, Host memory: 16890 MB
 #-----------------------------------------------------------
 start_gui
+open_project D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.xpr
