@@ -1,0 +1,86 @@
+17:07:27 **** Incremental Build of configuration Debug for project ZYNQ_CNN ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+make --no-print-directory main-build
+'Building file: ../src/vdma/vdma_api.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/vdma/vdma_api.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -ID:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/sw/ZYNQ_CORE_wrapper/standalone_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/vdma/vdma_api.d" -MT"src/vdma/vdma_api.o" -o "src/vdma/vdma_api.o" "../src/vdma/vdma_api.c"
+'Finished building: ../src/vdma/vdma_api.c'
+' '
+'Building file: ../src/ov5640/ov5640_init.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ov5640/ov5640_init.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -ID:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/sw/ZYNQ_CORE_wrapper/standalone_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/ov5640/ov5640_init.d" -MT"src/ov5640/ov5640_init.o" -o "src/ov5640/ov5640_init.o" "../src/ov5640/ov5640_init.c"
+'Finished building: ../src/ov5640/ov5640_init.c'
+' '
+'Building file: ../src/emio_sccb_cfg/emio_sccb_cfg.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/emio_sccb_cfg/emio_sccb_cfg.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -ID:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/sw/ZYNQ_CORE_wrapper/standalone_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/emio_sccb_cfg/emio_sccb_cfg.d" -MT"src/emio_sccb_cfg/emio_sccb_cfg.o" -o "src/emio_sccb_cfg/emio_sccb_cfg.o" "../src/emio_sccb_cfg/emio_sccb_cfg.c"
+'Finished building: ../src/emio_sccb_cfg/emio_sccb_cfg.c'
+' '
+'Building file: ../src/CNN/affine_layer.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/CNN/affine_layer.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -ID:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/sw/ZYNQ_CORE_wrapper/standalone_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/CNN/affine_layer.d" -MT"src/CNN/affine_layer.o" -o "src/CNN/affine_layer.o" "../src/CNN/affine_layer.c"
+'Finished building: ../src/CNN/affine_layer.c'
+' '
+'Building file: ../src/CNN/conv_layer_1.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/CNN/conv_layer_1.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -ID:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/sw/ZYNQ_CORE_wrapper/standalone_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/CNN/conv_layer_1.d" -MT"src/CNN/conv_layer_1.o" -o "src/CNN/conv_layer_1.o" "../src/CNN/conv_layer_1.c"
+'Finished building: ../src/CNN/conv_layer_1.c'
+' '
+'Building file: ../src/CNN/maxpool_layer_2.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/CNN/maxpool_layer_2.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -ID:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/sw/ZYNQ_CORE_wrapper/standalone_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/CNN/maxpool_layer_2.d" -MT"src/CNN/maxpool_layer_2.o" -o "src/CNN/maxpool_layer_2.o" "../src/CNN/maxpool_layer_2.c"
+'Finished building: ../src/CNN/maxpool_layer_2.c'
+' '
+'Building file: ../src/CNN/param_init.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/CNN/param_init.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -ID:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/sw/ZYNQ_CORE_wrapper/standalone_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/CNN/param_init.d" -MT"src/CNN/param_init.o" -o "src/CNN/param_init.o" "../src/CNN/param_init.c"
+'Finished building: ../src/CNN/param_init.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -ID:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/sw/ZYNQ_CORE_wrapper/standalone_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:19:
+../src/CNN/maxpool_layer_2.h:5: warning: "INPUT_W" redefined
+    5 | #define INPUT_W 24
+      | 
+In file included from ../src/main.c:17:
+../src/CNN/conv_layer_1.h:5: note: this is the location of the previous definition
+    5 | #define INPUT_W 28
+      | 
+../src/CNN/maxpool_layer_2.h:6: warning: "INPUT_H" redefined
+    6 | #define INPUT_H 24
+      | 
+../src/CNN/conv_layer_1.h:6: note: this is the location of the previous definition
+    6 | #define INPUT_H 28
+      | 
+../src/CNN/maxpool_layer_2.h:7: warning: "KERNEL_SIZE" redefined
+    7 | #define KERNEL_SIZE 2
+      | 
+../src/CNN/conv_layer_1.h:7: note: this is the location of the previous definition
+    7 | #define KERNEL_SIZE 5
+      | 
+../src/main.c:39:11: warning: 'input_layer' defined but not used [-Wunused-variable]
+   39 | static u8 input_layer[784];
+      |           ^~~~~~~~~~~
+../src/main.c:38:11: warning: 'image' defined but not used [-Wunused-variable]
+   38 | static u8 image[IMAGE_SIZE];
+      |           ^~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: ZYNQ_CNN.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LD:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/sw/ZYNQ_CORE_wrapper/standalone_ps7_cortexa9_0/bsplib/lib -o "ZYNQ_CNN.elf"  ./src/vdma/vdma_api.o  ./src/ov5640/ov5640_init.o  ./src/emio_sccb_cfg/emio_sccb_cfg.o  ./src/CNN/affine_layer.o ./src/CNN/conv_layer_1.o ./src/CNN/maxpool_layer_2.o ./src/CNN/param_init.o ./src/CNN/relu_layer.o  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ZYNQ_CNN.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ZYNQ_CNN.elf  |tee "ZYNQ_CNN.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+14935901	   1304	 291584	15228789	 e85f75	ZYNQ_CNN.elf
+'Finished building: ZYNQ_CNN.elf.size'
+' '
+
+17:08:04 Build Finished (took 37s.277ms)
+

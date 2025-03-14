@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7z020clg484-1" LaunchTime="1741942180">
+  <File Type="ROUTE-PWR" Name="ZYNQ_CORE_wrapper_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="ZYNQ_CORE_wrapper.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="ZYNQ_CORE_wrapper_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="ZYNQ_CORE_wrapper_reports.tcl"/>
+  <File Type="OPT-RQA-PB" Name="ZYNQ_CORE_wrapper_rqa_opted.pb"/>
+  <File Type="BITSTR-MMI" Name="ZYNQ_CORE_wrapper.mmi"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="ZYNQ_CORE_wrapper_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="ZYNQ_CORE_wrapper_timing_summary_init.rpt"/>
+  <File Type="OPT-TIMING" Name="ZYNQ_CORE_wrapper_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="ZYNQ_CORE_wrapper_opt.dcp"/>
+  <File Type="OPT-DRC" Name="ZYNQ_CORE_wrapper_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="ZYNQ_CORE_wrapper.hwdef"/>
+  <File Type="PWROPT-DCP" Name="ZYNQ_CORE_wrapper_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="ZYNQ_CORE_wrapper_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="ZYNQ_CORE_wrapper_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="ZYNQ_CORE_wrapper_placed.dcp"/>
+  <File Type="PLACE-IO" Name="ZYNQ_CORE_wrapper_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="ZYNQ_CORE_wrapper_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="ZYNQ_CORE_wrapper_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="ZYNQ_CORE_wrapper_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="ZYNQ_CORE_wrapper_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="ZYNQ_CORE_wrapper_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="ZYNQ_CORE_wrapper_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BIN" Name="ZYNQ_CORE_wrapper.bin"/>
+  <File Type="PLACE-TIMING" Name="ZYNQ_CORE_wrapper_timing_summary_placed.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="ZYNQ_CORE_wrapper_power_routed.rpx"/>
+  <File Type="PLACE-RQA-PB" Name="ZYNQ_CORE_wrapper_rqa_placed.pb"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="ZYNQ_CORE_wrapper_postplace_pwropt.dcp"/>
+  <File Type="BITSTR-MSK" Name="ZYNQ_CORE_wrapper.msk"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="ZYNQ_CORE_wrapper_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="ZYNQ_CORE_wrapper_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="ZYNQ_CORE_wrapper_drc_physopted.rpt"/>
+  <File Type="BITSTR-RBT" Name="ZYNQ_CORE_wrapper.rbt"/>
+  <File Type="PHYSOPT-TIMING" Name="ZYNQ_CORE_wrapper_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="ZYNQ_CORE_wrapper_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="ZYNQ_CORE_wrapper_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="ZYNQ_CORE_wrapper_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="ZYNQ_CORE_wrapper_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="ZYNQ_CORE_wrapper_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="ZYNQ_CORE_wrapper_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="ZYNQ_CORE_wrapper_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="ZYNQ_CORE_wrapper_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="ZYNQ_CORE_wrapper_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-RQS-PB" Name="ZYNQ_CORE_wrapper_rqs_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="ZYNQ_CORE_wrapper_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="ZYNQ_CORE_wrapper_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="ZYNQ_CORE_wrapper_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="ZYNQ_CORE_wrapper_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="ZYNQ_CORE_wrapper_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="ZYNQ_CORE_wrapper_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="ZYNQ_CORE_wrapper_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="ZYNQ_CORE_wrapper_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="ZYNQ_CORE_wrapper_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="ZYNQ_CORE_wrapper_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="ZYNQ_CORE_wrapper_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="ZYNQ_CORE_wrapper_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="ZYNQ_CORE_wrapper_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="ZYNQ_CORE_wrapper_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="ZYNQ_CORE_wrapper_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="ZYNQ_CORE_wrapper_bus_skew_postroute_physopted.rpt"/>
+  <File Type="BG-BIT" Name="ZYNQ_CORE_wrapper.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="ZYNQ_CORE_wrapper_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="ZYNQ_CORE_wrapper_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-NKY" Name="ZYNQ_CORE_wrapper.nky"/>
+  <File Type="BITSTR-BMM" Name="ZYNQ_CORE_wrapper_bd.bmm"/>
+  <File Type="PDI-FILE" Name="ZYNQ_CORE_wrapper.pdi"/>
+  <File Type="BOOT-PDI-FILE" Name="ZYNQ_CORE_wrapper_soc.pdi"/>
+  <File Type="PL-PDI-FILE" Name="ZYNQ_CORE_wrapper_pld.pdi"/>
+  <File Type="RCFI_FILE" Name="ZYNQ_CORE_wrapper.rcfi"/>
+  <File Type="CFI_FILE" Name="ZYNQ_CORE_wrapper.cfi"/>
+  <File Type="RNPI_FILE" Name="ZYNQ_CORE_wrapper.rnpi"/>
+  <File Type="NPI_FILE" Name="ZYNQ_CORE_wrapper.npi"/>
+  <File Type="RBD_FILE" Name="ZYNQ_CORE_wrapper.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="ZYNQ_CORE_wrapper.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="ZYNQ_CORE_wrapper.sysdef"/>
+  <File Type="BG-BGN" Name="ZYNQ_CORE_wrapper.bgn"/>
+  <File Type="BG-DRC" Name="ZYNQ_CORE_wrapper.drc"/>
+  <File Type="RDI-RDI" Name="ZYNQ_CORE_wrapper.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="ROUTE-RQS" Name="ZYNQ_CORE_wrapper_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="ZYNQ_CORE_wrapper_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/show_num.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/OV5640_HDMI_ROM_READ_NUM0.srcs/sources_1/new/show_num.v"/>
+        <Attr Name="ImportTime" Val="1740913057"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/border_adder.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../SmartZYNQ_SP2/OV5640_HDMI_with_IdentiBox/OV5640_HDMI_with_IdentiBox.srcs/sources_1/new/border_adder.v"/>
+        <Attr Name="ImportTime" Val="1740900821"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/binarizer.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE.bd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../SmartZYNQ_SP2/VDMA_HDMI_COLORBAR/VDMA_HDMI_COLORBAR.srcs/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE.bd"/>
+        <Attr Name="ImportTime" Val="1740036592"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PGENDIR/sources_1/bd/ZYNQ_CORE/hdl/ZYNQ_CORE_wrapper.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../SmartZYNQ_SP2/VDMA_HDMI_COLORBAR/VDMA_HDMI_COLORBAR.gen/sources_1/bd/ZYNQ_CORE/hdl/ZYNQ_CORE_wrapper.v"/>
+        <Attr Name="ImportTime" Val="1739986003"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_NUM0/six.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../SmartZYNQ_SP2/OV5640_HDMI_ROM_READ_0to9/coe/number.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/coe/number.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="ZYNQ_CORE_wrapper"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/OV.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../SmartZYNQ_SP2/VDMA_OV5640_HDMI/VDMA_OV5640_HDMI.srcs/constrs_1/new/OV.xdc"/>
+        <Attr Name="ImportTime" Val="1740041456"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/OV.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/ZYNQ_CORE_wrapper.dcp">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../SmartZYNQ_SP2/VDMA_HDMI_COLORBAR/VDMA_HDMI_COLORBAR.srcs/utils_1/imports/synth_1/ZYNQ_CORE_wrapper.dcp"/>
+        <Attr Name="ImportTime" Val="1739986003"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="ZYNQ_CORE_v_axi4s_vid_out_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="ZYNQ_CORE_rst_ps7_0_150M_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="ZYNQ_CORE_axi_vdma_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="ZYNQ_CORE_ila_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="ZYNQ_CORE_v_tc_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="ZYNQ_CORE_vio_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="ZYNQ_CORE_rst_ps7_0_50M_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="ZYNQ_CORE_xbar_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="ZYNQ_CORE_show_num_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="ZYNQ_CORE_clk_wiz_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="ZYNQ_CORE_processing_system7_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="ZYNQ_CORE_util_vector_logic_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="ZYNQ_CORE_rgb2dvi_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="ZYNQ_CORE_v_vid_in_axi4s_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="ZYNQ_CORE_ov5640_capture_data_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="ZYNQ_CORE_blk_mem_gen_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="ZYNQ_CORE_xbar_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="ZYNQ_CORE_border_adder_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="ZYNQ_CORE_binarizer_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="ZYNQ_CORE_cycle_num_0_1"/>
+</GenRun>
