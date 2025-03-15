@@ -4,8 +4,8 @@
 -- Tool Version: Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
 -- Date        : Fri Mar 14 14:42:19 2025
 -- Host        : LAPTOP-DUUNQKAE running 64-bit major release  (build 9200)
--- Command     : write_vhdl -force -mode funcsim
---               d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_v_vid_in_axi4s_0_0/ZYNQ_CORE_v_vid_in_axi4s_0_0_sim_netlist.vhdl
+-- Command     : write_vhdl -force -mode funcsim -rename_top ZYNQ_CORE_v_vid_in_axi4s_0_0 -prefix
+--               ZYNQ_CORE_v_vid_in_axi4s_0_0_ ZYNQ_CORE_v_vid_in_axi4s_0_0_sim_netlist.vhdl
 -- Design      : ZYNQ_CORE_v_vid_in_axi4s_0_0
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -38,8 +38,6 @@ entity ZYNQ_CORE_v_vid_in_axi4s_0_0_v_vid_in_axi4s_v5_0_2_formatter is
     axis_enable : in STD_LOGIC;
     vid_data : in STD_LOGIC_VECTOR ( 23 downto 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of ZYNQ_CORE_v_vid_in_axi4s_0_0_v_vid_in_axi4s_v5_0_2_formatter : entity is "v_vid_in_axi4s_v5_0_2_formatter";
 end ZYNQ_CORE_v_vid_in_axi4s_0_0_v_vid_in_axi4s_v5_0_2_formatter;
 
 architecture STRUCTURE of ZYNQ_CORE_v_vid_in_axi4s_0_0_v_vid_in_axi4s_v5_0_2_formatter is
@@ -1097,8 +1095,6 @@ entity ZYNQ_CORE_v_vid_in_axi4s_0_0_xpm_cdc_gray is
   attribute DEST_SYNC_FF of ZYNQ_CORE_v_vid_in_axi4s_0_0_xpm_cdc_gray : entity is 4;
   attribute INIT_SYNC_FF : integer;
   attribute INIT_SYNC_FF of ZYNQ_CORE_v_vid_in_axi4s_0_0_xpm_cdc_gray : entity is 1;
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of ZYNQ_CORE_v_vid_in_axi4s_0_0_xpm_cdc_gray : entity is "xpm_cdc_gray";
   attribute REG_OUTPUT : integer;
   attribute REG_OUTPUT of ZYNQ_CORE_v_vid_in_axi4s_0_0_xpm_cdc_gray : entity is 0;
   attribute SIM_ASSERT_CHK : integer;
@@ -4579,8 +4575,6 @@ entity ZYNQ_CORE_v_vid_in_axi4s_0_0_xpm_cdc_single is
   attribute DEST_SYNC_FF of ZYNQ_CORE_v_vid_in_axi4s_0_0_xpm_cdc_single : entity is 4;
   attribute INIT_SYNC_FF : integer;
   attribute INIT_SYNC_FF of ZYNQ_CORE_v_vid_in_axi4s_0_0_xpm_cdc_single : entity is 0;
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of ZYNQ_CORE_v_vid_in_axi4s_0_0_xpm_cdc_single : entity is "xpm_cdc_single";
   attribute SIM_ASSERT_CHK : integer;
   attribute SIM_ASSERT_CHK of ZYNQ_CORE_v_vid_in_axi4s_0_0_xpm_cdc_single : entity is 0;
   attribute SRC_INPUT_REG : integer;
@@ -4756,8 +4750,6 @@ entity ZYNQ_CORE_v_vid_in_axi4s_0_0_xpm_cdc_sync_rst is
   attribute INIT of ZYNQ_CORE_v_vid_in_axi4s_0_0_xpm_cdc_sync_rst : entity is "0";
   attribute INIT_SYNC_FF : integer;
   attribute INIT_SYNC_FF of ZYNQ_CORE_v_vid_in_axi4s_0_0_xpm_cdc_sync_rst : entity is 1;
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of ZYNQ_CORE_v_vid_in_axi4s_0_0_xpm_cdc_sync_rst : entity is "xpm_cdc_sync_rst";
   attribute SIM_ASSERT_CHK : integer;
   attribute SIM_ASSERT_CHK of ZYNQ_CORE_v_vid_in_axi4s_0_0_xpm_cdc_sync_rst : entity is 0;
   attribute VERSION : integer;
@@ -4955,8 +4947,6 @@ entity ZYNQ_CORE_v_vid_in_axi4s_0_0_xpm_counter_updn is
     \count_value_i_reg[1]_1\ : in STD_LOGIC;
     rd_clk : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of ZYNQ_CORE_v_vid_in_axi4s_0_0_xpm_counter_updn : entity is "xpm_counter_updn";
 end ZYNQ_CORE_v_vid_in_axi4s_0_0_xpm_counter_updn;
 
 architecture STRUCTURE of ZYNQ_CORE_v_vid_in_axi4s_0_0_xpm_counter_updn is
@@ -7165,8 +7155,6 @@ entity ZYNQ_CORE_v_vid_in_axi4s_0_0_xpm_fifo_reg_bit is
     Q : in STD_LOGIC_VECTOR ( 0 to 0 );
     \gen_pf_ic_rc.gpf_ic.prog_full_i_i_2_0\ : in STD_LOGIC_VECTOR ( 6 downto 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of ZYNQ_CORE_v_vid_in_axi4s_0_0_xpm_fifo_reg_bit : entity is "xpm_fifo_reg_bit";
 end ZYNQ_CORE_v_vid_in_axi4s_0_0_xpm_fifo_reg_bit;
 
 architecture STRUCTURE of ZYNQ_CORE_v_vid_in_axi4s_0_0_xpm_fifo_reg_bit is
@@ -7263,8 +7251,6 @@ entity ZYNQ_CORE_v_vid_in_axi4s_0_0_xpm_fifo_reg_vec is
     D : in STD_LOGIC_VECTOR ( 9 downto 0 );
     wr_clk : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of ZYNQ_CORE_v_vid_in_axi4s_0_0_xpm_fifo_reg_vec : entity is "xpm_fifo_reg_vec";
 end ZYNQ_CORE_v_vid_in_axi4s_0_0_xpm_fifo_reg_vec;
 
 architecture STRUCTURE of ZYNQ_CORE_v_vid_in_axi4s_0_0_xpm_fifo_reg_vec is
@@ -8375,8 +8361,6 @@ entity ZYNQ_CORE_v_vid_in_axi4s_0_0_xpm_memory_base is
   attribute MESSAGE_CONTROL of ZYNQ_CORE_v_vid_in_axi4s_0_0_xpm_memory_base : entity is 0;
   attribute NUM_CHAR_LOC : integer;
   attribute NUM_CHAR_LOC of ZYNQ_CORE_v_vid_in_axi4s_0_0_xpm_memory_base : entity is 0;
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of ZYNQ_CORE_v_vid_in_axi4s_0_0_xpm_memory_base : entity is "xpm_memory_base";
   attribute P_ECC_MODE : string;
   attribute P_ECC_MODE of ZYNQ_CORE_v_vid_in_axi4s_0_0_xpm_memory_base : entity is "no_ecc";
   attribute P_ENABLE_BYTE_WRITE_A : integer;
@@ -8791,8 +8775,6 @@ entity ZYNQ_CORE_v_vid_in_axi4s_0_0_v_vid_in_axi4s_v5_0_2_cdc_single is
   port (
     vid_io_in_clk : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of ZYNQ_CORE_v_vid_in_axi4s_0_0_v_vid_in_axi4s_v5_0_2_cdc_single : entity is "v_vid_in_axi4s_v5_0_2_cdc_single";
 end ZYNQ_CORE_v_vid_in_axi4s_0_0_v_vid_in_axi4s_v5_0_2_cdc_single;
 
 architecture STRUCTURE of ZYNQ_CORE_v_vid_in_axi4s_0_0_v_vid_in_axi4s_v5_0_2_cdc_single is
@@ -8881,8 +8863,6 @@ entity ZYNQ_CORE_v_vid_in_axi4s_0_0_xpm_fifo_rst is
     \guf.underflow_i_reg\ : in STD_LOGIC;
     rd_en : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of ZYNQ_CORE_v_vid_in_axi4s_0_0_xpm_fifo_rst : entity is "xpm_fifo_rst";
 end ZYNQ_CORE_v_vid_in_axi4s_0_0_xpm_fifo_rst;
 
 architecture STRUCTURE of ZYNQ_CORE_v_vid_in_axi4s_0_0_xpm_fifo_rst is
@@ -9469,8 +9449,6 @@ entity ZYNQ_CORE_v_vid_in_axi4s_0_0_xpm_fifo_base is
   attribute FULL_RESET_VALUE of ZYNQ_CORE_v_vid_in_axi4s_0_0_xpm_fifo_base : entity is 1;
   attribute FULL_RST_VAL : string;
   attribute FULL_RST_VAL of ZYNQ_CORE_v_vid_in_axi4s_0_0_xpm_fifo_base : entity is "1'b1";
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of ZYNQ_CORE_v_vid_in_axi4s_0_0_xpm_fifo_base : entity is "xpm_fifo_base";
   attribute PE_THRESH_ADJ : integer;
   attribute PE_THRESH_ADJ of ZYNQ_CORE_v_vid_in_axi4s_0_0_xpm_fifo_base : entity is 8;
   attribute PE_THRESH_MAX : integer;
@@ -10829,8 +10807,6 @@ entity ZYNQ_CORE_v_vid_in_axi4s_0_0_xpm_fifo_async is
   attribute FIFO_WRITE_DEPTH of ZYNQ_CORE_v_vid_in_axi4s_0_0_xpm_fifo_async : entity is 1024;
   attribute FULL_RESET_VALUE : integer;
   attribute FULL_RESET_VALUE of ZYNQ_CORE_v_vid_in_axi4s_0_0_xpm_fifo_async : entity is 1;
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of ZYNQ_CORE_v_vid_in_axi4s_0_0_xpm_fifo_async : entity is "xpm_fifo_async";
   attribute PROG_EMPTY_THRESH : integer;
   attribute PROG_EMPTY_THRESH of ZYNQ_CORE_v_vid_in_axi4s_0_0_xpm_fifo_async : entity is 10;
   attribute PROG_FULL_THRESH : integer;
@@ -11082,8 +11058,6 @@ entity ZYNQ_CORE_v_vid_in_axi4s_0_0_v_vid_in_axi4s_v5_0_2_fifo_async is
     m_axis_video_tready : in STD_LOGIC;
     aclken : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of ZYNQ_CORE_v_vid_in_axi4s_0_0_v_vid_in_axi4s_v5_0_2_fifo_async : entity is "v_vid_in_axi4s_v5_0_2_fifo_async";
 end ZYNQ_CORE_v_vid_in_axi4s_0_0_v_vid_in_axi4s_v5_0_2_fifo_async;
 
 architecture STRUCTURE of ZYNQ_CORE_v_vid_in_axi4s_0_0_v_vid_in_axi4s_v5_0_2_fifo_async is
@@ -11571,8 +11545,6 @@ entity ZYNQ_CORE_v_vid_in_axi4s_0_0_v_vid_in_axi4s_v5_0_2_coupler is
     m_axis_video_tready : in STD_LOGIC;
     aclken : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of ZYNQ_CORE_v_vid_in_axi4s_0_0_v_vid_in_axi4s_v5_0_2_coupler : entity is "v_vid_in_axi4s_v5_0_2_coupler";
 end ZYNQ_CORE_v_vid_in_axi4s_0_0_v_vid_in_axi4s_v5_0_2_coupler;
 
 architecture STRUCTURE of ZYNQ_CORE_v_vid_in_axi4s_0_0_v_vid_in_axi4s_v5_0_2_coupler is
@@ -11716,8 +11688,6 @@ entity ZYNQ_CORE_v_vid_in_axi4s_0_0_v_vid_in_axi4s_v5_0_2 is
   attribute C_VID_NATIVE_DE of ZYNQ_CORE_v_vid_in_axi4s_0_0_v_vid_in_axi4s_v5_0_2 : entity is 0;
   attribute DowngradeIPIdentifiedWarnings : string;
   attribute DowngradeIPIdentifiedWarnings of ZYNQ_CORE_v_vid_in_axi4s_0_0_v_vid_in_axi4s_v5_0_2 : entity is "yes";
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of ZYNQ_CORE_v_vid_in_axi4s_0_0_v_vid_in_axi4s_v5_0_2 : entity is "v_vid_in_axi4s_v5_0_2";
 end ZYNQ_CORE_v_vid_in_axi4s_0_0_v_vid_in_axi4s_v5_0_2;
 
 architecture STRUCTURE of ZYNQ_CORE_v_vid_in_axi4s_0_0_v_vid_in_axi4s_v5_0_2 is

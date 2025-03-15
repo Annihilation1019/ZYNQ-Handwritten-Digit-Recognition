@@ -19,27 +19,33 @@
 #include "CNN/maxpool_layer_2.h"
 #include "CNN/affine_layer.h"
 
+#include "Bram/bram_init.h"
+#include "xbram.h"
+
 #include "cycle_num.h"
 
 // 定义图像大小和每块最大可拷贝字节数
 #define IMAGE_SIZE (140 * 140) // 19600字节
-#define BLOCK_SIZE 8192
-#define PS_READ_DONE() CYCLE_NUM_mWriteReg(XPAR_CYCLE_NUM_0_S00_AXI_BASEADDR, CYCLE_NUM_S00_AXI_SLV_REG2_OFFSET, 1);
-#define PS_READ_DONE_CLEAR() CYCLE_NUM_mWriteReg(XPAR_CYCLE_NUM_0_S00_AXI_BASEADDR, CYCLE_NUM_S00_AXI_SLV_REG2_OFFSET, 0);
-#define PL_DATA_READY() CYCLE_NUM_mReadReg(XPAR_CYCLE_NUM_0_S00_AXI_BASEADDR, CYCLE_NUM_S00_AXI_SLV_REG1_OFFSET)
-#define PL_DATA_READY_CLEAR() CYCLE_NUM_mWriteReg(XPAR_CYCLE_NUM_0_S00_AXI_BASEADDR, CYCLE_NUM_S00_AXI_SLV_REG1_OFFSET, 0)
+#define GPIO_DEVICE_ID XPAR_XGPIOPS_0_DEVICE_ID
 
 void output_max_index();
 void window_average_filter(const u8 *image, u8 *output);
+void window_subsample(const u8 *image, u8 *output);
+int init_axi_gpio(void);
 
 // 全局变量
 XAxiVdma vdma;
+XBram Bram0;  /* The Instance of the BRAM Driver */
+XBram Bram1;  /* The Instance of the BRAM Driver */
+XBram Bram2;  /* The Instance of the BRAM Driver */
+XGpioPs Gpio; /* The driver instance for GPIO Device. */
 // 图片数据
 static u8 image[IMAGE_SIZE];
 static u8 input_layer[784];
 
 int main(void)
 {
+	int Status;
 	u32 status;
 	u16 cmos_h_pixel;  // ov5640 DVP 输出水平像素点数
 	u16 cmos_v_pixel;  // ov5640 DVP 输出垂直像素点数
@@ -64,53 +70,36 @@ int main(void)
 	// 配置VDMA
 	run_triple_frame_buffer(&vdma, VDMA_ID, WIDTH, HEIGHT, (int)FRAME_BUFFER_ADDR, 0, 0);
 
+	// 初始化AXI GPIO
+	Status = init_axi_gpio();
+
 	// 载入参数
 	param_init();
-
-	PS_READ_DONE();
-	sleep(1);
 	while (1)
 	{
-		// if (PL_DATA_READY())
-		// {
-		// 	PL_DATA_READY_CLEAR();
-		// 	/* 读取图像 */
-		// 	// 从第一个基地址拷贝8192字节
-		// 	memcpy(image, (u8 *)PICTURE_BASEADDR1, BLOCK_SIZE);
-		// 	// 从第二个基地址拷贝8192字节，存入image偏移BLOCK_SIZE位置
-		// 	memcpy(image + BLOCK_SIZE, (u8 *)PICTURE_BASEADDR2, BLOCK_SIZE);
-		// 	// 从第 三个基地址拷贝剩余数据（19600 - 2×8192 = 3216字节）
-		// 	memcpy(image + 2 * BLOCK_SIZE, (u8 *)PICTURE_BASEADDR3, IMAGE_SIZE - 2 * BLOCK_SIZE);
-
-		// 	window_average_filter(image, input_layer); // 平均滤波
-
-		// 	/* 卷积层 */
-		// 	conv_layer_1(input_layer); // 对卷积结果进行激活函数处理
-
-		// 	/* 最大池化层 */
-		// 	maxpool_layer_2();
-
-		// 	/* 全连接层 */
-		// 	affine_layer1();
-		// 	affine_layer2();
-
-		// 	/* 结果输出 */
-		// 	output_max_index();
-		// 	PS_READ_DONE();
-		// 	PS_READ_DONE_CLEAR();
-		// }
-		if (PL_DATA_READY())
+		if (XGpioPs_ReadPin(&Gpio, 1) == 1)
 		{
-			PS_READ_DONE();
-			usleep(10);
-			PS_READ_DONE_CLEAR();
-			usleep(10);
+			/* 读取图像 */
+			memcpy(image, (u8 *)PICTURE_BASEADDR, IMAGE_SIZE);
+
+			/* 降采样 */
+			window_average_filter(image, input_layer);
+
+			/* 卷积层 */
+			conv_layer_1(input_layer); // 对卷积结果进行激活函数处理
+
+			/* 最大池化层 */
+			maxpool_layer_2();
+
+			/* 全连接层 */
+			affine_layer1();
+			affine_layer2();
+
+			/* 结果输出 */
+			output_max_index();
 		}
 	}
-
-	return 0;
 }
-
 void output_max_index()
 {
 	float *out2 = (float *)AFFINE2_OUT_BASEADDR; // 全连接层第二层输出，共10个节点
@@ -152,4 +141,48 @@ void window_average_filter(const u8 *image, u8 *output)
 			output[out_row * outW + out_col] = (u8)(sum / (block_size * block_size));
 		}
 	}
+}
+
+void window_subsample(const u8 *image, u8 *output)
+{
+	const int inW = 140;
+	const int outW = 28;
+	const int step = 5; // 每隔5个点取一个
+	for (int out_row = 0; out_row < outW; out_row++)
+	{
+		for (int out_col = 0; out_col < outW; out_col++)
+		{
+			int in_index = (out_row * step) * inW + (out_col * step);
+			output[out_row * outW + out_col] = image[in_index];
+		}
+	}
+}
+
+
+int init_axi_gpio(void)
+{
+	XGpioPs_Config *ConfigPtr;
+	int Status;
+
+	// 查找GPIO配置数据
+	ConfigPtr = XGpioPs_LookupConfig(GPIO_DEVICE_ID);
+	if (ConfigPtr == NULL)
+	{
+		return XST_FAILURE;
+	}
+
+	// 初始化GPIO实例
+	Status = XGpioPs_CfgInitialize(&Gpio, ConfigPtr,
+								   ConfigPtr->BaseAddr);
+	if (Status != XST_SUCCESS)
+	{
+		return Status;
+	}
+
+	// 设置 MY_INPUT_PIN 为输入方向（第三个参数设为0）
+	XGpioPs_SetDirectionPin(&Gpio, 1, 0);
+	// 关闭该引脚的输出功能（可选，因为输入模式下默认输出也不会使能）
+	XGpioPs_SetOutputEnablePin(&Gpio, 1, 0);
+
+	return XST_SUCCESS;
 }

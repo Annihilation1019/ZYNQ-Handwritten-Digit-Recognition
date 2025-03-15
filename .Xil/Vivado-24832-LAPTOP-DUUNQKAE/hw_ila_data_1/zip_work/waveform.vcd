@@ -1,0 +1,27 @@
+$date
+        2025-Mar-15 10:51:33
+$end
+$version
+        Vivado v2023.1 (64-bit)
+$end
+$timescale
+        1ps
+$end
+$scope module dut $end
+$var reg 1 " ZYNQ_CORE_i/binarizer_0_bin_data_flag $end
+$var reg 1 # ZYNQ_CORE_i/img_buffer_controller_0_ps_data_ready $end
+$var reg 1 $ _TRIGGER $end
+$var reg 1 % _WINDOW $end
+$var reg 1 & _GAP $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0"
+0#
+0$
+1%
+0&
+$end
+#512
+1$

@@ -70,7 +70,9 @@ proc create_report { reportName command } {
   }
 }
 OPTRACE "ZYNQ_CORE_binarizer_0_0_synth_1" START { ROLLUP_AUTO }
+set_param tcl.collectionResultDisplayLimit 0
 set_param chipscope.maxJobs 5
+set_param xicom.use_bs_reader 1
 set_msg_config -id {HDL-1065} -limit 10000
 set_param project.vivado.isBlockSynthRun true
 OPTRACE "Creating in-memory project" START { }
@@ -97,7 +99,7 @@ set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
 read_verilog -library xil_defaultlib D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.srcs/sources_1/new/binarizer.v
-read_ip -quiet d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.srcs/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_binarizer_0_0/ZYNQ_CORE_binarizer_0_0.xci
+read_ip -quiet D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.srcs/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_binarizer_0_0/ZYNQ_CORE_binarizer_0_0.xci
 
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being

@@ -11,6 +11,9 @@ vhdl xil_defaultlib  \
 "../../../../ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ipshared/75f1/src/TMDS_Encoder.vhd" \
 "../../../../ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ipshared/75f1/src/rgb2dvi.vhd" \
 "../../../bd/ZYNQ_CORE/ip/ZYNQ_CORE_rgb2dvi_0_0/sim/ZYNQ_CORE_rgb2dvi_0_0.vhd" \
+"../../../bd/ZYNQ_CORE/ip/ZYNQ_CORE_axi_bram_ctrl_0_0/sim/ZYNQ_CORE_axi_bram_ctrl_0_0.vhd" \
+"../../../bd/ZYNQ_CORE/ip/ZYNQ_CORE_axi_bram_ctrl_0_1/sim/ZYNQ_CORE_axi_bram_ctrl_0_1.vhd" \
+"../../../bd/ZYNQ_CORE/ip/ZYNQ_CORE_axi_bram_ctrl_0_2/sim/ZYNQ_CORE_axi_bram_ctrl_0_2.vhd" \
 
 # Do not sort compile order
 nosort

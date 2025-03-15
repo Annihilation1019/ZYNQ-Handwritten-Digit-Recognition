@@ -48,15 +48,13 @@
 
 
 // IP VLNV: xilinx.com:user:cycle_num:1.0
-// IP Revision: 7
+// IP Revision: 10
 
 `timescale 1ns/1ps
 
 (* DowngradeIPIdentifiedWarnings = "yes" *)
 module ZYNQ_CORE_cycle_num_0_1 (
-  pl_data_ready,
   result,
-  ps_read_done,
   s00_axi_aclk,
   s00_axi_aresetn,
   s00_axi_awaddr,
@@ -80,9 +78,7 @@ module ZYNQ_CORE_cycle_num_0_1 (
   s00_axi_rready
 );
 
-input wire pl_data_ready;
 output wire [3 : 0] result;
-output wire ps_read_done;
 (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME S00_AXI_CLK, ASSOCIATED_BUSIF S00_AXI, ASSOCIATED_RESET s00_axi_aresetn, FREQ_HZ 50000000, FREQ_TOLERANCE_HZ 0, PHASE 0.0, CLK_DOMAIN ZYNQ_CORE_processing_system7_0_0_FCLK_CLK0, INSERT_VIP 0" *)
 (* X_INTERFACE_INFO = "xilinx.com:signal:clock:1.0 S00_AXI_CLK CLK" *)
 input wire s00_axi_aclk;
@@ -134,9 +130,7 @@ input wire s00_axi_rready;
     .C_S00_AXI_DATA_WIDTH(32),  // Width of S_AXI data bus
     .C_S00_AXI_ADDR_WIDTH(4)  // Width of S_AXI address bus
   ) inst (
-    .pl_data_ready(pl_data_ready),
     .result(result),
-    .ps_read_done(ps_read_done),
     .s00_axi_aclk(s00_axi_aclk),
     .s00_axi_aresetn(s00_axi_aresetn),
     .s00_axi_awaddr(s00_axi_awaddr),

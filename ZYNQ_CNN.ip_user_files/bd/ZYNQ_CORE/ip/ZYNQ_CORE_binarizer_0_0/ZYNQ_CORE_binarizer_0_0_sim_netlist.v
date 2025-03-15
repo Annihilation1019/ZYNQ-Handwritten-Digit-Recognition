@@ -4,8 +4,8 @@
 // Tool Version: Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
 // Date        : Fri Mar 14 14:57:52 2025
 // Host        : LAPTOP-DUUNQKAE running 64-bit major release  (build 9200)
-// Command     : write_verilog -force -mode funcsim
-//               d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_binarizer_0_0/ZYNQ_CORE_binarizer_0_0_sim_netlist.v
+// Command     : write_verilog -force -mode funcsim -rename_top ZYNQ_CORE_binarizer_0_0 -prefix
+//               ZYNQ_CORE_binarizer_0_0_ ZYNQ_CORE_binarizer_0_0_sim_netlist.v
 // Design      : ZYNQ_CORE_binarizer_0_0
 // Purpose     : This verilog netlist is a functional simulation representation of the design and should not be modified
 //               or synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -86,7 +86,6 @@ module ZYNQ_CORE_binarizer_0_0
         .video_vsync_d(video_vsync_d));
 endmodule
 
-(* ORIG_REF_NAME = "binarizer" *) 
 module ZYNQ_CORE_binarizer_0_0_binarizer
    (rgb_data_out,
     video_active_d,

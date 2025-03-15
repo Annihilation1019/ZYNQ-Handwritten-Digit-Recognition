@@ -39,8 +39,6 @@ typedef enum Status
 #define AFFINE2_OUT_BASEADDR (USER_PARAM_BASEADDR + 0x001BCEC8)          // 全连接层2输出存放基地址
 #define AFFINE2_OUT_HIGHADDR (USER_PARAM_BASEADDR + 0x001BCEF0)          // 全连接层2输出存放高地址
 
-#define PICTURE_BASEADDR1 0x40000000 // 图像存放基地址
-#define PICTURE_BASEADDR2 0x42000000 // 图像存放基地址
-#define PICTURE_BASEADDR3 0x44000000 // 图像存放基地址  
+#define PICTURE_BASEADDR 0x40000000 // 图像存放基地址
 
 #endif // __DEFINE_CFG__

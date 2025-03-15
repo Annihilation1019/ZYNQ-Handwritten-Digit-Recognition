@@ -115,6 +115,7 @@ proc step_failed { step } {
 OPTRACE "impl_1" END { }
 }
 
+set_msg_config -id {HDL-1065} -limit 10000
 
 OPTRACE "impl_1" START { ROLLUP_1 }
 OPTRACE "Phase: Write Bitstream" START { ROLLUP_AUTO }
@@ -134,6 +135,7 @@ OPTRACE "read constraints: write_bitstream" START { }
 OPTRACE "read constraints: write_bitstream" END { }
   set_property XPM_LIBRARIES {XPM_CDC XPM_FIFO XPM_MEMORY} [current_project]
   catch { write_mem_info -force -no_partial_mmi ZYNQ_CORE_wrapper.mmi }
+  catch { write_bmm -force ZYNQ_CORE_wrapper_bd.bmm }
 OPTRACE "write_bitstream setup" END { }
 OPTRACE "write_bitstream" START { }
   write_bitstream -force ZYNQ_CORE_wrapper.bit 

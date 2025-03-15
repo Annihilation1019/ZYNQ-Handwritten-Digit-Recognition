@@ -4,8 +4,8 @@
 // Tool Version: Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
 // Date        : Fri Mar 14 14:41:48 2025
 // Host        : LAPTOP-DUUNQKAE running 64-bit major release  (build 9200)
-// Command     : write_verilog -force -mode funcsim
-//               d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_xbar_0/ZYNQ_CORE_xbar_0_sim_netlist.v
+// Command     : write_verilog -force -mode funcsim -rename_top ZYNQ_CORE_xbar_0 -prefix
+//               ZYNQ_CORE_xbar_0_ ZYNQ_CORE_xbar_0_sim_netlist.v
 // Design      : ZYNQ_CORE_xbar_0
 // Purpose     : This verilog netlist is a functional simulation representation of the design and should not be modified
 //               or synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -505,7 +505,6 @@ module ZYNQ_CORE_xbar_0
         .s_axi_wvalid({s_axi_wvalid[1],1'b0}));
 endmodule
 
-(* ORIG_REF_NAME = "axi_crossbar_v2_1_29_addr_arbiter" *) 
 module ZYNQ_CORE_xbar_0_axi_crossbar_v2_1_29_addr_arbiter
    (\gen_arbiter.s_ready_i_reg[0]_0 ,
     p_1_in,
@@ -2459,13 +2458,13 @@ endmodule
 (* C_NUM_MASTER_SLOTS = "1" *) (* C_NUM_SLAVE_SLOTS = "2" *) (* C_R_REGISTER = "0" *) 
 (* C_S_AXI_ARB_PRIORITY = "64'b0000000000000000000000000000000000000000000000000000000000000000" *) (* C_S_AXI_BASE_ID = "64'b0000000000000000000000000000000100000000000000000000000000000000" *) (* C_S_AXI_READ_ACCEPTANCE = "64'b0000000000000000000000000000001000000000000000000000000000000010" *) 
 (* C_S_AXI_SINGLE_THREAD = "64'b0000000000000000000000000000000000000000000000000000000000000000" *) (* C_S_AXI_THREAD_ID_WIDTH = "64'b0000000000000000000000000000000000000000000000000000000000000000" *) (* C_S_AXI_WRITE_ACCEPTANCE = "64'b0000000000000000000000000000001000000000000000000000000000000010" *) 
-(* DowngradeIPIdentifiedWarnings = "yes" *) (* ORIG_REF_NAME = "axi_crossbar_v2_1_29_axi_crossbar" *) (* P_ADDR_DECODE = "1" *) 
-(* P_AXI3 = "1" *) (* P_AXI4 = "0" *) (* P_AXILITE = "2" *) 
-(* P_AXILITE_SIZE = "3'b010" *) (* P_FAMILY = "zynq" *) (* P_INCR = "2'b01" *) 
-(* P_LEN = "8" *) (* P_LOCK = "1" *) (* P_M_AXI_ERR_MODE = "32'b00000000000000000000000000000000" *) 
-(* P_M_AXI_SUPPORTS_READ = "1'b1" *) (* P_M_AXI_SUPPORTS_WRITE = "1'b1" *) (* P_ONES = "65'b11111111111111111111111111111111111111111111111111111111111111111" *) 
-(* P_RANGE_CHECK = "1" *) (* P_S_AXI_BASE_ID = "128'b00000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000" *) (* P_S_AXI_HIGH_ID = "128'b00000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000" *) 
-(* P_S_AXI_SUPPORTS_READ = "2'b01" *) (* P_S_AXI_SUPPORTS_WRITE = "2'b10" *) 
+(* DowngradeIPIdentifiedWarnings = "yes" *) (* P_ADDR_DECODE = "1" *) (* P_AXI3 = "1" *) 
+(* P_AXI4 = "0" *) (* P_AXILITE = "2" *) (* P_AXILITE_SIZE = "3'b010" *) 
+(* P_FAMILY = "zynq" *) (* P_INCR = "2'b01" *) (* P_LEN = "8" *) 
+(* P_LOCK = "1" *) (* P_M_AXI_ERR_MODE = "32'b00000000000000000000000000000000" *) (* P_M_AXI_SUPPORTS_READ = "1'b1" *) 
+(* P_M_AXI_SUPPORTS_WRITE = "1'b1" *) (* P_ONES = "65'b11111111111111111111111111111111111111111111111111111111111111111" *) (* P_RANGE_CHECK = "1" *) 
+(* P_S_AXI_BASE_ID = "128'b00000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000" *) (* P_S_AXI_HIGH_ID = "128'b00000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000" *) (* P_S_AXI_SUPPORTS_READ = "2'b01" *) 
+(* P_S_AXI_SUPPORTS_WRITE = "2'b10" *) 
 module ZYNQ_CORE_xbar_0_axi_crossbar_v2_1_29_axi_crossbar
    (aclk,
     aresetn,
@@ -2877,7 +2876,6 @@ module ZYNQ_CORE_xbar_0_axi_crossbar_v2_1_29_axi_crossbar
         .s_ready_i_reg(\^s_axi_awready ));
 endmodule
 
-(* ORIG_REF_NAME = "axi_crossbar_v2_1_29_crossbar" *) 
 module ZYNQ_CORE_xbar_0_axi_crossbar_v2_1_29_crossbar
    (M_AXI_RREADY,
     s_axi_rdata,
@@ -3512,7 +3510,6 @@ module ZYNQ_CORE_xbar_0_axi_crossbar_v2_1_29_crossbar
         .p_1_in(p_1_in_1));
 endmodule
 
-(* ORIG_REF_NAME = "axi_crossbar_v2_1_29_decerr_slave" *) 
 module ZYNQ_CORE_xbar_0_axi_crossbar_v2_1_29_decerr_slave
    (mi_awready,
     mi_wready_1,
@@ -4007,7 +4004,6 @@ module ZYNQ_CORE_xbar_0_axi_crossbar_v2_1_29_decerr_slave
         .R(SR));
 endmodule
 
-(* ORIG_REF_NAME = "axi_crossbar_v2_1_29_si_transactor" *) 
 module ZYNQ_CORE_xbar_0_axi_crossbar_v2_1_29_si_transactor
    (\gen_single_thread.active_target_enc ,
     \gen_single_thread.active_target_hot ,
@@ -4580,7 +4576,6 @@ module ZYNQ_CORE_xbar_0_axi_crossbar_v2_1_29_si_transactor__parameterized0
         .O(\gen_single_thread.active_target_hot_reg[0]_0 ));
 endmodule
 
-(* ORIG_REF_NAME = "axi_crossbar_v2_1_29_splitter" *) 
 module ZYNQ_CORE_xbar_0_axi_crossbar_v2_1_29_splitter
    (\s_axi_awvalid[1] ,
     m_ready_d,
@@ -4774,7 +4769,6 @@ module ZYNQ_CORE_xbar_0_axi_crossbar_v2_1_29_splitter_2
         .R(1'b0));
 endmodule
 
-(* ORIG_REF_NAME = "axi_crossbar_v2_1_29_wdata_mux" *) 
 module ZYNQ_CORE_xbar_0_axi_crossbar_v2_1_29_wdata_mux
    (Q,
     m_aready__1,
@@ -4984,7 +4978,6 @@ module ZYNQ_CORE_xbar_0_axi_crossbar_v2_1_29_wdata_mux__parameterized0
         .\storage_data1_reg[0]_1 (\storage_data1_reg[0] ));
 endmodule
 
-(* ORIG_REF_NAME = "axi_crossbar_v2_1_29_wdata_router" *) 
 module ZYNQ_CORE_xbar_0_axi_crossbar_v2_1_29_wdata_router
    (areset_d1,
     m_avalid,
@@ -5067,7 +5060,6 @@ module ZYNQ_CORE_xbar_0_axi_crossbar_v2_1_29_wdata_router
         .\storage_data1_reg[0]_0 (m_select_enc));
 endmodule
 
-(* ORIG_REF_NAME = "axi_data_fifo_v2_1_27_axic_reg_srl_fifo" *) 
 module ZYNQ_CORE_xbar_0_axi_data_fifo_v2_1_27_axic_reg_srl_fifo
    (SS,
     m_avalid,
@@ -6409,7 +6401,6 @@ module ZYNQ_CORE_xbar_0_axi_data_fifo_v2_1_27_axic_reg_srl_fifo__parameterized1
         .R(1'b0));
 endmodule
 
-(* ORIG_REF_NAME = "axi_data_fifo_v2_1_27_ndeep_srl" *) 
 module ZYNQ_CORE_xbar_0_axi_data_fifo_v2_1_27_ndeep_srl
    (push,
     m_aready__1_0,
@@ -6694,7 +6685,6 @@ module ZYNQ_CORE_xbar_0_axi_data_fifo_v2_1_27_ndeep_srl__parameterized0
         .O(\gen_primitive_shifter.gen_srls[0].srl_inst_0 ));
 endmodule
 
-(* ORIG_REF_NAME = "axi_register_slice_v2_1_28_axi_register_slice" *) 
 module ZYNQ_CORE_xbar_0_axi_register_slice_v2_1_28_axi_register_slice
    (st_mr_bvalid,
     m_axi_bready,

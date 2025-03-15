@@ -61,6 +61,8 @@ module ZYNQ_CORE_border_adder_0_0 (
   video_hsync,
   video_vsync,
   rgb_data_in,
+  pixel_x_in,
+  pixel_y_in,
   rgb_data_out,
   video_active_d,
   video_hsync_d,
@@ -77,6 +79,8 @@ input wire video_active;
 input wire video_hsync;
 input wire video_vsync;
 input wire [23 : 0] rgb_data_in;
+input wire [11 : 0] pixel_x_in;
+input wire [11 : 0] pixel_y_in;
 output wire [23 : 0] rgb_data_out;
 output wire video_active_d;
 output wire video_hsync_d;
@@ -87,8 +91,8 @@ output wire [11 : 0] pixel_y_out;
   border_adder #(
     .BOX_START_X(569),
     .BOX_START_Y(349),
-    .BOX_HEIGHT(139),
-    .BOX_WIDTH(139),
+    .BOX_HEIGHT(140),
+    .BOX_WIDTH(140),
     .LINE_WIDTH(4)
   ) inst (
     .pclk(pclk),
@@ -97,6 +101,8 @@ output wire [11 : 0] pixel_y_out;
     .video_hsync(video_hsync),
     .video_vsync(video_vsync),
     .rgb_data_in(rgb_data_in),
+    .pixel_x_in(pixel_x_in),
+    .pixel_y_in(pixel_y_in),
     .rgb_data_out(rgb_data_out),
     .video_active_d(video_active_d),
     .video_hsync_d(video_hsync_d),

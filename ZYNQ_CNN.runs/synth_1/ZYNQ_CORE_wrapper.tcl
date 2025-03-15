@@ -73,6 +73,7 @@ OPTRACE "synth_1" START { ROLLUP_AUTO }
 set_param tcl.collectionResultDisplayLimit 0
 set_param chipscope.maxJobs 5
 set_param xicom.use_bs_reader 1
+set_msg_config -id {HDL-1065} -limit 10000
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7z020clg484-1
 
@@ -125,14 +126,18 @@ set_property used_in_implementation false [get_files -all d:/Programs/Workspace/
 set_property used_in_implementation false [get_files -all d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_v_vid_in_axi4s_0_0/ZYNQ_CORE_v_vid_in_axi4s_0_0_clocks.xdc]
 set_property used_in_implementation false [get_files -all d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_v_vid_in_axi4s_0_0/ZYNQ_CORE_v_vid_in_axi4s_0_0_ooc.xdc]
 set_property used_in_implementation false [get_files -all d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_blk_mem_gen_0_0/ZYNQ_CORE_blk_mem_gen_0_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_axi_gpio_0_0/ZYNQ_CORE_axi_gpio_0_0_board.xdc]
+set_property used_in_implementation false [get_files -all d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_axi_gpio_0_0/ZYNQ_CORE_axi_gpio_0_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_axi_gpio_0_0/ZYNQ_CORE_axi_gpio_0_0.xdc]
 set_property used_in_implementation false [get_files -all d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_vio_0_0/ZYNQ_CORE_vio_0_0.xdc]
 set_property used_in_implementation false [get_files -all d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_vio_0_0/ZYNQ_CORE_vio_0_0_ooc.xdc]
-set_property used_in_synthesis false [get_files -all d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_ila_0_0/ila_v6_2/constraints/ila_impl.xdc]
-set_property used_in_implementation false [get_files -all d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_ila_0_0/ila_v6_2/constraints/ila_impl.xdc]
-set_property used_in_implementation false [get_files -all d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_ila_0_0/ila_v6_2/constraints/ila.xdc]
-set_property used_in_implementation false [get_files -all d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_ila_0_0/ZYNQ_CORE_ila_0_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_blk_mem_gen_1_3/ZYNQ_CORE_blk_mem_gen_1_3_ooc.xdc]
+set_property used_in_implementation false [get_files -all d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_axi_bram_ctrl_0_3/ZYNQ_CORE_axi_bram_ctrl_0_3_ooc.xdc]
+set_property used_in_implementation false [get_files -all d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_3/ZYNQ_CORE_auto_pc_3_ooc.xdc]
 set_property used_in_implementation false [get_files -all d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_0/ZYNQ_CORE_auto_pc_0_ooc.xdc]
 set_property used_in_implementation false [get_files -all d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_1/ZYNQ_CORE_auto_pc_1_ooc.xdc]
+set_property used_in_implementation false [get_files -all d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_2/ZYNQ_CORE_auto_pc_2_ooc.xdc]
+set_property used_in_implementation false [get_files -all d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_4/ZYNQ_CORE_auto_pc_4_ooc.xdc]
 set_property used_in_implementation false [get_files -all d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE_ooc.xdc]
 
 OPTRACE "Adding files" END { }

@@ -4,8 +4,8 @@
 -- Tool Version: Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
 -- Date        : Fri Mar 14 14:41:36 2025
 -- Host        : LAPTOP-DUUNQKAE running 64-bit major release  (build 9200)
--- Command     : write_vhdl -force -mode funcsim
---               d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_clk_wiz_0_0/ZYNQ_CORE_clk_wiz_0_0_sim_netlist.vhdl
+-- Command     : write_vhdl -force -mode funcsim -rename_top ZYNQ_CORE_clk_wiz_0_0 -prefix
+--               ZYNQ_CORE_clk_wiz_0_0_ ZYNQ_CORE_clk_wiz_0_0_sim_netlist.vhdl
 -- Design      : ZYNQ_CORE_clk_wiz_0_0
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -15,7 +15,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity ZYNQ_CORE_clk_wiz_0_0_clk_wiz is
+entity ZYNQ_CORE_clk_wiz_0_0_ZYNQ_CORE_clk_wiz_0_0_clk_wiz is
   port (
     clk_out1 : out STD_LOGIC;
     clk_out2 : out STD_LOGIC;
@@ -23,9 +23,9 @@ entity ZYNQ_CORE_clk_wiz_0_0_clk_wiz is
     locked : out STD_LOGIC;
     clk_in1 : in STD_LOGIC
   );
-end ZYNQ_CORE_clk_wiz_0_0_clk_wiz;
+end ZYNQ_CORE_clk_wiz_0_0_ZYNQ_CORE_clk_wiz_0_0_clk_wiz;
 
-architecture STRUCTURE of ZYNQ_CORE_clk_wiz_0_0_clk_wiz is
+architecture STRUCTURE of ZYNQ_CORE_clk_wiz_0_0_ZYNQ_CORE_clk_wiz_0_0_clk_wiz is
   signal clk_in1_ZYNQ_CORE_clk_wiz_0_0 : STD_LOGIC;
   signal clk_out1_ZYNQ_CORE_clk_wiz_0_0 : STD_LOGIC;
   signal clk_out2_ZYNQ_CORE_clk_wiz_0_0 : STD_LOGIC;
@@ -196,7 +196,7 @@ end ZYNQ_CORE_clk_wiz_0_0;
 
 architecture STRUCTURE of ZYNQ_CORE_clk_wiz_0_0 is
 begin
-inst: entity work.ZYNQ_CORE_clk_wiz_0_0_clk_wiz
+inst: entity work.ZYNQ_CORE_clk_wiz_0_0_ZYNQ_CORE_clk_wiz_0_0_clk_wiz
      port map (
       clk_in1 => clk_in1,
       clk_out1 => clk_out1,

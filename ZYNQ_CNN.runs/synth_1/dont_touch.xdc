@@ -63,22 +63,46 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==ZYNQ_CORE_b
 # IP: bd/ZYNQ_CORE/ip/ZYNQ_CORE_binarizer_0_0/ZYNQ_CORE_binarizer_0_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==ZYNQ_CORE_binarizer_0_0 || ORIG_REF_NAME==ZYNQ_CORE_binarizer_0_0} -quiet] -quiet
 
-# IP: bd/ZYNQ_CORE/ip/ZYNQ_CORE_vio_0_0/ZYNQ_CORE_vio_0_0.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==ZYNQ_CORE_vio_0_0 || ORIG_REF_NAME==ZYNQ_CORE_vio_0_0} -quiet] -quiet
+# IP: bd/ZYNQ_CORE/ip/ZYNQ_CORE_xlslice_0_0/ZYNQ_CORE_xlslice_0_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==ZYNQ_CORE_xlslice_0_0 || ORIG_REF_NAME==ZYNQ_CORE_xlslice_0_0} -quiet] -quiet
 
-# IP: bd/ZYNQ_CORE/ip/ZYNQ_CORE_xlconstant_0_0/ZYNQ_CORE_xlconstant_0_0.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==ZYNQ_CORE_xlconstant_0_0 || ORIG_REF_NAME==ZYNQ_CORE_xlconstant_0_0} -quiet] -quiet
+# IP: bd/ZYNQ_CORE/ip/ZYNQ_CORE_xlconstant_0_1/ZYNQ_CORE_xlconstant_0_1.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==ZYNQ_CORE_xlconstant_0_1 || ORIG_REF_NAME==ZYNQ_CORE_xlconstant_0_1} -quiet] -quiet
 
-# IP: bd/ZYNQ_CORE/ip/ZYNQ_CORE_ila_0_0/ZYNQ_CORE_ila_0_0.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==ZYNQ_CORE_ila_0_0 || ORIG_REF_NAME==ZYNQ_CORE_ila_0_0} -quiet] -quiet
+# IP: bd/ZYNQ_CORE/ip/ZYNQ_CORE_xlconstant_1_0/ZYNQ_CORE_xlconstant_1_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==ZYNQ_CORE_xlconstant_1_0 || ORIG_REF_NAME==ZYNQ_CORE_xlconstant_1_0} -quiet] -quiet
 
 # IP: bd/ZYNQ_CORE/ip/ZYNQ_CORE_cycle_num_0_1/ZYNQ_CORE_cycle_num_0_1.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==ZYNQ_CORE_cycle_num_0_1 || ORIG_REF_NAME==ZYNQ_CORE_cycle_num_0_1} -quiet] -quiet
+
+# IP: bd/ZYNQ_CORE/ip/ZYNQ_CORE_axi_gpio_0_0/ZYNQ_CORE_axi_gpio_0_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==ZYNQ_CORE_axi_gpio_0_0 || ORIG_REF_NAME==ZYNQ_CORE_axi_gpio_0_0} -quiet] -quiet
+
+# IP: bd/ZYNQ_CORE/ip/ZYNQ_CORE_img_buffer_controller_0_0/ZYNQ_CORE_img_buffer_controller_0_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==ZYNQ_CORE_img_buffer_controller_0_0 || ORIG_REF_NAME==ZYNQ_CORE_img_buffer_controller_0_0} -quiet] -quiet
+
+# IP: bd/ZYNQ_CORE/ip/ZYNQ_CORE_vio_0_0/ZYNQ_CORE_vio_0_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==ZYNQ_CORE_vio_0_0 || ORIG_REF_NAME==ZYNQ_CORE_vio_0_0} -quiet] -quiet
+
+# IP: bd/ZYNQ_CORE/ip/ZYNQ_CORE_blk_mem_gen_1_3/ZYNQ_CORE_blk_mem_gen_1_3.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==ZYNQ_CORE_blk_mem_gen_1_3 || ORIG_REF_NAME==ZYNQ_CORE_blk_mem_gen_1_3} -quiet] -quiet
+
+# IP: bd/ZYNQ_CORE/ip/ZYNQ_CORE_axi_bram_ctrl_0_3/ZYNQ_CORE_axi_bram_ctrl_0_3.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==ZYNQ_CORE_axi_bram_ctrl_0_3 || ORIG_REF_NAME==ZYNQ_CORE_axi_bram_ctrl_0_3} -quiet] -quiet
+
+# IP: bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_3/ZYNQ_CORE_auto_pc_3.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==ZYNQ_CORE_auto_pc_3 || ORIG_REF_NAME==ZYNQ_CORE_auto_pc_3} -quiet] -quiet
 
 # IP: bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_0/ZYNQ_CORE_auto_pc_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==ZYNQ_CORE_auto_pc_0 || ORIG_REF_NAME==ZYNQ_CORE_auto_pc_0} -quiet] -quiet
 
 # IP: bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_1/ZYNQ_CORE_auto_pc_1.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==ZYNQ_CORE_auto_pc_1 || ORIG_REF_NAME==ZYNQ_CORE_auto_pc_1} -quiet] -quiet
+
+# IP: bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_2/ZYNQ_CORE_auto_pc_2.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==ZYNQ_CORE_auto_pc_2 || ORIG_REF_NAME==ZYNQ_CORE_auto_pc_2} -quiet] -quiet
+
+# IP: bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_4/ZYNQ_CORE_auto_pc_4.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==ZYNQ_CORE_auto_pc_4 || ORIG_REF_NAME==ZYNQ_CORE_auto_pc_4} -quiet] -quiet
 
 # XDC: d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE_ooc.xdc

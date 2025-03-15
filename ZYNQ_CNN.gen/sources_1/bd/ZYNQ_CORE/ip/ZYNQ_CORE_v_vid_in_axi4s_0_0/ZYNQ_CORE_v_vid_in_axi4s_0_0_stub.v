@@ -4,8 +4,8 @@
 // Tool Version: Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
 // Date        : Fri Mar 14 14:42:19 2025
 // Host        : LAPTOP-DUUNQKAE running 64-bit major release  (build 9200)
-// Command     : write_verilog -force -mode synth_stub
-//               d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_v_vid_in_axi4s_0_0/ZYNQ_CORE_v_vid_in_axi4s_0_0_stub.v
+// Command     : write_verilog -force -mode synth_stub -rename_top ZYNQ_CORE_v_vid_in_axi4s_0_0 -prefix
+//               ZYNQ_CORE_v_vid_in_axi4s_0_0_ ZYNQ_CORE_v_vid_in_axi4s_0_0_stub.v
 // Design      : ZYNQ_CORE_v_vid_in_axi4s_0_0
 // Purpose     : Stub declaration of top-level module interface
 // Device      : xc7z020clg484-1

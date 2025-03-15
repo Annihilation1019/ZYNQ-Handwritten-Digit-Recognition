@@ -32,3 +32,102 @@ timestamp=[2025-03-14 16:53:31], mode=BUILD, duration=0:00:05.503, duration_ms=5
 timestamp=[2025-03-14 16:57:55], mode=PLATFORM_GENERATION, duration=0:00:07.426, duration_ms=7426, data={name=ZYNQ_CORE_wrapper}
 timestamp=[2025-03-14 17:08:04], mode=BUILD, duration=0:00:37.291, duration_ms=37291, data={name=ZYNQ_CNN, configuration=Debug, clean_build=false}
 timestamp=[2025-03-14 17:08:09], mode=BUILD, duration=0:00:04.686, duration_ms=4686, data={name=ZYNQ_CNN_system, configuration=Debug, clean_build=false}
+timestamp=[2025-03-14 18:04:44], mode=WORKBENCH_START, duration=0:00:05.676, duration_ms=5676, data={}
+timestamp=[2025-03-14 18:04:44], mode=WORKBENCH_UI_INIT, duration=0:00:00.348, duration_ms=348, data={editors_count=4, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,ZYNQ_CNN,ZYNQ_CNN_system,ZYNQ_CORE_wrapper}
+timestamp=[2025-03-14 18:04:46], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.864, duration_ms=864, data={}
+timestamp=[2025-03-14 18:08:42], mode=PLATFORM_GENERATION, duration=0:00:07.234, duration_ms=7234, data={name=ZYNQ_CORE_wrapper}
+timestamp=[2025-03-14 18:09:29], mode=BUILD, duration=0:00:36.368, duration_ms=36368, data={name=ZYNQ_CNN, configuration=Debug, clean_build=false}
+timestamp=[2025-03-14 18:09:37], mode=BUILD, duration=0:00:05.145, duration_ms=5145, data={name=ZYNQ_CNN_system, configuration=Debug, clean_build=false}
+timestamp=[2025-03-14 18:29:29], mode=BUILD, duration=0:00:00.500, duration_ms=500, data={name=ZYNQ_CNN, configuration=Debug, clean_build=false}
+timestamp=[2025-03-14 18:29:34], mode=BUILD, duration=0:00:04.866, duration_ms=4866, data={name=ZYNQ_CNN_system, configuration=Debug, clean_build=false}
+timestamp=[2025-03-14 18:30:30], mode=PLATFORM_GENERATION, duration=0:00:06.689, duration_ms=6689, data={name=ZYNQ_CORE_wrapper}
+timestamp=[2025-03-14 18:31:20], mode=BUILD, duration=0:00:41.544, duration_ms=41544, data={name=ZYNQ_CNN, configuration=Debug, clean_build=false}
+timestamp=[2025-03-14 18:31:29], mode=BUILD, duration=0:00:04.693, duration_ms=4693, data={name=ZYNQ_CNN_system, configuration=Debug, clean_build=false}
+timestamp=[2025-03-14 18:38:11], mode=BUILD, duration=0:00:00.938, duration_ms=938, data={name=ZYNQ_CNN, configuration=Debug, clean_build=false}
+timestamp=[2025-03-14 18:38:16], mode=BUILD, duration=0:00:04.736, duration_ms=4736, data={name=ZYNQ_CNN_system, configuration=Debug, clean_build=false}
+timestamp=[2025-03-14 19:04:58], mode=WORKBENCH_START, duration=0:00:05.138, duration_ms=5138, data={}
+timestamp=[2025-03-14 19:04:59], mode=WORKBENCH_UI_INIT, duration=0:00:00.216, duration_ms=216, data={editors_count=4, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,ZYNQ_CNN,ZYNQ_CNN_system,ZYNQ_CORE_wrapper}
+timestamp=[2025-03-14 19:05:00], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.719, duration_ms=719, data={}
+timestamp=[2025-03-14 19:05:16], mode=BUILD, duration=0:00:00.949, duration_ms=949, data={name=ZYNQ_CNN, configuration=Debug, clean_build=false}
+timestamp=[2025-03-14 19:05:27], mode=BUILD, duration=0:00:10.328, duration_ms=10328, data={name=ZYNQ_CNN_system, configuration=Debug, clean_build=false}
+timestamp=[2025-03-14 19:05:38], mode=PLATFORM_GENERATION, duration=0:00:06.421, duration_ms=6421, data={name=ZYNQ_CORE_wrapper}
+timestamp=[2025-03-14 20:14:22], mode=APP_CREATION, duration=0:00:04.773, duration_ms=4773, data={name=xbram_example_1, project_type=sdk, os=standalone, processor=cortex-a9, runtime=C/C++, platform=ZYNQ_CORE_wrapper, application_type=application}
+timestamp=[2025-03-14 22:33:03], mode=APP_CREATION, duration=0:00:04.497, duration_ms=4497, data={name=xgpiops_intr_example_1, project_type=sdk, os=standalone, processor=cortex-a9, runtime=C/C++, platform=ZYNQ_CORE_wrapper, application_type=application}
+timestamp=[2025-03-14 22:33:07], mode=APP_CREATION, duration=0:00:04.006, duration_ms=4006, data={name=xgpiops_polled_example_1, project_type=sdk, os=standalone, processor=cortex-a9, runtime=C/C++, platform=ZYNQ_CORE_wrapper, application_type=application}
+timestamp=[2025-03-14 22:55:13], mode=PLATFORM_GENERATION, duration=0:00:03.222, duration_ms=3222, data={name=ZYNQ_CORE_wrapper}
+timestamp=[2025-03-14 22:55:55], mode=BUILD, duration=0:00:42.069, duration_ms=42069, data={name=ZYNQ_CNN, configuration=Debug, clean_build=false}
+timestamp=[2025-03-14 22:58:09], mode=BUILD, duration=0:00:00.813, duration_ms=813, data={name=ZYNQ_CNN, configuration=Debug, clean_build=false}
+timestamp=[2025-03-14 23:02:58], mode=PLATFORM_GENERATION, duration=0:00:02.947, duration_ms=2947, data={name=ZYNQ_CORE_wrapper}
+timestamp=[2025-03-14 23:02:59], mode=BUILD, duration=0:00:01.066, duration_ms=1066, data={name=ZYNQ_CNN, configuration=Debug, clean_build=false}
+timestamp=[2025-03-14 23:03:04], mode=BUILD, duration=0:00:04.705, duration_ms=4705, data={name=ZYNQ_CNN_system, configuration=Debug, clean_build=false}
+timestamp=[2025-03-14 23:03:55], mode=BUILD, duration=0:00:01.006, duration_ms=1006, data={name=ZYNQ_CNN, configuration=Debug, clean_build=false}
+timestamp=[2025-03-14 23:04:00], mode=BUILD, duration=0:00:04.557, duration_ms=4557, data={name=ZYNQ_CNN_system, configuration=Debug, clean_build=false}
+timestamp=[2025-03-15 10:28:55], mode=BUILD, duration=0:00:01.002, duration_ms=1002, data={name=ZYNQ_CNN, configuration=Debug, clean_build=false}
+timestamp=[2025-03-15 10:29:00], mode=BUILD, duration=0:00:04.933, duration_ms=4933, data={name=ZYNQ_CNN_system, configuration=Debug, clean_build=false}
+timestamp=[2025-03-15 10:29:54], mode=BUILD, duration=0:00:00.932, duration_ms=932, data={name=ZYNQ_CNN, configuration=Debug, clean_build=false}
+timestamp=[2025-03-15 10:29:59], mode=BUILD, duration=0:00:04.625, duration_ms=4625, data={name=ZYNQ_CNN_system, configuration=Debug, clean_build=false}
+timestamp=[2025-03-15 10:39:45], mode=BUILD, duration=0:00:00.992, duration_ms=992, data={name=ZYNQ_CNN, configuration=Debug, clean_build=false}
+timestamp=[2025-03-15 10:39:49], mode=BUILD, duration=0:00:04.569, duration_ms=4569, data={name=ZYNQ_CNN_system, configuration=Debug, clean_build=false}
+timestamp=[2025-03-15 10:44:49], mode=BUILD, duration=0:00:01.004, duration_ms=1004, data={name=ZYNQ_CNN, configuration=Debug, clean_build=false}
+timestamp=[2025-03-15 10:44:54], mode=BUILD, duration=0:00:04.619, duration_ms=4619, data={name=ZYNQ_CNN_system, configuration=Debug, clean_build=false}
+timestamp=[2025-03-15 10:58:00], mode=BUILD, duration=0:00:00.993, duration_ms=993, data={name=ZYNQ_CNN, configuration=Debug, clean_build=false}
+timestamp=[2025-03-15 10:58:05], mode=BUILD, duration=0:00:04.675, duration_ms=4675, data={name=ZYNQ_CNN_system, configuration=Debug, clean_build=false}
+timestamp=[2025-03-15 11:04:30], mode=BUILD, duration=0:00:00.919, duration_ms=919, data={name=ZYNQ_CNN, configuration=Debug, clean_build=false}
+timestamp=[2025-03-15 11:04:35], mode=BUILD, duration=0:00:04.741, duration_ms=4741, data={name=ZYNQ_CNN_system, configuration=Debug, clean_build=false}
+timestamp=[2025-03-15 11:11:28], mode=BUILD, duration=0:00:00.920, duration_ms=920, data={name=ZYNQ_CNN, configuration=Debug, clean_build=false}
+timestamp=[2025-03-15 11:11:33], mode=BUILD, duration=0:00:04.545, duration_ms=4545, data={name=ZYNQ_CNN_system, configuration=Debug, clean_build=false}
+timestamp=[2025-03-15 11:28:13], mode=PLATFORM_GENERATION, duration=0:00:09.167, duration_ms=9167, data={name=ZYNQ_CORE_wrapper}
+timestamp=[2025-03-15 11:28:59], mode=PLATFORM_GENERATION, duration=0:00:01.606, duration_ms=1606, data={name=ZYNQ_CORE_wrapper}
+timestamp=[2025-03-15 11:28:59], mode=BUILD, duration=0:00:00.626, duration_ms=626, data={name=ZYNQ_CNN, configuration=Debug, clean_build=false}
+timestamp=[2025-03-15 11:29:39], mode=WORKBENCH_START, duration=0:00:05.314, duration_ms=5314, data={}
+timestamp=[2025-03-15 11:29:40], mode=WORKBENCH_UI_INIT, duration=0:00:00.326, duration_ms=326, data={editors_count=1, platform_editors_count=0, projects_count=10, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,ZYNQ_CNN,ZYNQ_CNN_system,ZYNQ_CORE_wrapper,xbram_example_1,xbram_example_1_system,xgpiops_intr_example_1,xgpiops_intr_example_1_system,xgpiops_polled_example_1,xgpiops_polled_example_1_system}
+timestamp=[2025-03-15 11:29:41], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.804, duration_ms=804, data={}
+timestamp=[2025-03-15 11:30:21], mode=PLATFORM_GENERATION, duration=0:00:15.416, duration_ms=15416, data={name=ZYNQ_CORE_wrapper}
+timestamp=[2025-03-15 11:31:13], mode=BUILD, duration=0:00:41.031, duration_ms=41031, data={name=ZYNQ_CNN, configuration=Debug, clean_build=false}
+timestamp=[2025-03-15 11:31:20], mode=BUILD, duration=0:00:04.396, duration_ms=4396, data={name=ZYNQ_CNN_system, configuration=Debug, clean_build=false}
+timestamp=[2025-03-15 12:14:37], mode=PLATFORM_GENERATION, duration=0:00:07.901, duration_ms=7901, data={name=ZYNQ_CORE_wrapper}
+timestamp=[2025-03-15 12:15:29], mode=BUILD, duration=0:00:38.766, duration_ms=38766, data={name=ZYNQ_CNN, configuration=Debug, clean_build=false}
+timestamp=[2025-03-15 12:15:37], mode=BUILD, duration=0:00:04.119, duration_ms=4119, data={name=ZYNQ_CNN_system, configuration=Debug, clean_build=false}
+timestamp=[2025-03-15 12:21:13], mode=BUILD, duration=0:00:01.133, duration_ms=1133, data={name=ZYNQ_CNN, configuration=Debug, clean_build=false}
+timestamp=[2025-03-15 12:21:17], mode=BUILD, duration=0:00:04.422, duration_ms=4422, data={name=ZYNQ_CNN_system, configuration=Debug, clean_build=false}
+timestamp=[2025-03-15 12:45:00], mode=PLATFORM_GENERATION, duration=0:00:07.365, duration_ms=7365, data={name=ZYNQ_CORE_wrapper}
+timestamp=[2025-03-15 12:45:57], mode=BUILD, duration=0:00:39.002, duration_ms=39002, data={name=ZYNQ_CNN, configuration=Debug, clean_build=false}
+timestamp=[2025-03-15 12:46:04], mode=BUILD, duration=0:00:04.074, duration_ms=4074, data={name=ZYNQ_CNN_system, configuration=Debug, clean_build=false}
+timestamp=[2025-03-15 13:08:15], mode=PLATFORM_GENERATION, duration=0:00:06.741, duration_ms=6741, data={name=ZYNQ_CORE_wrapper}
+timestamp=[2025-03-15 13:18:19], mode=BUILD, duration=0:00:42.848, duration_ms=42848, data={name=ZYNQ_CNN, configuration=Debug, clean_build=false}
+timestamp=[2025-03-15 13:18:23], mode=BUILD, duration=0:00:04.044, duration_ms=4044, data={name=ZYNQ_CNN_system, configuration=Debug, clean_build=false}
+timestamp=[2025-03-15 13:23:36], mode=BUILD, duration=0:00:00.923, duration_ms=923, data={name=ZYNQ_CNN, configuration=Debug, clean_build=false}
+timestamp=[2025-03-15 13:23:41], mode=BUILD, duration=0:00:04.125, duration_ms=4125, data={name=ZYNQ_CNN_system, configuration=Debug, clean_build=false}
+timestamp=[2025-03-15 13:43:15], mode=BUILD, duration=0:00:01.054, duration_ms=1054, data={name=ZYNQ_CNN, configuration=Debug, clean_build=false}
+timestamp=[2025-03-15 13:43:20], mode=BUILD, duration=0:00:04.530, duration_ms=4530, data={name=ZYNQ_CNN_system, configuration=Debug, clean_build=false}
+timestamp=[2025-03-15 13:44:21], mode=BUILD, duration=0:00:00.535, duration_ms=535, data={name=ZYNQ_CNN, configuration=Debug, clean_build=false}
+timestamp=[2025-03-15 13:44:26], mode=BUILD, duration=0:00:04.160, duration_ms=4160, data={name=ZYNQ_CNN_system, configuration=Debug, clean_build=false}
+timestamp=[2025-03-15 14:21:59], mode=BUILD, duration=0:00:00.981, duration_ms=981, data={name=ZYNQ_CNN, configuration=Debug, clean_build=false}
+timestamp=[2025-03-15 14:22:03], mode=BUILD, duration=0:00:04.138, duration_ms=4138, data={name=ZYNQ_CNN_system, configuration=Debug, clean_build=false}
+timestamp=[2025-03-15 14:43:37], mode=PLATFORM_GENERATION, duration=0:00:09.785, duration_ms=9785, data={name=ZYNQ_CORE_wrapper}
+timestamp=[2025-03-15 14:45:40], mode=BUILD, duration=0:00:41.256, duration_ms=41256, data={name=ZYNQ_CNN, configuration=Debug, clean_build=false}
+timestamp=[2025-03-15 14:45:48], mode=BUILD, duration=0:00:04.165, duration_ms=4165, data={name=ZYNQ_CNN_system, configuration=Debug, clean_build=false}
+timestamp=[2025-03-15 15:38:26], mode=BUILD, duration=0:00:53.337, duration_ms=53337, data={name=ZYNQ_CNN, configuration=Debug, clean_build=false}
+timestamp=[2025-03-15 15:38:31], mode=BUILD, duration=0:00:04.825, duration_ms=4825, data={name=ZYNQ_CNN_system, configuration=Debug, clean_build=false}
+timestamp=[2025-03-15 15:41:33], mode=PLATFORM_GENERATION, duration=0:00:07.219, duration_ms=7219, data={name=ZYNQ_CORE_wrapper}
+timestamp=[2025-03-15 16:36:33], mode=BUILD, duration=0:00:38.534, duration_ms=38534, data={name=ZYNQ_CNN, configuration=Debug, clean_build=false}
+timestamp=[2025-03-15 16:36:38], mode=BUILD, duration=0:00:04.542, duration_ms=4542, data={name=ZYNQ_CNN_system, configuration=Debug, clean_build=false}
+timestamp=[2025-03-15 17:26:54], mode=PLATFORM_GENERATION, duration=0:00:07.543, duration_ms=7543, data={name=ZYNQ_CORE_wrapper}
+timestamp=[2025-03-15 17:31:56], mode=BUILD, duration=0:00:44.820, duration_ms=44820, data={name=ZYNQ_CNN, configuration=Debug, clean_build=false}
+timestamp=[2025-03-15 17:32:04], mode=BUILD, duration=0:00:04.135, duration_ms=4135, data={name=ZYNQ_CNN_system, configuration=Debug, clean_build=false}
+timestamp=[2025-03-15 18:00:59], mode=PLATFORM_GENERATION, duration=0:00:07.502, duration_ms=7502, data={name=ZYNQ_CORE_wrapper}
+timestamp=[2025-03-15 18:01:45], mode=BUILD, duration=0:00:44.675, duration_ms=44675, data={name=ZYNQ_CNN, configuration=Debug, clean_build=false}
+timestamp=[2025-03-15 18:01:53], mode=BUILD, duration=0:00:04.232, duration_ms=4232, data={name=ZYNQ_CNN_system, configuration=Debug, clean_build=false}
+timestamp=[2025-03-15 18:18:50], mode=BUILD, duration=0:00:01.061, duration_ms=1061, data={name=ZYNQ_CNN, configuration=Debug, clean_build=false}
+timestamp=[2025-03-15 18:18:54], mode=BUILD, duration=0:00:04.345, duration_ms=4345, data={name=ZYNQ_CNN_system, configuration=Debug, clean_build=false}
+timestamp=[2025-03-15 19:35:13], mode=PLATFORM_GENERATION, duration=0:00:07.377, duration_ms=7377, data={name=ZYNQ_CORE_wrapper}
+timestamp=[2025-03-15 19:35:54], mode=BUILD, duration=0:00:36.309, duration_ms=36309, data={name=ZYNQ_CNN, configuration=Debug, clean_build=false}
+timestamp=[2025-03-15 19:36:02], mode=BUILD, duration=0:00:04.117, duration_ms=4117, data={name=ZYNQ_CNN_system, configuration=Debug, clean_build=false}
+timestamp=[2025-03-15 20:10:42], mode=PLATFORM_GENERATION, duration=0:00:08.751, duration_ms=8751, data={name=ZYNQ_CORE_wrapper}
+timestamp=[2025-03-15 20:27:26], mode=PLATFORM_GENERATION, duration=0:00:07.857, duration_ms=7857, data={name=ZYNQ_CORE_wrapper}
+timestamp=[2025-03-15 20:28:03], mode=BUILD, duration=0:00:34.921, duration_ms=34921, data={name=ZYNQ_CNN, configuration=Debug, clean_build=false}
+timestamp=[2025-03-15 20:28:11], mode=BUILD, duration=0:00:04.320, duration_ms=4320, data={name=ZYNQ_CNN_system, configuration=Debug, clean_build=false}
+timestamp=[2025-03-15 20:54:28], mode=PLATFORM_GENERATION, duration=0:00:02.773, duration_ms=2773, data={name=ZYNQ_CORE_wrapper}
+timestamp=[2025-03-15 20:54:48], mode=PLATFORM_GENERATION, duration=0:00:17.220, duration_ms=17220, data={name=ZYNQ_CORE_wrapper}
+timestamp=[2025-03-15 21:02:15], mode=BUILD, duration=0:00:39.316, duration_ms=39316, data={name=ZYNQ_CNN, configuration=Debug, clean_build=false}
+timestamp=[2025-03-15 21:02:20], mode=BUILD, duration=0:00:04.293, duration_ms=4293, data={name=ZYNQ_CNN_system, configuration=Debug, clean_build=false}

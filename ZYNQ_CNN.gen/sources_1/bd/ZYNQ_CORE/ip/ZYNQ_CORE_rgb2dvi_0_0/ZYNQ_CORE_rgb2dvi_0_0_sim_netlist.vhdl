@@ -4,8 +4,8 @@
 -- Tool Version: Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
 -- Date        : Fri Mar 14 14:41:43 2025
 -- Host        : LAPTOP-DUUNQKAE running 64-bit major release  (build 9200)
--- Command     : write_vhdl -force -mode funcsim
---               d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_rgb2dvi_0_0/ZYNQ_CORE_rgb2dvi_0_0_sim_netlist.vhdl
+-- Command     : write_vhdl -force -mode funcsim -rename_top ZYNQ_CORE_rgb2dvi_0_0 -prefix
+--               ZYNQ_CORE_rgb2dvi_0_0_ ZYNQ_CORE_rgb2dvi_0_0_sim_netlist.vhdl
 -- Design      : ZYNQ_CORE_rgb2dvi_0_0
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -23,8 +23,6 @@ entity ZYNQ_CORE_rgb2dvi_0_0_OutputSERDES is
     PixelClk : in STD_LOGIC;
     aRst : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of ZYNQ_CORE_rgb2dvi_0_0_OutputSERDES : entity is "OutputSERDES";
 end ZYNQ_CORE_rgb2dvi_0_0_OutputSERDES;
 
 architecture STRUCTURE of ZYNQ_CORE_rgb2dvi_0_0_OutputSERDES is
@@ -660,8 +658,6 @@ entity ZYNQ_CORE_rgb2dvi_0_0_SyncAsync is
     PixelClk : in STD_LOGIC;
     AS : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of ZYNQ_CORE_rgb2dvi_0_0_SyncAsync : entity is "SyncAsync";
 end ZYNQ_CORE_rgb2dvi_0_0_SyncAsync;
 
 architecture STRUCTURE of ZYNQ_CORE_rgb2dvi_0_0_SyncAsync is
@@ -713,8 +709,6 @@ entity ZYNQ_CORE_rgb2dvi_0_0_TMDS_Encoder is
     vid_pVDE : in STD_LOGIC;
     vid_pData : in STD_LOGIC_VECTOR ( 7 downto 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of ZYNQ_CORE_rgb2dvi_0_0_TMDS_Encoder : entity is "TMDS_Encoder";
 end ZYNQ_CORE_rgb2dvi_0_0_TMDS_Encoder;
 
 architecture STRUCTURE of ZYNQ_CORE_rgb2dvi_0_0_TMDS_Encoder is
@@ -4495,8 +4489,6 @@ entity ZYNQ_CORE_rgb2dvi_0_0_ResetBridge is
     aRst_n : in STD_LOGIC;
     PixelClk : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of ZYNQ_CORE_rgb2dvi_0_0_ResetBridge : entity is "ResetBridge";
 end ZYNQ_CORE_rgb2dvi_0_0_ResetBridge;
 
 architecture STRUCTURE of ZYNQ_CORE_rgb2dvi_0_0_ResetBridge is
@@ -4538,8 +4530,6 @@ entity ZYNQ_CORE_rgb2dvi_0_0_rgb2dvi is
     PixelClk : in STD_LOGIC;
     SerialClk : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of ZYNQ_CORE_rgb2dvi_0_0_rgb2dvi : entity is "rgb2dvi";
   attribute kClkPrimitive : string;
   attribute kClkPrimitive of ZYNQ_CORE_rgb2dvi_0_0_rgb2dvi : entity is "PLL";
   attribute kClkRange : integer;

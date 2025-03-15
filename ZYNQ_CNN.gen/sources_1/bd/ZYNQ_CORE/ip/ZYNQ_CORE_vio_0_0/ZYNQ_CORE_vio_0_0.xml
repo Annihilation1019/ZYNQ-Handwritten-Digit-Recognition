@@ -112,11 +112,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Fri Mar 14 06:57:12 UTC 2025</spirit:value>
+            <spirit:value>Sat Mar 15 04:35:04 UTC 2025</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:494d44b0</spirit:value>
+            <spirit:value>9:86c7a9ad</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -130,11 +130,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Fri Mar 14 06:57:55 UTC 2025</spirit:value>
+            <spirit:value>Sat Mar 15 09:53:20 UTC 2025</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:494d44b0</spirit:value>
+            <spirit:value>9:86c7a9ad</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -148,11 +148,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Fri Mar 14 06:57:12 UTC 2025</spirit:value>
+            <spirit:value>Sat Mar 15 04:35:04 UTC 2025</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:494d44b0</spirit:value>
+            <spirit:value>9:86c7a9ad</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -168,11 +168,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Fri Mar 14 06:57:12 UTC 2025</spirit:value>
+            <spirit:value>Sat Mar 15 04:35:04 UTC 2025</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:9df7dec4</spirit:value>
+            <spirit:value>9:c0abb727</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -188,11 +188,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Fri Mar 14 06:57:12 UTC 2025</spirit:value>
+            <spirit:value>Sat Mar 15 04:35:04 UTC 2025</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:494d44b0</spirit:value>
+            <spirit:value>9:86c7a9ad</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -6871,7 +6871,7 @@
         <spirit:wire>
           <spirit:direction>out</spirit:direction>
           <spirit:vector>
-            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="(spirit:decode(id(&apos;MODELPARAM_VALUE.C_PROBE_OUT0_WIDTH&apos;)) - 1)">7</spirit:left>
+            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="(spirit:decode(id(&apos;MODELPARAM_VALUE.C_PROBE_OUT0_WIDTH&apos;)) - 1)">29</spirit:left>
             <spirit:right spirit:format="long">0</spirit:right>
           </spirit:vector>
           <spirit:wireTypeDefs>
@@ -14148,7 +14148,7 @@
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>C_PROBE_OUT0_WIDTH</spirit:name>
         <spirit:displayName>PROBE OUT0 WIDTH</spirit:displayName>
-        <spirit:value spirit:format="long" spirit:resolve="dependent" spirit:id="MODELPARAM_VALUE.C_PROBE_OUT0_WIDTH" spirit:dependency="(spirit:decode(id(&apos;PARAM_VALUE.C_PROBE_OUT0_WIDTH&apos;)))" spirit:minimum="1" spirit:maximum="256" spirit:rangeType="long">8</spirit:value>
+        <spirit:value spirit:format="long" spirit:resolve="dependent" spirit:id="MODELPARAM_VALUE.C_PROBE_OUT0_WIDTH" spirit:dependency="(spirit:decode(id(&apos;PARAM_VALUE.C_PROBE_OUT0_WIDTH&apos;)))" spirit:minimum="1" spirit:maximum="256" spirit:rangeType="long">30</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>C_PROBE_OUT1_WIDTH</spirit:name>
@@ -15428,7 +15428,7 @@
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>C_PROBE_OUT0_INIT_VAL</spirit:name>
         <spirit:displayName>PROBE OUT0 INIT VALUE</spirit:displayName>
-        <spirit:value spirit:format="bitString" spirit:resolve="dependent" spirit:id="MODELPARAM_VALUE.C_PROBE_OUT0_INIT_VAL" spirit:dependency="(spirit:decode(id(&apos;PARAM_VALUE.C_PROBE_OUT0_INIT_VAL&apos;)))" spirit:bitStringLength="8">0x00</spirit:value>
+        <spirit:value spirit:format="bitString" spirit:resolve="dependent" spirit:id="MODELPARAM_VALUE.C_PROBE_OUT0_INIT_VAL" spirit:dependency="(spirit:decode(id(&apos;PARAM_VALUE.C_PROBE_OUT0_INIT_VAL&apos;)))" spirit:bitStringLength="30">0x00393870</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>C_PROBE_OUT1_INIT_VAL</spirit:name>
@@ -16797,18 +16797,6 @@
         <spirit:logicalName>xil_defaultlib</spirit:logicalName>
       </spirit:file>
       <spirit:file>
-        <spirit:name>ZYNQ_CORE_vio_0_0_stub.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_synth_blackbox_stub</spirit:userFileType>
-        <spirit:logicalName>xil_defaultlib</spirit:logicalName>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>ZYNQ_CORE_vio_0_0_stub.vhdl</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_synth_blackbox_stub</spirit:userFileType>
-        <spirit:logicalName>xil_defaultlib</spirit:logicalName>
-      </spirit:file>
-      <spirit:file>
         <spirit:name>ZYNQ_CORE_vio_0_0_sim_netlist.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_simulation</spirit:userFileType>
@@ -16820,6 +16808,18 @@
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_simulation</spirit:userFileType>
         <spirit:userFileType>USED_IN_single_language</spirit:userFileType>
+        <spirit:logicalName>xil_defaultlib</spirit:logicalName>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>ZYNQ_CORE_vio_0_0_stub.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_synth_blackbox_stub</spirit:userFileType>
+        <spirit:logicalName>xil_defaultlib</spirit:logicalName>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>ZYNQ_CORE_vio_0_0_stub.vhdl</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_synth_blackbox_stub</spirit:userFileType>
         <spirit:logicalName>xil_defaultlib</spirit:logicalName>
       </spirit:file>
     </spirit:fileSet>
@@ -18128,7 +18128,7 @@
     <spirit:parameter>
       <spirit:name>C_PROBE_OUT0_INIT_VAL</spirit:name>
       <spirit:displayName>PROBE OUT0 INIT VALUE</spirit:displayName>
-      <spirit:value spirit:format="bitString" spirit:resolve="user" spirit:id="PARAM_VALUE.C_PROBE_OUT0_INIT_VAL" spirit:order="52700" spirit:bitStringLength="8">0x0</spirit:value>
+      <spirit:value spirit:format="bitString" spirit:resolve="user" spirit:id="PARAM_VALUE.C_PROBE_OUT0_INIT_VAL" spirit:order="52700" spirit:bitStringLength="30">0x00393870</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>C_PROBE_OUT255_WIDTH</spirit:name>
@@ -19408,7 +19408,7 @@
     <spirit:parameter>
       <spirit:name>C_PROBE_OUT0_WIDTH</spirit:name>
       <spirit:displayName>PROBE OUT0 WIDTH</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.C_PROBE_OUT0_WIDTH" spirit:order="27100" spirit:minimum="1" spirit:maximum="256" spirit:rangeType="long">8</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.C_PROBE_OUT0_WIDTH" spirit:order="27100" spirit:minimum="1" spirit:maximum="256" spirit:rangeType="long">30</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>C_PROBE_IN255_WIDTH</spirit:name>
@@ -20735,6 +20735,7 @@
         <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SIGNAL_CLOCK.FREQ_TOLERANCE_HZ" xilinx:valuePermission="bd"/>
         <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SIGNAL_CLOCK.PHASE" xilinx:valueSource="ip_propagated" xilinx:valuePermission="bd"/>
         <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.C_NUM_PROBE_IN" xilinx:valueSource="user"/>
+        <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.C_PROBE_OUT0_INIT_VAL" xilinx:valueSource="user"/>
         <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.C_PROBE_OUT0_WIDTH" xilinx:valueSource="user"/>
       </xilinx:configElementInfos>
     </xilinx:coreExtensions>

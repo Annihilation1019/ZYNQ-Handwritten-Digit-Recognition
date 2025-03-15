@@ -70,7 +70,9 @@ proc create_report { reportName command } {
   }
 }
 OPTRACE "ZYNQ_CORE_border_adder_0_0_synth_1" START { ROLLUP_AUTO }
+set_param tcl.collectionResultDisplayLimit 0
 set_param chipscope.maxJobs 5
+set_param xicom.use_bs_reader 1
 set_msg_config -id {HDL-1065} -limit 10000
 set_param project.vivado.isBlockSynthRun true
 OPTRACE "Creating in-memory project" START { }

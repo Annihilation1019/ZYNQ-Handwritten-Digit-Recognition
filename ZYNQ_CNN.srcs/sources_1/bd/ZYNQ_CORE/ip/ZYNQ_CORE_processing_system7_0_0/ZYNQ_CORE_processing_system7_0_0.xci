@@ -1454,6 +1454,9 @@
             "is_visible": [ { "value": "FALSE" } ],
             "processor_type": [ { "value": "ARM" } ]
           }
+        },
+        "microblaze": {
+          "address_space_refs": "Data"
         }
       }
     }

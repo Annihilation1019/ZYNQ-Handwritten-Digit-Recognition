@@ -118,6 +118,49 @@
 
 /******************************************************************/
 
+/* Definitions for driver BRAM */
+#define XPAR_XBRAM_NUM_INSTANCES 1U
+
+/* Definitions for peripheral AXI_BRAM_CTRL_0 */
+#define XPAR_AXI_BRAM_CTRL_0_DEVICE_ID 0U
+#define XPAR_AXI_BRAM_CTRL_0_DATA_WIDTH 32U
+#define XPAR_AXI_BRAM_CTRL_0_ECC 0U
+#define XPAR_AXI_BRAM_CTRL_0_FAULT_INJECT 0U
+#define XPAR_AXI_BRAM_CTRL_0_CE_FAILING_REGISTERS 0U
+#define XPAR_AXI_BRAM_CTRL_0_UE_FAILING_REGISTERS 0U
+#define XPAR_AXI_BRAM_CTRL_0_ECC_STATUS_REGISTERS 0U
+#define XPAR_AXI_BRAM_CTRL_0_CE_COUNTER_WIDTH 0U
+#define XPAR_AXI_BRAM_CTRL_0_ECC_ONOFF_REGISTER 0U
+#define XPAR_AXI_BRAM_CTRL_0_ECC_ONOFF_RESET_VALUE 0U
+#define XPAR_AXI_BRAM_CTRL_0_WRITE_ACCESS 0U
+#define XPAR_AXI_BRAM_CTRL_0_S_AXI_BASEADDR 0x40000000U
+#define XPAR_AXI_BRAM_CTRL_0_S_AXI_HIGHADDR 0x40007FFFU
+#define XPAR_AXI_BRAM_CTRL_0_S_AXI_CTRL_BASEADDR 0xFFFFFFFFU  
+#define XPAR_AXI_BRAM_CTRL_0_S_AXI_CTRL_HIGHADDR 0xFFFFFFFFU  
+
+
+/******************************************************************/
+
+/* Canonical definitions for peripheral AXI_BRAM_CTRL_0 */
+#define XPAR_BRAM_0_DEVICE_ID XPAR_AXI_BRAM_CTRL_0_DEVICE_ID
+#define XPAR_BRAM_0_DATA_WIDTH 32U
+#define XPAR_BRAM_0_ECC 0U
+#define XPAR_BRAM_0_FAULT_INJECT 0U
+#define XPAR_BRAM_0_CE_FAILING_REGISTERS 0U
+#define XPAR_BRAM_0_UE_FAILING_REGISTERS 0U
+#define XPAR_BRAM_0_ECC_STATUS_REGISTERS 0U
+#define XPAR_BRAM_0_CE_COUNTER_WIDTH 0U
+#define XPAR_BRAM_0_ECC_ONOFF_REGISTER 0U
+#define XPAR_BRAM_0_ECC_ONOFF_RESET_VALUE 0U
+#define XPAR_BRAM_0_WRITE_ACCESS 0U
+#define XPAR_BRAM_0_BASEADDR 0x40000000U
+#define XPAR_BRAM_0_HIGHADDR 0x40007FFFU
+#define XPAR_BRAM_0_CTRL_BASEADDR 0xFFFFFFFFU  
+#define XPAR_BRAM_0_CTRL_HIGHADDR 0xFFFFFFFEU  
+
+
+/******************************************************************/
+
 /* Definitions for driver CYCLE_NUM */
 #define XPAR_CYCLE_NUM_NUM_INSTANCES 1
 
@@ -309,6 +352,29 @@
 
 
 
+
+
+/******************************************************************/
+
+/* Definitions for driver GPIO */
+#define XPAR_XGPIO_NUM_INSTANCES 1
+
+/* Definitions for peripheral AXI_GPIO_0 */
+#define XPAR_AXI_GPIO_0_BASEADDR 0x41200000
+#define XPAR_AXI_GPIO_0_HIGHADDR 0x4120FFFF
+#define XPAR_AXI_GPIO_0_DEVICE_ID 0
+#define XPAR_AXI_GPIO_0_INTERRUPT_PRESENT 0
+#define XPAR_AXI_GPIO_0_IS_DUAL 0
+
+
+/******************************************************************/
+
+/* Canonical definitions for peripheral AXI_GPIO_0 */
+#define XPAR_GPIO_0_BASEADDR 0x41200000
+#define XPAR_GPIO_0_HIGHADDR 0x4120FFFF
+#define XPAR_GPIO_0_DEVICE_ID XPAR_AXI_GPIO_0_DEVICE_ID
+#define XPAR_GPIO_0_INTERRUPT_PRESENT 0
+#define XPAR_GPIO_0_IS_DUAL 0
 
 
 /******************************************************************/

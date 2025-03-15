@@ -10,15 +10,15 @@
       "component_parameters": {
         "BOX_START_X": [ { "value": "569", "resolve_type": "user", "format": "long", "usage": "all" } ],
         "BOX_START_Y": [ { "value": "349", "resolve_type": "user", "format": "long", "usage": "all" } ],
-        "BOX_HEIGHT": [ { "value": "139", "resolve_type": "user", "format": "long", "usage": "all" } ],
-        "BOX_WIDTH": [ { "value": "139", "resolve_type": "user", "format": "long", "usage": "all" } ],
+        "BOX_HEIGHT": [ { "value": "140", "resolve_type": "user", "format": "long", "usage": "all" } ],
+        "BOX_WIDTH": [ { "value": "140", "resolve_type": "user", "format": "long", "usage": "all" } ],
         "Component_Name": [ { "value": "ZYNQ_CORE_binarizer_0_0", "resolve_type": "user", "usage": "all" } ]
       },
       "model_parameters": {
         "BOX_START_X": [ { "value": "569", "resolve_type": "generated", "format": "long", "usage": "all" } ],
         "BOX_START_Y": [ { "value": "349", "resolve_type": "generated", "format": "long", "usage": "all" } ],
-        "BOX_HEIGHT": [ { "value": "139", "resolve_type": "generated", "format": "long", "usage": "all" } ],
-        "BOX_WIDTH": [ { "value": "139", "resolve_type": "generated", "format": "long", "usage": "all" } ]
+        "BOX_HEIGHT": [ { "value": "140", "resolve_type": "generated", "format": "long", "usage": "all" } ],
+        "BOX_WIDTH": [ { "value": "140", "resolve_type": "generated", "format": "long", "usage": "all" } ]
       },
       "project_parameters": {
         "ARCHITECTURE": [ { "value": "zynq" } ],
@@ -49,8 +49,6 @@
         "pclk": [ { "direction": "in" } ],
         "rstn": [ { "direction": "in" } ],
         "rgb_data_in": [ { "direction": "in", "size_left": "23", "size_right": "0" } ],
-        "pixel_x_in": [ { "direction": "in", "size_left": "11", "size_right": "0" } ],
-        "pixel_y_in": [ { "direction": "in", "size_left": "11", "size_right": "0" } ],
         "video_active": [ { "direction": "in" } ],
         "video_hsync": [ { "direction": "in" } ],
         "video_vsync": [ { "direction": "in" } ],

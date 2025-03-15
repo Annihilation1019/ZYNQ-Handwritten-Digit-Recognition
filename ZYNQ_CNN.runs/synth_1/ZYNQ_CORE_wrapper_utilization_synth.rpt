@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
-| Date         : Fri Mar 14 16:49:19 2025
+| Date         : Sat Mar 15 20:49:43 2025
 | Host         : LAPTOP-DUUNQKAE running 64-bit major release  (build 9200)
 | Command      : report_utilization -file ZYNQ_CORE_wrapper_utilization_synth.rpt -pb ZYNQ_CORE_wrapper_utilization_synth.pb
 | Design       : ZYNQ_CORE_wrapper
@@ -157,32 +157,38 @@ Warning! LUT value is adjusted to account for LUT combining.
 8. Black Boxes
 --------------
 
-+-----------------------------------+------+
-|              Ref Name             | Used |
-+-----------------------------------+------+
-| ZYNQ_CORE_xbar_1                  |    1 |
-| ZYNQ_CORE_xbar_0                  |    1 |
-| ZYNQ_CORE_vio_0_0                 |    1 |
-| ZYNQ_CORE_v_vid_in_axi4s_0_0      |    1 |
-| ZYNQ_CORE_v_tc_0_0                |    1 |
-| ZYNQ_CORE_v_axi4s_vid_out_0_0     |    1 |
-| ZYNQ_CORE_util_vector_logic_0_0   |    1 |
-| ZYNQ_CORE_show_num_0_1            |    1 |
-| ZYNQ_CORE_rst_ps7_0_50M_1         |    1 |
-| ZYNQ_CORE_rst_ps7_0_150M_1        |    1 |
-| ZYNQ_CORE_rgb2dvi_0_0             |    1 |
-| ZYNQ_CORE_processing_system7_0_0  |    1 |
-| ZYNQ_CORE_ov5640_capture_data_0_0 |    1 |
-| ZYNQ_CORE_ila_0_0                 |    1 |
-| ZYNQ_CORE_cycle_num_0_1           |    1 |
-| ZYNQ_CORE_clk_wiz_0_0             |    1 |
-| ZYNQ_CORE_border_adder_0_0        |    1 |
-| ZYNQ_CORE_blk_mem_gen_0_0         |    1 |
-| ZYNQ_CORE_binarizer_0_0           |    1 |
-| ZYNQ_CORE_axi_vdma_0_0            |    1 |
-| ZYNQ_CORE_auto_pc_1               |    1 |
-| ZYNQ_CORE_auto_pc_0               |    1 |
-+-----------------------------------+------+
++-------------------------------------+------+
+|               Ref Name              | Used |
++-------------------------------------+------+
+| ZYNQ_CORE_xbar_1                    |    1 |
+| ZYNQ_CORE_xbar_0                    |    1 |
+| ZYNQ_CORE_vio_0_0                   |    1 |
+| ZYNQ_CORE_v_vid_in_axi4s_0_0        |    1 |
+| ZYNQ_CORE_v_tc_0_0                  |    1 |
+| ZYNQ_CORE_v_axi4s_vid_out_0_0       |    1 |
+| ZYNQ_CORE_util_vector_logic_0_0     |    1 |
+| ZYNQ_CORE_show_num_0_1              |    1 |
+| ZYNQ_CORE_rst_ps7_0_50M_1           |    1 |
+| ZYNQ_CORE_rst_ps7_0_150M_1          |    1 |
+| ZYNQ_CORE_rgb2dvi_0_0               |    1 |
+| ZYNQ_CORE_processing_system7_0_0    |    1 |
+| ZYNQ_CORE_ov5640_capture_data_0_0   |    1 |
+| ZYNQ_CORE_img_buffer_controller_0_0 |    1 |
+| ZYNQ_CORE_cycle_num_0_1             |    1 |
+| ZYNQ_CORE_clk_wiz_0_0               |    1 |
+| ZYNQ_CORE_border_adder_0_0          |    1 |
+| ZYNQ_CORE_blk_mem_gen_1_3           |    1 |
+| ZYNQ_CORE_blk_mem_gen_0_0           |    1 |
+| ZYNQ_CORE_binarizer_0_0             |    1 |
+| ZYNQ_CORE_axi_vdma_0_0              |    1 |
+| ZYNQ_CORE_axi_gpio_0_0              |    1 |
+| ZYNQ_CORE_axi_bram_ctrl_0_3         |    1 |
+| ZYNQ_CORE_auto_pc_4                 |    1 |
+| ZYNQ_CORE_auto_pc_3                 |    1 |
+| ZYNQ_CORE_auto_pc_2                 |    1 |
+| ZYNQ_CORE_auto_pc_1                 |    1 |
+| ZYNQ_CORE_auto_pc_0                 |    1 |
++-------------------------------------+------+
 
 
 9. Instantiated Netlists

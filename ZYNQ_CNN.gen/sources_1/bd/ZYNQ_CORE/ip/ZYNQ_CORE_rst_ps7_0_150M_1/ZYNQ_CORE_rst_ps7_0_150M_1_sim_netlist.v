@@ -4,8 +4,8 @@
 // Tool Version: Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
 // Date        : Fri Mar 14 14:40:51 2025
 // Host        : LAPTOP-DUUNQKAE running 64-bit major release  (build 9200)
-// Command     : write_verilog -force -mode funcsim
-//               d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_rst_ps7_0_150M_1/ZYNQ_CORE_rst_ps7_0_150M_1_sim_netlist.v
+// Command     : write_verilog -force -mode funcsim -rename_top ZYNQ_CORE_rst_ps7_0_150M_1 -prefix
+//               ZYNQ_CORE_rst_ps7_0_150M_1_ ZYNQ_CORE_rst_ps7_0_150M_1_sim_netlist.v
 // Design      : ZYNQ_CORE_rst_ps7_0_150M_1
 // Purpose     : This verilog netlist is a functional simulation representation of the design and should not be modified
 //               or synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -70,7 +70,6 @@ module ZYNQ_CORE_rst_ps7_0_150M_1
         .slowest_sync_clk(slowest_sync_clk));
 endmodule
 
-(* ORIG_REF_NAME = "cdc_sync" *) 
 module ZYNQ_CORE_rst_ps7_0_150M_1_cdc_sync
    (lpf_asr_reg,
     scndry_out,
@@ -266,7 +265,6 @@ module ZYNQ_CORE_rst_ps7_0_150M_1_cdc_sync_0
         .O(lpf_exr_reg));
 endmodule
 
-(* ORIG_REF_NAME = "lpf" *) 
 module ZYNQ_CORE_rst_ps7_0_150M_1_lpf
    (lpf_int,
     slowest_sync_clk,
@@ -421,7 +419,6 @@ endmodule
 (* C_AUX_RESET_HIGH = "1'b0" *) (* C_AUX_RST_WIDTH = "4" *) (* C_EXT_RESET_HIGH = "1'b0" *) 
 (* C_EXT_RST_WIDTH = "4" *) (* C_FAMILY = "zynq" *) (* C_NUM_BUS_RST = "1" *) 
 (* C_NUM_INTERCONNECT_ARESETN = "1" *) (* C_NUM_PERP_ARESETN = "1" *) (* C_NUM_PERP_RST = "1" *) 
-(* ORIG_REF_NAME = "proc_sys_reset" *) 
 module ZYNQ_CORE_rst_ps7_0_150M_1_proc_sys_reset
    (slowest_sync_clk,
     ext_reset_in,
@@ -538,7 +535,6 @@ module ZYNQ_CORE_rst_ps7_0_150M_1_proc_sys_reset
         .slowest_sync_clk(slowest_sync_clk));
 endmodule
 
-(* ORIG_REF_NAME = "sequence_psr" *) 
 module ZYNQ_CORE_rst_ps7_0_150M_1_sequence_psr
    (MB_out,
     Bsr_out,
@@ -779,7 +775,6 @@ module ZYNQ_CORE_rst_ps7_0_150M_1_sequence_psr
         .R(lpf_int));
 endmodule
 
-(* ORIG_REF_NAME = "upcnt_n" *) 
 module ZYNQ_CORE_rst_ps7_0_150M_1_upcnt_n
    (Q,
     seq_clr,

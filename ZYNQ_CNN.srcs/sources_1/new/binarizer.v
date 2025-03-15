@@ -21,8 +21,6 @@ module binarizer(
         input  wire         				pclk,           				// 像素时钟
         input  wire         				rstn,           				// 低有效复位信号
         input  wire [23:0]  				rgb_data_in,    				// 输入RGB888数据
-        input  wire [11:0]  				pixel_x_in,     				// 输入像素X坐标
-        input  wire [11:0]  				pixel_y_in,     				// 输入像素Y坐标
         input  wire         				video_active,   				// 视频激活信号
         input  wire         				video_hsync,    				// 水平同步信号
         input  wire         				video_vsync,    				// 垂直同步信号
@@ -39,11 +37,44 @@ module binarizer(
     /* 参数定义 */
     parameter                               BOX_START_X = 569;
     parameter                               BOX_START_Y = 349;
-    parameter                               BOX_HEIGHT = 139;
-    parameter                               BOX_WIDTH = 139;
+    parameter                               BOX_HEIGHT = 140;
+    parameter                               BOX_WIDTH = 140;
     /* 常量定义 */
     localparam                              BOX_END_X = BOX_START_X + BOX_WIDTH;
     localparam                              BOX_END_Y = BOX_START_Y + BOX_HEIGHT;
+
+    /* 变量定义 */
+    reg	[11:0]								pixel_x;
+    reg [11:0]								pixel_y;
+
+
+    /* 生成行列坐标 */
+    always @(posedge pclk or negedge rstn) begin
+        if (!rstn) begin
+            pixel_x <= 12'd0;
+        end
+        else if (video_hsync == 1'b1) begin						// 水平计数器清零
+            pixel_x <= 12'd0;
+        end
+        else if (video_active == 1'b1)                          // 有效像素时，行计数器增加
+            pixel_x <= pixel_x + 1;
+        else
+            pixel_x <= pixel_x;
+    end
+
+    always @(posedge pclk or negedge rstn) begin
+        if (!rstn) begin
+            pixel_y <= 12'd0;
+        end
+        else if (video_vsync == 1'b1) begin
+            pixel_y <= 12'd0;
+        end
+        else if (pixel_x == 12'd1023 && video_active == 1'b1) begin
+            pixel_y <= pixel_y + 1;
+        end
+        else
+            pixel_y <= pixel_y;
+    end
 
     // 分离RGB分量
     wire [7:0] red   = rgb_data_in[23:16];
@@ -63,8 +94,8 @@ module binarizer(
             rgb_data_out <= 24'h000000;
         end
         else begin
-            if ((pixel_x_in >= BOX_START_X) && (pixel_x_in < BOX_END_X) &&
-                    (pixel_y_in >= BOX_START_Y) && (pixel_y_in < BOX_END_Y)) begin
+            if ((pixel_x >= BOX_START_X) && (pixel_x < BOX_END_X) &&
+                    (pixel_y >= BOX_START_Y) && (pixel_y < BOX_END_Y)) begin
                 bin_data_flag <= 1'b1;
                 if (gray >= threshold)
                     rgb_data_out <= 24'h000000; // 黑色输出
@@ -91,8 +122,8 @@ module binarizer(
             video_active_d <= video_active;
             video_hsync_d  <= video_hsync;
             video_vsync_d  <= video_vsync;
-            pixel_x_out    <= pixel_x_in;
-            pixel_y_out    <= pixel_y_in;
+            pixel_x_out    <= pixel_x;
+            pixel_y_out    <= pixel_y;
         end
     end
 

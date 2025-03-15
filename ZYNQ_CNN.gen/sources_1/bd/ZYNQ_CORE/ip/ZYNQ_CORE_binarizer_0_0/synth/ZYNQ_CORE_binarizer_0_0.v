@@ -52,15 +52,13 @@
 
 (* X_CORE_INFO = "binarizer,Vivado 2023.1" *)
 (* CHECK_LICENSE_TYPE = "ZYNQ_CORE_binarizer_0_0,binarizer,{}" *)
-(* CORE_GENERATION_INFO = "ZYNQ_CORE_binarizer_0_0,binarizer,{x_ipProduct=Vivado 2023.1,x_ipVendor=xilinx.com,x_ipLibrary=module_ref,x_ipName=binarizer,x_ipVersion=1.0,x_ipCoreRevision=1,x_ipLanguage=VERILOG,x_ipSimLanguage=MIXED,BOX_START_X=569,BOX_START_Y=349,BOX_HEIGHT=139,BOX_WIDTH=139}" *)
+(* CORE_GENERATION_INFO = "ZYNQ_CORE_binarizer_0_0,binarizer,{x_ipProduct=Vivado 2023.1,x_ipVendor=xilinx.com,x_ipLibrary=module_ref,x_ipName=binarizer,x_ipVersion=1.0,x_ipCoreRevision=1,x_ipLanguage=VERILOG,x_ipSimLanguage=MIXED,BOX_START_X=569,BOX_START_Y=349,BOX_HEIGHT=140,BOX_WIDTH=140}" *)
 (* IP_DEFINITION_SOURCE = "module_ref" *)
 (* DowngradeIPIdentifiedWarnings = "yes" *)
 module ZYNQ_CORE_binarizer_0_0 (
   pclk,
   rstn,
   rgb_data_in,
-  pixel_x_in,
-  pixel_y_in,
   video_active,
   video_hsync,
   video_vsync,
@@ -79,8 +77,6 @@ input wire pclk;
 (* X_INTERFACE_INFO = "xilinx.com:signal:reset:1.0 rstn RST" *)
 input wire rstn;
 input wire [23 : 0] rgb_data_in;
-input wire [11 : 0] pixel_x_in;
-input wire [11 : 0] pixel_y_in;
 input wire video_active;
 input wire video_hsync;
 input wire video_vsync;
@@ -96,14 +92,12 @@ output wire bin_data_flag;
   binarizer #(
     .BOX_START_X(569),
     .BOX_START_Y(349),
-    .BOX_HEIGHT(139),
-    .BOX_WIDTH(139)
+    .BOX_HEIGHT(140),
+    .BOX_WIDTH(140)
   ) inst (
     .pclk(pclk),
     .rstn(rstn),
     .rgb_data_in(rgb_data_in),
-    .pixel_x_in(pixel_x_in),
-    .pixel_y_in(pixel_y_in),
     .video_active(video_active),
     .video_hsync(video_hsync),
     .video_vsync(video_vsync),

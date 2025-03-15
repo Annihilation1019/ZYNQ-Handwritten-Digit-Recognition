@@ -10,20 +10,27 @@
    </db_ref_list>
    <zoom_setting>
       <ZoomStartTime time="0"></ZoomStartTime>
-      <ZoomEndTime time="2,159"></ZoomEndTime>
-      <Cursor1Time time="359"></Cursor1Time>
+      <ZoomEndTime time="16,385"></ZoomEndTime>
+      <Cursor1Time time="0"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
-      <NameColumnWidth column_width="378"></NameColumnWidth>
+      <NameColumnWidth column_width="336"></NameColumnWidth>
       <ValueColumnWidth column_width="90"></ValueColumnWidth>
    </column_width_setting>
-   <WVObjectSize size="1" />
+   <WVObjectSize size="2" />
    <wave_markers>
    </wave_markers>
-   <wvobject fp_name="ZYNQ_CORE_i/cycle_num_0_ps_read_done" type="logic">
+   <wvobject fp_name="ZYNQ_CORE_i/img_buffer_controller_0_ps_data_ready" type="logic">
       <obj_property name="DisplayName">FullPathName</obj_property>
-      <obj_property name="ElementShortName">ZYNQ_CORE_i/cycle_num_0_ps_read_done</obj_property>
-      <obj_property name="ObjectShortName">cycle_num_0_ps_read_done</obj_property>
+      <obj_property name="ElementShortName">ZYNQ_CORE_i/img_buffer_controller_0_ps_data_ready</obj_property>
+      <obj_property name="ObjectShortName">img_buffer_controller_0_ps_data_ready</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="ZYNQ_CORE_i/binarizer_0_bin_data_flag" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">ZYNQ_CORE_i/binarizer_0_bin_data_flag</obj_property>
+      <obj_property name="ObjectShortName">binarizer_0_bin_data_flag</obj_property>
       <obj_property name="LABELRADIX">true</obj_property>
       <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
    </wvobject>

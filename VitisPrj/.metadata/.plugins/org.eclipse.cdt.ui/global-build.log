@@ -1,6 +1,6 @@
 Nothing to build in platform 'ZYNQ_CORE_wrapper'
 
-17:07:27 **** Incremental Build of configuration Debug for project ZYNQ_CNN ****
+21:01:36 **** Incremental Build of configuration Debug for project ZYNQ_CNN ****
 make all 
 make --no-print-directory pre-build
 a9-linaro-pre-build-step
@@ -41,6 +41,22 @@ arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/CNN/maxpool_layer_
 arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/CNN/param_init.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -ID:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/sw/ZYNQ_CORE_wrapper/standalone_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/CNN/param_init.d" -MT"src/CNN/param_init.o" -o "src/CNN/param_init.o" "../src/CNN/param_init.c"
 'Finished building: ../src/CNN/param_init.c'
 ' '
+'Building file: ../src/Bram/bram_init.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Bram/bram_init.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -ID:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/sw/ZYNQ_CORE_wrapper/standalone_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/Bram/bram_init.d" -MT"src/Bram/bram_init.o" -o "src/Bram/bram_init.o" "../src/Bram/bram_init.c"
+../src/Bram/bram_init.c: In function 'BramExample':
+../src/Bram/bram_init.c:77:5: warning: implicit declaration of function 'InitializeECC' [-Wimplicit-function-declaration]
+   77 |     InitializeECC(ConfigPtr, ConfigPtr->CtrlBaseAddress);
+      |     ^~~~~~~~~~~~~
+../src/Bram/bram_init.c: At top level:
+../src/Bram/bram_init.c:110:6: warning: conflicting types for 'InitializeECC'; have 'void(XBram_Config *, u32)' {aka 'void(XBram_Config *, long unsigned int)'}
+  110 | void InitializeECC(XBram_Config *ConfigPtr, u32 EffectiveAddr)
+      |      ^~~~~~~~~~~~~
+../src/Bram/bram_init.c:77:5: note: previous implicit declaration of 'InitializeECC' with type 'void(XBram_Config *, u32)' {aka 'void(XBram_Config *, long unsigned int)'}
+   77 |     InitializeECC(ConfigPtr, ConfigPtr->CtrlBaseAddress);
+      |     ^~~~~~~~~~~~~
+'Finished building: ../src/Bram/bram_init.c'
+' '
 'Building file: ../src/main.c'
 'Invoking: ARM v7 gcc compiler'
 arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -ID:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/sw/ZYNQ_CORE_wrapper/standalone_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
@@ -64,29 +80,32 @@ In file included from ../src/main.c:17:
 ../src/CNN/conv_layer_1.h:7: note: this is the location of the previous definition
     7 | #define KERNEL_SIZE 5
       | 
-../src/main.c:39:11: warning: 'input_layer' defined but not used [-Wunused-variable]
-   39 | static u8 input_layer[784];
-      |           ^~~~~~~~~~~
-../src/main.c:38:11: warning: 'image' defined but not used [-Wunused-variable]
-   38 | static u8 image[IMAGE_SIZE];
-      |           ^~~~~
+../src/main.c: In function 'main':
+../src/main.c:48:13: warning: variable 'Status' set but not used [-Wunused-but-set-variable]
+   48 |         int Status;
+      |             ^~~~~~
+In file included from ../src/main.c:22:
+../src/Bram/bram_init.h: At top level:
+../src/Bram/bram_init.h:18:13: warning: 'InitializeECC' declared 'static' but never defined [-Wunused-function]
+   18 | static void InitializeECC(XBram_Config *ConfigPtr, u32 EffectiveAddr);
+      |             ^~~~~~~~~~~~~
 'Finished building: ../src/main.c'
 ' '
 'Building target: ZYNQ_CNN.elf'
 'Invoking: ARM v7 gcc linker'
-arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LD:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/sw/ZYNQ_CORE_wrapper/standalone_ps7_cortexa9_0/bsplib/lib -o "ZYNQ_CNN.elf"  ./src/vdma/vdma_api.o  ./src/ov5640/ov5640_init.o  ./src/emio_sccb_cfg/emio_sccb_cfg.o  ./src/CNN/affine_layer.o ./src/CNN/conv_layer_1.o ./src/CNN/maxpool_layer_2.o ./src/CNN/param_init.o ./src/CNN/relu_layer.o  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LD:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/sw/ZYNQ_CORE_wrapper/standalone_ps7_cortexa9_0/bsplib/lib -o "ZYNQ_CNN.elf"  ./src/vdma/vdma_api.o  ./src/ov5640/ov5640_init.o  ./src/emio_sccb_cfg/emio_sccb_cfg.o  ./src/CNN/affine_layer.o ./src/CNN/conv_layer_1.o ./src/CNN/maxpool_layer_2.o ./src/CNN/param_init.o ./src/CNN/relu_layer.o  ./src/Bram/bram_init.o  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
 'Finished building target: ZYNQ_CNN.elf'
 ' '
 'Invoking: ARM v7 Print Size'
 arm-none-eabi-size ZYNQ_CNN.elf  |tee "ZYNQ_CNN.elf.size"
    text	   data	    bss	    dec	    hex	filename
-14935901	   1304	 291584	15228789	 e85f75	ZYNQ_CNN.elf
+14941433	   1376	 291840	15234649	 e87659	ZYNQ_CNN.elf
 'Finished building: ZYNQ_CNN.elf.size'
 ' '
-17:08:04 **** Incremental Build of configuration Debug for project ZYNQ_CNN_system ****
+21:02:15 **** Incremental Build of configuration Debug for project ZYNQ_CNN_system ****
 make all 
 Generating bif file for the system project
-generate_system_bif.bat 49893 D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/ZYNQ_CORE_wrapper.xpfm standalone_ps7_cortexa9_0 D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CNN_system/Debug/system.bif
+generate_system_bif.bat 51555 D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/ZYNQ_CORE_wrapper.xpfm standalone_ps7_cortexa9_0 D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CNN_system/Debug/system.bif
 sdcard_gen --xpfm D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/ZYNQ_CORE_wrapper.xpfm --sys_config ZYNQ_CORE_wrapper --bif D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CNN_system/Debug/system.bif --bitstream D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CNN/_ide/bitstream/ZYNQ_CORE_wrapper.bit --elf D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CNN/Debug/ZYNQ_CNN.elf,ps7_cortexa9_0
 creating BOOT.BIN using D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CNN/_ide/bitstream/ZYNQ_CORE_wrapper.bit
 Running D:/Xilinx/Vitis/2023.1/bin/bootgen  -image D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CNN_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN

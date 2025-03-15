@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "xparameters.h": "c",
+        "xbram.h": "c",
+        "bram_init.h": "c"
+    }
+}

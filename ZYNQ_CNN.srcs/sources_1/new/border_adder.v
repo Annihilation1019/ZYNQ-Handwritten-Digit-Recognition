@@ -27,6 +27,8 @@ module border_adder(
         input  wire              			video_hsync,
         input  wire              			video_vsync,
         input  wire [23:0]       			rgb_data_in,
+        input  wire [11:0]  				pixel_x_in,     	// 输入像素X坐标
+        input  wire [11:0]  				pixel_y_in,     	// 输入像素Y坐标
 
         output reg  [23:0]      			rgb_data_out,
         output reg                          video_active_d,
@@ -40,8 +42,8 @@ module border_adder(
     /* 参数定义 */
     parameter                               BOX_START_X = 569;
     parameter                               BOX_START_Y = 349;
-    parameter                               BOX_HEIGHT = 139;
-    parameter                               BOX_WIDTH = 139;
+    parameter                               BOX_HEIGHT = 140;
+    parameter                               BOX_WIDTH = 140;
     parameter                               LINE_WIDTH = 4;
     /* 常量定义 */
     localparam                              RED = 23'hff_00_00;
@@ -53,41 +55,11 @@ module border_adder(
     localparam                              BOX_END_X = BOX_START_X + BOX_WIDTH;
     localparam                              BOX_END_Y = BOX_START_Y + BOX_HEIGHT;
 
-    /* 变量定义 */
-    reg	[11:0]								pixel_x;
-    reg [11:0]								pixel_y;
-
     /* ===================================================== */
     /* -------------------- Main Code ---------------------- */
     /* ===================================================== */
 
-    /* 生成行列坐标 */
-    always @(posedge pclk or negedge rstn) begin
-        if (!rstn) begin
-            pixel_x <= 12'd0;
-        end
-        else if (video_hsync == 1'b1) begin						// 水平计数器清零
-            pixel_x <= 12'd0;
-        end
-        else if (video_active == 1'b1)                          // 有效像素时，行计数器增加
-            pixel_x <= pixel_x + 1;
-        else
-            pixel_x <= pixel_x;
-    end
 
-    always @(posedge pclk or negedge rstn) begin
-        if (!rstn) begin
-            pixel_y <= 12'd0;
-        end
-        else if (video_vsync == 1'b1) begin
-            pixel_y <= 12'd0;
-        end
-        else if (pixel_x == 12'd1023 && video_active == 1'b1) begin
-            pixel_y <= pixel_y + 1;
-        end
-        else
-            pixel_y <= pixel_y;
-    end
 
     /* 生成边界 */
     always @(posedge pclk or negedge rstn) begin
@@ -95,20 +67,20 @@ module border_adder(
             rgb_data_out <= 24'h0;
         end
         else if (video_active == 1'b1) begin
-            if (pixel_x >= BOX_START_X - LINE_WIDTH && pixel_x <= BOX_END_X + LINE_WIDTH &&
-                    pixel_y >= BOX_START_Y - LINE_WIDTH && pixel_y <= BOX_START_Y) begin
+            if (pixel_x_in >= BOX_START_X - LINE_WIDTH && pixel_x_in <= BOX_END_X + LINE_WIDTH &&
+                    pixel_y_in >= BOX_START_Y - LINE_WIDTH && pixel_y_in <= BOX_START_Y) begin
                 rgb_data_out <= RED;
             end
-            else if (pixel_x >= BOX_START_X - LINE_WIDTH && pixel_x <= BOX_END_X + LINE_WIDTH &&
-                     pixel_y >= BOX_END_Y && pixel_y <= BOX_END_Y + LINE_WIDTH) begin
+            else if (pixel_x_in >= BOX_START_X - LINE_WIDTH && pixel_x_in <= BOX_END_X + LINE_WIDTH &&
+                     pixel_y_in >= BOX_END_Y && pixel_y_in <= BOX_END_Y + LINE_WIDTH) begin
                 rgb_data_out <= RED;
             end
-            else if (pixel_x >= BOX_START_X - LINE_WIDTH && pixel_x <= BOX_START_X &&
-                     pixel_y >= BOX_START_Y && pixel_y <= BOX_END_Y) begin
+            else if (pixel_x_in >= BOX_START_X - LINE_WIDTH && pixel_x_in <= BOX_START_X &&
+                     pixel_y_in >= BOX_START_Y && pixel_y_in <= BOX_END_Y) begin
                 rgb_data_out <= RED;
             end
-            else if (pixel_x >= BOX_END_X && pixel_x <= BOX_END_X + LINE_WIDTH &&
-                     pixel_y >= BOX_START_Y && pixel_y <= BOX_END_Y) begin
+            else if (pixel_x_in >= BOX_END_X && pixel_x_in <= BOX_END_X + LINE_WIDTH &&
+                     pixel_y_in >= BOX_START_Y && pixel_y_in <= BOX_END_Y) begin
                 rgb_data_out <= RED;
             end
             else
@@ -137,8 +109,8 @@ module border_adder(
             pixel_y_out <= 12'd0;
         end
         else begin
-            pixel_x_out <= pixel_x;
-            pixel_y_out <= pixel_y;
+            pixel_x_out <= pixel_x_in;
+            pixel_y_out <= pixel_y_in;
         end
     end
 

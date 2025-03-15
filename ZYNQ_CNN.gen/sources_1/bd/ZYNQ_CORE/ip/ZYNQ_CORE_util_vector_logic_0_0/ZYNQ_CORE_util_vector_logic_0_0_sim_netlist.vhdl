@@ -4,8 +4,8 @@
 -- Tool Version: Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
 -- Date        : Fri Mar 14 14:37:42 2025
 -- Host        : LAPTOP-DUUNQKAE running 64-bit major release  (build 9200)
--- Command     : write_vhdl -force -mode funcsim
---               d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_util_vector_logic_0_0/ZYNQ_CORE_util_vector_logic_0_0_sim_netlist.vhdl
+-- Command     : write_vhdl -force -mode funcsim -rename_top ZYNQ_CORE_util_vector_logic_0_0 -prefix
+--               ZYNQ_CORE_util_vector_logic_0_0_ ZYNQ_CORE_util_vector_logic_0_0_sim_netlist.vhdl
 -- Design      : ZYNQ_CORE_util_vector_logic_0_0
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.

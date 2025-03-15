@@ -29,3 +29,44 @@ platform config -updatehw {D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CORE_w
 platform generate -domains 
 platform config -updatehw {D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CORE_wrapper.xsa}
 platform generate -domains 
+platform active {ZYNQ_CORE_wrapper}
+platform config -updatehw {D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CORE_wrapper.xsa}
+platform generate -domains 
+platform config -updatehw {D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CORE_wrapper.xsa}
+platform generate -domains 
+platform active {ZYNQ_CORE_wrapper}
+platform config -updatehw {D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CORE_wrapper.xsa}
+platform generate -domains 
+bsp reload
+platform generate -domains 
+bsp reload
+bsp reload
+platform generate -domains 
+platform config -updatehw {D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CORE_wrapper.xsa}
+platform config -updatehw {D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CORE_wrapper.xsa}
+platform active {ZYNQ_CORE_wrapper}
+platform config -updatehw {D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CORE_wrapper.xsa}
+platform generate
+platform config -updatehw {D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CORE_wrapper.xsa}
+platform generate -domains 
+platform config -updatehw {D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CORE_wrapper.xsa}
+platform generate -domains 
+platform config -updatehw {D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CORE_wrapper.xsa}
+platform generate -domains 
+platform config -updatehw {D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CORE_wrapper.xsa}
+platform generate -domains 
+platform config -updatehw {D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CORE_wrapper.xsa}
+platform generate -domains 
+platform config -updatehw {D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CORE_wrapper.xsa}
+platform generate -domains 
+platform config -updatehw {D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CORE_wrapper.xsa}
+platform generate -domains 
+platform config -updatehw {D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CORE_wrapper.xsa}
+platform generate -domains 
+platform config -updatehw {D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CORE_wrapper.xsa}
+platform generate -domains 
+platform config -updatehw {D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CORE_wrapper.xsa}
+platform generate -domains 
+platform config -updatehw {D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CORE_wrapper.xsa}
+platform clean
+platform generate
