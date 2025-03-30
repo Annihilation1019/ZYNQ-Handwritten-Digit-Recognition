@@ -1,0 +1,10 @@
+14:42:37 **** Incremental Build of configuration Debug for project PL_CNN_system ****
+make all 
+Generating bif file for the system project
+generate_system_bif.bat 56571 D:/Programs/Workspace/Xilinx_Prj/PL_CNN/VitisPrj/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/ZYNQ_CORE_wrapper.xpfm standalone_ps7_cortexa9_0 D:/Programs/Workspace/Xilinx_Prj/PL_CNN/VitisPrj/PL_CNN_system/Debug/system.bif
+sdcard_gen --xpfm D:/Programs/Workspace/Xilinx_Prj/PL_CNN/VitisPrj/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/ZYNQ_CORE_wrapper.xpfm --sys_config ZYNQ_CORE_wrapper --bif D:/Programs/Workspace/Xilinx_Prj/PL_CNN/VitisPrj/PL_CNN_system/Debug/system.bif --bitstream D:/Programs/Workspace/Xilinx_Prj/PL_CNN/VitisPrj/PL_CNN/_ide/bitstream/ZYNQ_CORE_wrapper.bit --elf D:/Programs/Workspace/Xilinx_Prj/PL_CNN/VitisPrj/PL_CNN/Debug/PL_CNN.elf,ps7_cortexa9_0
+creating BOOT.BIN using D:/Programs/Workspace/Xilinx_Prj/PL_CNN/VitisPrj/PL_CNN/_ide/bitstream/ZYNQ_CORE_wrapper.bit
+Running D:/Xilinx/Vitis/2023.1/bin/bootgen  -image D:/Programs/Workspace/Xilinx_Prj/PL_CNN/VitisPrj/PL_CNN_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
+
+14:42:43 Build Finished (took 5s.790ms)
+

@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="ZYNQ_CORE_xbar_1_synth_1" LaunchDir="D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/ZYNQ_CORE_xbar_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="ZYNQ_CORE_border_adder_0_0_synth_1" LaunchDir="D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/ZYNQ_CORE_border_adder_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="ZYNQ_CORE_binarizer_0_0_synth_1" LaunchDir="D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/ZYNQ_CORE_binarizer_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="ZYNQ_CORE_auto_pc_2_synth_1" LaunchDir="D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/ZYNQ_CORE_auto_pc_2_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="ZYNQ_CORE_auto_pc_0_synth_1" LaunchDir="D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/ZYNQ_CORE_auto_pc_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="ZYNQ_CORE_auto_pc_1_synth_1" LaunchDir="D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/ZYNQ_CORE_auto_pc_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="ZYNQ_CORE_auto_pc_0_synth_1"/>
+	</Run>
+	<Run Id="ZYNQ_CORE_blk_mem_gen_1_1_synth_1" LaunchDir="D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/ZYNQ_CORE_blk_mem_gen_1_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="ZYNQ_CORE_bram_wr_ctrl_0_0_synth_1" LaunchDir="D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/ZYNQ_CORE_bram_wr_ctrl_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="ZYNQ_CORE_cnn_top_0_0_synth_1" LaunchDir="D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/ZYNQ_CORE_cnn_top_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="ZYNQ_CORE_axi_bram_ctrl_0_0_synth_1" LaunchDir="D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/ZYNQ_CORE_axi_bram_ctrl_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="ZYNQ_CORE_xbar_1_synth_1"/>
+		<Parent Id="ZYNQ_CORE_border_adder_0_0_synth_1"/>
+		<Parent Id="ZYNQ_CORE_binarizer_0_0_synth_1"/>
+		<Parent Id="ZYNQ_CORE_auto_pc_2_synth_1"/>
+		<Parent Id="ZYNQ_CORE_auto_pc_0_synth_1"/>
+		<Parent Id="ZYNQ_CORE_auto_pc_1_synth_1"/>
+		<Parent Id="ZYNQ_CORE_blk_mem_gen_1_1_synth_1"/>
+		<Parent Id="ZYNQ_CORE_bram_wr_ctrl_0_0_synth_1"/>
+		<Parent Id="ZYNQ_CORE_cnn_top_0_0_synth_1"/>
+		<Parent Id="ZYNQ_CORE_axi_bram_ctrl_0_0_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+		<Parameter Name="runs.enableClusterConf" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

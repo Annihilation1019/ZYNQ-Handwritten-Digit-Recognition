@@ -1,0 +1,84 @@
+#! /c/iverilog/bin/vvp
+:ivl_version "12.0 (devel)" "(s20150603-965-g55e06db6)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision - 12;
+:vpi_module "D:\iverilog\lib\ivl\system.vpi";
+:vpi_module "D:\iverilog\lib\ivl\vhdl_sys.vpi";
+:vpi_module "D:\iverilog\lib\ivl\vhdl_textio.vpi";
+:vpi_module "D:\iverilog\lib\ivl\v2005_math.vpi";
+:vpi_module "D:\iverilog\lib\ivl\va_math.vpi";
+:vpi_module "D:\iverilog\lib\ivl\v2009.vpi";
+S_00000000011dbcb0 .scope package, "$unit" "$unit" 2 1;
+ .timescale 0 0;
+S_00000000011dbe40 .scope module, "bram_wr_ctrl" "bram_wr_ctrl" 3 23;
+ .timescale -9 -12;
+    .port_info 0 /INPUT 1 "clk";
+    .port_info 1 /INPUT 1 "rstn";
+    .port_info 2 /INPUT 32 "pool_data";
+    .port_info 3 /INPUT 1 "pool_data_vld";
+    .port_info 4 /OUTPUT 32 "bram_wr_data";
+    .port_info 5 /OUTPUT 32 "bram_wr_addr";
+    .port_info 6 /OUTPUT 1 "wr_en";
+P_00000000011dc9b0 .param/l "OUT_CNT" 1 3 36, +C4<00000000000000000100001110000000>;
+L_0000000001270830 .functor BUFZ 1, v00000000012253c0_0, C4<0>, C4<0>, C4<0>;
+v00000000011f2df0_0 .var "bram_wr_addr", 31 0;
+v00000000011f2930_0 .var "bram_wr_data", 31 0;
+o0000000001227018 .functor BUFZ 1, C4<z>; HiZ drive
+v00000000011d9b90_0 .net "clk", 0 0, o0000000001227018;  0 drivers
+o0000000001227048 .functor BUFZ 32, C4<zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz>; HiZ drive
+v0000000001224e80_0 .net "pool_data", 31 0, o0000000001227048;  0 drivers
+o0000000001227078 .functor BUFZ 1, C4<z>; HiZ drive
+v0000000001224f20_0 .net "pool_data_vld", 0 0, o0000000001227078;  0 drivers
+v00000000012253c0_0 .var "pool_data_vld_r1", 0 0;
+o00000000012270d8 .functor BUFZ 1, C4<z>; HiZ drive
+v0000000001225460_0 .net "rstn", 0 0, o00000000012270d8;  0 drivers
+v0000000001225500_0 .net "wr_en", 0 0, L_0000000001270830;  1 drivers
+E_00000000011dc370/0 .event negedge, v0000000001225460_0;
+E_00000000011dc370/1 .event posedge, v00000000011d9b90_0;
+E_00000000011dc370 .event/or E_00000000011dc370/0, E_00000000011dc370/1;
+E_00000000011dcf30 .event posedge, v00000000011d9b90_0;
+    .scope S_00000000011dbe40;
+T_0 ;
+    %wait E_00000000011dcf30;
+    %load/vec4 v0000000001224e80_0;
+    %assign/vec4 v00000000011f2930_0, 0;
+    %load/vec4 v0000000001224f20_0;
+    %assign/vec4 v00000000012253c0_0, 0;
+    %jmp T_0;
+    .thread T_0;
+    .scope S_00000000011dbe40;
+T_1 ;
+    %wait E_00000000011dc370;
+    %load/vec4 v0000000001225460_0;
+    %inv;
+    %flag_set/vec4 8;
+    %jmp/0xz  T_1.0, 8;
+    %pushi/vec4 0, 0, 32;
+    %assign/vec4 v00000000011f2df0_0, 0;
+    %jmp T_1.1;
+T_1.0 ;
+    %load/vec4 v0000000001224f20_0;
+    %cmpi/e 1, 0, 1;
+    %jmp/0xz  T_1.2, 4;
+    %load/vec4 v00000000011f2df0_0;
+    %addi 1, 0, 32;
+    %assign/vec4 v00000000011f2df0_0, 0;
+    %jmp T_1.3;
+T_1.2 ;
+    %load/vec4 v00000000011f2df0_0;
+    %cmpi/u 17279, 0, 32;
+    %flag_inv 5; GE is !LT
+    %jmp/0xz  T_1.4, 5;
+    %pushi/vec4 0, 0, 32;
+    %assign/vec4 v00000000011f2df0_0, 0;
+T_1.4 ;
+T_1.3 ;
+T_1.1 ;
+    %jmp T_1;
+    .thread T_1;
+# The file index is used to find the file name in the following table.
+:file_names 4;
+    "N/A";
+    "<interactive>";
+    "-";
+    "d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/new/bram_wr_ctrl.v";

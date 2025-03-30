@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../PL_CNN.gen/sources_1/bd/ZYNQ_CORE/ipshared/ec67/hdl" --include "../../../../PL_CNN.gen/sources_1/bd/ZYNQ_CORE/ipshared/aed8/hdl" --include "../../../../PL_CNN.gen/sources_1/bd/ZYNQ_CORE/ipshared/0691/hdl" --include "../../../../PL_CNN.gen/sources_1/bd/ZYNQ_CORE/ipshared/30ef" --include "D:/Xilinx/Vivado/2023.1/data/xilinx_vip/include" \
+"../../../../PL_CNN.srcs/sources_1/new/bram_wr_ctrl.v" \
+"../../../../PL_CNN.srcs/sim_1/new/tb_bram_wr_ctrl.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

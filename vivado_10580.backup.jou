@@ -1,0 +1,513 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Sat Mar 29 14:06:57 2025
+# Process ID: 10580
+# Current directory: D:/Programs/Workspace/Xilinx_Prj/PL_CNN
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10140 D:\Programs\Workspace\Xilinx_Prj\PL_CNN\PL_CNN.xpr
+# Log file: D:/Programs/Workspace/Xilinx_Prj/PL_CNN/vivado.log
+# Journal file: D:/Programs/Workspace/Xilinx_Prj/PL_CNN\vivado.jou
+# Running On: LAPTOP-DUUNQKAE, OS: Windows, CPU Frequency: 2918 MHz, CPU Physical cores: 14, Host memory: 16890 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.xpr
+open_bd_design {D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE.bd}
+update_compile_order -fileset sources_1
+create_peripheral xilinx.com user pool_data_tr 1.0 -dir D:/Programs/Workspace/Xilinx_Prj/PL_CNN/ip_repo
+add_peripheral_interface M00_AXI -interface_mode master -axi_type lite [ipx::find_open_core xilinx.com:user:pool_data_tr:1.0]
+generate_peripheral -bfm_example_design -debug_hw_example_design [ipx::find_open_core xilinx.com:user:pool_data_tr:1.0]
+write_peripheral [ipx::find_open_core xilinx.com:user:pool_data_tr:1.0]
+set_property  ip_repo_paths  {D:/Programs/Workspace/Xilinx_Prj/PL_CNN/ip_repo/pool_data_tr_1_0 D:/Programs/Workspace/Xilinx_Prj/PL_CNN/ip_repo/pool_data_wr_1_0 D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/rgb2dvi D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ip_repo/cycle_num_1_0 D:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/ov5640_cap_data} [current_project]
+update_ip_catalog -rebuild
+ipx::edit_ip_in_project -upgrade true -name edit_pool_data_tr_v1_0 -directory D:/Programs/Workspace/Xilinx_Prj/PL_CNN/ip_repo d:/Programs/Workspace/Xilinx_Prj/PL_CNN/ip_repo/pool_data_tr_1_0/component.xml
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close_project
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:blk_mem_gen:8.4 blk_mem_gen_1
+endgroup
+delete_bd_objs [get_bd_cells blk_mem_gen_1]
+set_property  ip_repo_paths  {d:/Programs/Workspace/Xilinx_Prj/PL_CNN/ip_repo/pool_data_tr_1_0 d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/rgb2dvi d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ip_repo/cycle_num_1_0 d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/ov5640_cap_data} [current_project]
+update_ip_catalog
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:blk_mem_gen:8.4 blk_mem_gen_1
+endgroup
+set_property -dict [list \
+  CONFIG.EN_SAFETY_CKT {false} \
+  CONFIG.Memory_Type {True_Dual_Port_RAM} \
+] [get_bd_cells blk_mem_gen_1]
+set_property location {4 848 287} [get_bd_cells blk_mem_gen_1]
+close [ open D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/new/bram_wr_ctrl.v w ]
+add_files D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/new/bram_wr_ctrl.v
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sim_1/new/pool_layer_tb.v w ]
+add_files -fileset sim_1 D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sim_1/new/pool_layer_tb.v
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top pool_layer_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+save_bd_design
+launch_simulation
+source pool_layer_tb.tcl
+set_property  ip_repo_paths  {d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/rgb2dvi d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ip_repo/cycle_num_1_0 d:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/ov5640_cap_data} [current_project]
+update_ip_catalog
+close_sim
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sim_1/new/bram_wr_ctrl_tb.v w ]
+add_files -fileset sim_1 D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sim_1/new/bram_wr_ctrl_tb.v
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top bram_wr_ctrl_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source bram_wr_ctrl_tb.tcl
+run all
+relaunch_sim
+close_sim
+export_ip_user_files -of_objects  [get_files D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sim_1/new/bram_wr_ctrl_tb.v] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sim_1/new/bram_wr_ctrl_tb.v
+file delete -force D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sim_1/new/bram_wr_ctrl_tb.v
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axi_bram_ctrl:4.1 axi_bram_ctrl_0
+endgroup
+set_property location {2 680 266} [get_bd_cells axi_bram_ctrl_0]
+set_property CONFIG.SINGLE_PORT_BRAM {1} [get_bd_cells axi_bram_ctrl_0]
+connect_bd_intf_net [get_bd_intf_pins axi_bram_ctrl_0/BRAM_PORTA] [get_bd_intf_pins blk_mem_gen_1/BRAM_PORTA]
+create_bd_cell -type module -reference cnn_top cnn_top_0
+connect_bd_net [get_bd_pins cnn_top_0/bin_data_vld] [get_bd_pins binarizer_0/bin_data_flag]
+connect_bd_net [get_bd_pins cnn_top_0/sclk] [get_bd_pins clk_wiz_0/clk_out1]
+connect_bd_net [get_bd_pins cnn_top_0/s_rst_n] [get_bd_pins clk_wiz_0/locked]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:xlslice:1.0 xlslice_0
+endgroup
+set_property location {6 2101 569} [get_bd_cells xlslice_0]
+set_property CONFIG.DIN_WIDTH {24} [get_bd_cells xlslice_0]
+connect_bd_net [get_bd_pins binarizer_0/rgb_data_out] [get_bd_pins xlslice_0/Din]
+connect_bd_net [get_bd_pins xlslice_0/Dout] [get_bd_pins cnn_top_0/bin_data]
+set_property location {2 723 420} [get_bd_cells cnn_top_0]
+connect_bd_net [get_bd_pins blk_mem_gen_1/clkb] [get_bd_pins clk_wiz_0/clk_out1]
+connect_bd_net [get_bd_pins cnn_top_0/pool_data] [get_bd_pins blk_mem_gen_1/dinb]
+delete_bd_objs [get_bd_nets cnn_top_0_pool_data]
+create_bd_cell -type module -reference bram_wr_ctrl bram_wr_ctrl_0
+connect_bd_net [get_bd_pins bram_wr_ctrl_0/clk] [get_bd_pins clk_wiz_0/clk_out1]
+connect_bd_net [get_bd_pins bram_wr_ctrl_0/rstn] [get_bd_pins clk_wiz_0/locked]
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+update_module_reference ZYNQ_CORE_cnn_top_0_0
+update_compile_order -fileset sources_1
+connect_bd_net [get_bd_pins cnn_top_0/sys_start] [get_bd_pins bram_wr_ctrl_0/cal_start]
+connect_bd_net [get_bd_pins cnn_top_0/pool_data] [get_bd_pins bram_wr_ctrl_0/pool_data]
+connect_bd_net [get_bd_pins cnn_top_0/pool_data_vld] [get_bd_pins bram_wr_ctrl_0/pool_data_vld]
+connect_bd_net [get_bd_pins bram_wr_ctrl_0/wr_data] [get_bd_pins blk_mem_gen_1/dinb]
+connect_bd_net [get_bd_pins bram_wr_ctrl_0/wr_addr] [get_bd_pins blk_mem_gen_1/addrb]
+connect_bd_net [get_bd_pins bram_wr_ctrl_0/wr_en] [get_bd_pins blk_mem_gen_1/enb]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:xlconstant:1.1 xlconstant_0
+endgroup
+set_property -dict [list \
+  CONFIG.CONST_VAL {b1111} \
+  CONFIG.CONST_WIDTH {4} \
+] [get_bd_cells xlconstant_0]
+connect_bd_net [get_bd_pins xlconstant_0/dout] [get_bd_pins blk_mem_gen_1/web]
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {/processing_system7_0/FCLK_CLK0 (50 MHz)} Clk_slave {Auto} Clk_xbar {/processing_system7_0/FCLK_CLK0 (50 MHz)} Master {/processing_system7_0/M_AXI_GP0} Slave {/axi_bram_ctrl_0/S_AXI} ddr_seg {Auto} intc_ip {/ps7_0_axi_periph} master_apm {0}}  [get_bd_intf_pins axi_bram_ctrl_0/S_AXI]
+set_property range 128K [get_bd_addr_segs {processing_system7_0/Data/SEG_axi_bram_ctrl_0_Mem0}]
+regenerate_bd_layout
+regenerate_bd_layout
+regenerate_bd_layout
+regenerate_bd_layout
+regenerate_bd_layout
+regenerate_bd_layout
+validate_bd_design
+save_bd_design
+update_module_reference ZYNQ_CORE_bram_wr_ctrl_0_0
+regenerate_bd_layout
+regenerate_bd_layout
+regenerate_bd_layout
+regenerate_bd_layout
+regenerate_bd_layout
+regenerate_bd_layout
+validate_bd_design
+regenerate_bd_layout
+save_bd_design
+make_wrapper -files [get_files D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE.bd] -top
+reset_run ZYNQ_CORE_xbar_1_synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 5
+wait_on_run synth_1
+launch_runs impl_1 -jobs 20
+wait_on_run impl_1
+set_property offset 0x40000000 [get_bd_addr_segs {processing_system7_0/Data/SEG_axi_bram_ctrl_0_Mem0}]
+save_bd_design
+regenerate_bd_layout
+validate_bd_design
+save_bd_design
+make_wrapper -files [get_files D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE.bd] -top
+make_wrapper -files [get_files D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE.bd] -top
+reset_run synth_1
+launch_runs synth_1 -jobs 20
+wait_on_run synth_1
+launch_runs impl_1 -jobs 20
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 20
+wait_on_run impl_1
+write_hw_platform -fixed -include_bit -force -file D:/Programs/Workspace/Xilinx_Prj/PL_CNN/ZYNQ_CORE_wrapper.xsa
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sim_1/new/tb_bram_wr_ctrl.v w ]
+add_files -fileset sim_1 D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sim_1/new/tb_bram_wr_ctrl.v
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top tb_bram_wr_ctrl [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+generate_target Simulation [get_files D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/ip/fifo_generator_0/fifo_generator_0.xci]
+generate_target Simulation [get_files D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/ip/mult_gen_0/mult_gen_0.xci]
+generate_target Simulation [get_files D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/ip/rom_w4_ip/rom_w4_ip.xci]
+generate_target Simulation [get_files D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/ip/rom_w3_ip/rom_w3_ip.xci]
+generate_target Simulation [get_files D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/ip/rom_w2_ip/rom_w2_ip.xci]
+generate_target Simulation [get_files D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/ip/rom_w1_ip/rom_w1_ip.xci]
+generate_target Simulation [get_files D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/ip/rom_w0_ip/rom_w0_ip.xci]
+generate_target Simulation [get_files D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/ip/rom_b_ip/rom_b_ip.xci]
+generate_target Simulation [get_files D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/ip/data_ram_ip/data_ram_ip.xci]
+launch_simulation
+source tb_bram_wr_ctrl.tcl
+close_sim
+update_module_reference ZYNQ_CORE_bram_wr_ctrl_0_0
+regenerate_bd_layout
+regenerate_bd_layout
+regenerate_bd_layout
+regenerate_bd_layout
+validate_bd_design
+regenerate_bd_layout
+regenerate_bd_layout
+regenerate_bd_layout
+regenerate_bd_layout
+regenerate_bd_layout
+regenerate_bd_layout
+regenerate_bd_layout
+regenerate_bd_layout
+regenerate_bd_layout
+regenerate_bd_layout
+regenerate_bd_layout
+save_bd_design
+make_wrapper -files [get_files D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE.bd] -top
+reset_run synth_1
+launch_runs synth_1 -jobs 20
+wait_on_run synth_1
+launch_runs impl_1 -jobs 20
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 20
+wait_on_run impl_1
+write_hw_platform -fixed -include_bit -force -file D:/Programs/Workspace/Xilinx_Prj/PL_CNN/ZYNQ_CORE_wrapper.xsa
+update_module_reference ZYNQ_CORE_bram_wr_ctrl_0_0
+regenerate_bd_layout
+regenerate_bd_layout
+validate_bd_design
+save_bd_design
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axi_gpio:2.0 axi_gpio_0
+endgroup
+set_property -dict [list \
+  CONFIG.C_ALL_INPUTS {0} \
+  CONFIG.C_GPIO_WIDTH {1} \
+  CONFIG.C_IS_DUAL {0} \
+] [get_bd_cells axi_gpio_0]
+set_property location {3 659 961} [get_bd_cells axi_gpio_0]
+update_module_reference ZYNQ_CORE_bram_wr_ctrl_0_0
+set_property CONFIG.C_ALL_INPUTS {1} [get_bd_cells axi_gpio_0]
+connect_bd_net [get_bd_pins bram_wr_ctrl_0/pl_ready] [get_bd_pins axi_gpio_0/gpio_io_i]
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {/processing_system7_0/FCLK_CLK0 (50 MHz)} Clk_slave {Auto} Clk_xbar {/processing_system7_0/FCLK_CLK0 (50 MHz)} Master {/processing_system7_0/M_AXI_GP0} Slave {/axi_gpio_0/S_AXI} ddr_seg {Auto} intc_ip {/ps7_0_axi_periph} master_apm {0}}  [get_bd_intf_pins axi_gpio_0/S_AXI]
+regenerate_bd_layout
+regenerate_bd_layout
+regenerate_bd_layout
+regenerate_bd_layout
+regenerate_bd_layout
+regenerate_bd_layout
+validate_bd_design
+save_bd_design
+make_wrapper -files [get_files D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE.bd] -top
+make_wrapper -files [get_files D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE.bd] -top
+reset_run ZYNQ_CORE_xbar_1_synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 20
+wait_on_run synth_1
+launch_runs impl_1 -jobs 20
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 20
+wait_on_run impl_1
+write_hw_platform -fixed -include_bit -force -file D:/Programs/Workspace/Xilinx_Prj/PL_CNN/ZYNQ_CORE_wrapper.xsa
+generate_target Simulation [get_files D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/ip/fifo_generator_0/fifo_generator_0.xci]
+generate_target Simulation [get_files D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/ip/mult_gen_0/mult_gen_0.xci]
+generate_target Simulation [get_files D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/ip/rom_w4_ip/rom_w4_ip.xci]
+generate_target Simulation [get_files D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/ip/rom_w3_ip/rom_w3_ip.xci]
+generate_target Simulation [get_files D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/ip/rom_w2_ip/rom_w2_ip.xci]
+generate_target Simulation [get_files D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/ip/rom_w1_ip/rom_w1_ip.xci]
+generate_target Simulation [get_files D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/ip/rom_w0_ip/rom_w0_ip.xci]
+generate_target Simulation [get_files D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/ip/rom_b_ip/rom_b_ip.xci]
+generate_target Simulation [get_files D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/ip/data_ram_ip/data_ram_ip.xci]
+launch_simulation
+source tb_bram_wr_ctrl.tcl
+relaunch_sim
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run all
+run all
+run all
+run all
+run 100 ms
+run all
+relaunch_sim
+relaunch_sim
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run all
+close_sim
+update_module_reference ZYNQ_CORE_bram_wr_ctrl_0_0
+generate_target Simulation [get_files D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/ip/fifo_generator_0/fifo_generator_0.xci]
+generate_target Simulation [get_files D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/ip/mult_gen_0/mult_gen_0.xci]
+generate_target Simulation [get_files D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/ip/rom_w4_ip/rom_w4_ip.xci]
+generate_target Simulation [get_files D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/ip/rom_w3_ip/rom_w3_ip.xci]
+generate_target Simulation [get_files D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/ip/rom_w2_ip/rom_w2_ip.xci]
+generate_target Simulation [get_files D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/ip/rom_w1_ip/rom_w1_ip.xci]
+generate_target Simulation [get_files D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/ip/rom_w0_ip/rom_w0_ip.xci]
+generate_target Simulation [get_files D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/ip/rom_b_ip/rom_b_ip.xci]
+generate_target Simulation [get_files D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/ip/data_ram_ip/data_ram_ip.xci]
+launch_simulation
+source tb_bram_wr_ctrl.tcl
+relaunch_sim
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run all
+close_sim
+generate_target Simulation [get_files D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/ip/fifo_generator_0/fifo_generator_0.xci]
+generate_target Simulation [get_files D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/ip/mult_gen_0/mult_gen_0.xci]
+generate_target Simulation [get_files D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/ip/rom_w4_ip/rom_w4_ip.xci]
+generate_target Simulation [get_files D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/ip/rom_w3_ip/rom_w3_ip.xci]
+generate_target Simulation [get_files D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/ip/rom_w2_ip/rom_w2_ip.xci]
+generate_target Simulation [get_files D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/ip/rom_w1_ip/rom_w1_ip.xci]
+generate_target Simulation [get_files D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/ip/rom_w0_ip/rom_w0_ip.xci]
+generate_target Simulation [get_files D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/ip/rom_b_ip/rom_b_ip.xci]
+generate_target Simulation [get_files D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/ip/data_ram_ip/data_ram_ip.xci]
+launch_simulation
+source tb_bram_wr_ctrl.tcl
+relaunch_sim
+run all
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+close_sim
+update_module_reference ZYNQ_CORE_bram_wr_ctrl_0_0
+generate_target Simulation [get_files D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/ip/fifo_generator_0/fifo_generator_0.xci]
+generate_target Simulation [get_files D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/ip/mult_gen_0/mult_gen_0.xci]
+generate_target Simulation [get_files D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/ip/rom_w4_ip/rom_w4_ip.xci]
+generate_target Simulation [get_files D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/ip/rom_w3_ip/rom_w3_ip.xci]
+generate_target Simulation [get_files D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/ip/rom_w2_ip/rom_w2_ip.xci]
+generate_target Simulation [get_files D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/ip/rom_w1_ip/rom_w1_ip.xci]
+generate_target Simulation [get_files D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/ip/rom_w0_ip/rom_w0_ip.xci]
+generate_target Simulation [get_files D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/ip/rom_b_ip/rom_b_ip.xci]
+generate_target Simulation [get_files D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/ip/data_ram_ip/data_ram_ip.xci]
+launch_simulation
+source tb_bram_wr_ctrl.tcl
+relaunch_sim
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+close_sim
+update_module_reference ZYNQ_CORE_bram_wr_ctrl_0_0
+regenerate_bd_layout
+regenerate_bd_layout
+validate_bd_design
+regenerate_bd_layout
+regenerate_bd_layout
+regenerate_bd_layout
+save_bd_design
+regenerate_bd_layout
+make_wrapper -files [get_files D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE.bd] -top
+reset_run synth_1
+make_wrapper -files [get_files D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE.bd] -top
+launch_runs synth_1 -jobs 20
+wait_on_run synth_1
+launch_runs impl_1 -jobs 20
+wait_on_run impl_1
+update_module_reference ZYNQ_CORE_bram_wr_ctrl_0_0
+generate_target Simulation [get_files D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/ip/fifo_generator_0/fifo_generator_0.xci]
+generate_target Simulation [get_files D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/ip/mult_gen_0/mult_gen_0.xci]
+generate_target Simulation [get_files D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/ip/rom_w4_ip/rom_w4_ip.xci]
+generate_target Simulation [get_files D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/ip/rom_w3_ip/rom_w3_ip.xci]
+generate_target Simulation [get_files D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/ip/rom_w2_ip/rom_w2_ip.xci]
+generate_target Simulation [get_files D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/ip/rom_w1_ip/rom_w1_ip.xci]
+generate_target Simulation [get_files D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/ip/rom_w0_ip/rom_w0_ip.xci]
+generate_target Simulation [get_files D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/ip/rom_b_ip/rom_b_ip.xci]
+generate_target Simulation [get_files D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/ip/data_ram_ip/data_ram_ip.xci]
+launch_simulation
+source tb_bram_wr_ctrl.tcl
+relaunch_sim
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+close_sim
+regenerate_bd_layout
+regenerate_bd_layout
+regenerate_bd_layout
+regenerate_bd_layout
+regenerate_bd_layout
+regenerate_bd_layout
+regenerate_bd_layout
+regenerate_bd_layout
+regenerate_bd_layout
+regenerate_bd_layout
+validate_bd_design
+save_bd_design
+make_wrapper -files [get_files D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE.bd] -top
+regenerate_bd_layout
+make_wrapper -files [get_files D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE.bd] -top
+reset_run synth_1
+launch_runs synth_1 -jobs 20
+wait_on_run synth_1
+launch_runs impl_1 -jobs 20
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 20
+wait_on_run impl_1
+write_hw_platform -fixed -include_bit -force -file D:/Programs/Workspace/Xilinx_Prj/PL_CNN/ZYNQ_CORE_wrapper.xsa
+generate_target Simulation [get_files D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/ip/fifo_generator_0/fifo_generator_0.xci]
+generate_target Simulation [get_files D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/ip/mult_gen_0/mult_gen_0.xci]
+generate_target Simulation [get_files D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/ip/rom_w4_ip/rom_w4_ip.xci]
+generate_target Simulation [get_files D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/ip/rom_w3_ip/rom_w3_ip.xci]
+generate_target Simulation [get_files D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/ip/rom_w2_ip/rom_w2_ip.xci]
+generate_target Simulation [get_files D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/ip/rom_w1_ip/rom_w1_ip.xci]
+generate_target Simulation [get_files D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/ip/rom_w0_ip/rom_w0_ip.xci]
+generate_target Simulation [get_files D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/ip/rom_b_ip/rom_b_ip.xci]
+generate_target Simulation [get_files D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/ip/data_ram_ip/data_ram_ip.xci]
+launch_simulation
+source tb_bram_wr_ctrl.tcl
+close_sim
+update_module_reference ZYNQ_CORE_bram_wr_ctrl_0_0
+update_module_reference ZYNQ_CORE_bram_wr_ctrl_0_0
+set_property range 32K [get_bd_addr_segs {processing_system7_0/Data/SEG_axi_bram_ctrl_0_Mem0}]
+save_bd_design
+regenerate_bd_layout
+regenerate_bd_layout
+regenerate_bd_layout
+regenerate_bd_layout
+validate_bd_design
+reset_run ZYNQ_CORE_xbar_1_synth_1
+reset_run ZYNQ_CORE_blk_mem_gen_1_1_synth_1
+reset_run ZYNQ_CORE_axi_bram_ctrl_0_0_synth_1
+save_bd_design
+regenerate_bd_layout
+regenerate_bd_layout
+regenerate_bd_layout
+regenerate_bd_layout
+make_wrapper -files [get_files D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE.bd] -top
+make_wrapper -files [get_files D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE.bd] -top
+reset_run synth_1
+launch_runs synth_1 -jobs 20
+wait_on_run synth_1
+launch_runs impl_1 -jobs 20
+wait_on_run impl_1
+open_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 20
+wait_on_run impl_1
+write_hw_platform -fixed -include_bit -force -file D:/Programs/Workspace/Xilinx_Prj/PL_CNN/ZYNQ_CORE_wrapper.xsa

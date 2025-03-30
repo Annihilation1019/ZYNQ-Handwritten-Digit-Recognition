@@ -1,0 +1,2 @@
+rom_w4_ip.v,verilog,xil_defaultlib,../../../../PL_CNN.gen/sources_1/ip/rom_w4_ip/sim/rom_w4_ip.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v
