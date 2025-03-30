@@ -70,3 +70,9 @@ platform generate -domains
 platform config -updatehw {D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CORE_wrapper.xsa}
 platform clean
 platform generate
+platform active {ZYNQ_CORE_wrapper}
+platform config -updatehw {D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CORE_wrapper.xsa}
+platform generate -domains 
+bsp reload
+bsp reload
+platform generate -domains 

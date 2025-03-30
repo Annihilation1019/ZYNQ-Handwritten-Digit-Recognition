@@ -21928,3 +21928,1381 @@ TRACE::2025-03-15.20:54:48::SCWMssOS::DEBUG:  swdes dump  D:/Programs/Workspace/
 D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
 
 TRACE::2025-03-15.20:54:48::SCWMssOS::Sw design exists and opened at  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-03-30.14:52:15::SCWPlatform::Trying to open the hw design at D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:15::SCWPlatform::DSA given D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:15::SCWPlatform::DSA absoulate path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:15::SCWPlatform::DSA directory D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw
+TRACE::2025-03-30.14:52:15::SCWPlatform:: Platform Path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:15::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-03-30.14:52:15::SCWPlatform::Do not have an existing db opened. 
+TRACE::2025-03-30.14:52:17::SCWPlatform::Opened new HwDB with name ZYNQ_CORE_wrapper
+TRACE::2025-03-30.14:52:17::SCWReader::Active system found as  ZYNQ_CORE_wrapper
+TRACE::2025-03-30.14:52:17::SCWReader::Handling sysconfig ZYNQ_CORE_wrapper
+TRACE::2025-03-30.14:52:17::SCWDomain::checking for install qemu data   : 
+TRACE::2025-03-30.14:52:17::SCWDomain:: Using the QEMU Data from install at  : D:/Xilinx/Vitis/2023.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2025-03-30.14:52:17::SCWDomain:: Using the QEMU args  from install at  : D:/Xilinx/Vitis/2023.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2025-03-30.14:52:17::SCWPlatform::Trying to open the hw design at D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:17::SCWPlatform::DSA given D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:17::SCWPlatform::DSA absoulate path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:17::SCWPlatform::DSA directory D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw
+TRACE::2025-03-30.14:52:17::SCWPlatform:: Platform Path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:17::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-03-30.14:52:17::SCWPlatform::Trying to set the existing hwdb with name ZYNQ_CORE_wrapper
+TRACE::2025-03-30.14:52:17::SCWPlatform::Opened existing hwdb ZYNQ_CORE_wrapper
+TRACE::2025-03-30.14:52:17::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-03-30.14:52:17::SCWPlatform::Trying to open the hw design at D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:17::SCWPlatform::DSA given D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:17::SCWPlatform::DSA absoulate path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:17::SCWPlatform::DSA directory D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw
+TRACE::2025-03-30.14:52:17::SCWPlatform:: Platform Path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:17::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-03-30.14:52:17::SCWPlatform::Trying to set the existing hwdb with name ZYNQ_CORE_wrapper
+TRACE::2025-03-30.14:52:17::SCWPlatform::Opened existing hwdb ZYNQ_CORE_wrapper
+TRACE::2025-03-30.14:52:17::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-03-30.14:52:17::SCWPlatform::Trying to open the hw design at D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:17::SCWPlatform::DSA given D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:17::SCWPlatform::DSA absoulate path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:17::SCWPlatform::DSA directory D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw
+TRACE::2025-03-30.14:52:17::SCWPlatform:: Platform Path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:17::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-03-30.14:52:17::SCWPlatform::Trying to set the existing hwdb with name ZYNQ_CORE_wrapper
+TRACE::2025-03-30.14:52:17::SCWPlatform::Opened existing hwdb ZYNQ_CORE_wrapper
+TRACE::2025-03-30.14:52:17::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-03-30.14:52:17::SCWReader::Boot application domain added for zynq_fsbl
+TRACE::2025-03-30.14:52:17::SCWPlatform::Trying to open the hw design at D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:17::SCWPlatform::DSA given D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:17::SCWPlatform::DSA absoulate path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:17::SCWPlatform::DSA directory D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw
+TRACE::2025-03-30.14:52:17::SCWPlatform:: Platform Path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:17::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-03-30.14:52:17::SCWPlatform::Trying to set the existing hwdb with name ZYNQ_CORE_wrapper
+TRACE::2025-03-30.14:52:17::SCWPlatform::Opened existing hwdb ZYNQ_CORE_wrapper
+TRACE::2025-03-30.14:52:17::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-03-30.14:52:17::SCWMssOS::Checking the sw design at  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-03-30.14:52:17::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2025-03-30.14:52:17::SCWMssOS::No sw design opened at  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-03-30.14:52:17::SCWMssOS::mss exists loading the mss file  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-03-30.14:52:17::SCWMssOS::Opened the sw design from mss  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-03-30.14:52:17::SCWMssOS::Adding the swdes entry D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2025-03-30.14:52:17::SCWMssOS::updating the scw layer about changes
+TRACE::2025-03-30.14:52:17::SCWMssOS::Opened the sw design.  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-03-30.14:52:17::SCWPlatform::Trying to open the hw design at D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:17::SCWPlatform::DSA given D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:17::SCWPlatform::DSA absoulate path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:17::SCWPlatform::DSA directory D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw
+TRACE::2025-03-30.14:52:17::SCWPlatform:: Platform Path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:17::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-03-30.14:52:17::SCWPlatform::Trying to set the existing hwdb with name ZYNQ_CORE_wrapper
+TRACE::2025-03-30.14:52:17::SCWPlatform::Opened existing hwdb ZYNQ_CORE_wrapper
+TRACE::2025-03-30.14:52:17::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-03-30.14:52:17::SCWMssOS::Checking the sw design at  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-03-30.14:52:17::SCWMssOS::DEBUG:  swdes dump  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-03-30.14:52:17::SCWMssOS::Sw design exists and opened at  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-03-30.14:52:17::SCWMssOS:: library already available in sw design:  xilffs:5.0
+TRACE::2025-03-30.14:52:17::SCWPlatform::Trying to open the hw design at D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:17::SCWPlatform::DSA given D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:17::SCWPlatform::DSA absoulate path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:17::SCWPlatform::DSA directory D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw
+TRACE::2025-03-30.14:52:17::SCWPlatform:: Platform Path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:17::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-03-30.14:52:17::SCWPlatform::Trying to set the existing hwdb with name ZYNQ_CORE_wrapper
+TRACE::2025-03-30.14:52:17::SCWPlatform::Opened existing hwdb ZYNQ_CORE_wrapper
+TRACE::2025-03-30.14:52:17::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-03-30.14:52:17::SCWMssOS::Checking the sw design at  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-03-30.14:52:17::SCWMssOS::DEBUG:  swdes dump  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-03-30.14:52:17::SCWMssOS::Sw design exists and opened at  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-03-30.14:52:17::SCWMssOS:: library already available in sw design:  xilrsa:1.6
+TRACE::2025-03-30.14:52:17::SCWMssOS::Saving the mss changes D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-03-30.14:52:17::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-03-30.14:52:17::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-03-30.14:52:17::SCWMssOS::Commit changes completed.
+TRACE::2025-03-30.14:52:17::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2025-03-30.14:52:17::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2025-03-30.14:52:17::SCWPlatform::Trying to open the hw design at D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:17::SCWPlatform::DSA given D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:17::SCWPlatform::DSA absoulate path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:17::SCWPlatform::DSA directory D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw
+TRACE::2025-03-30.14:52:17::SCWPlatform:: Platform Path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:17::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-03-30.14:52:17::SCWPlatform::Trying to set the existing hwdb with name ZYNQ_CORE_wrapper
+TRACE::2025-03-30.14:52:17::SCWPlatform::Opened existing hwdb ZYNQ_CORE_wrapper
+TRACE::2025-03-30.14:52:17::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-03-30.14:52:17::SCWMssOS::Checking the sw design at  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-03-30.14:52:17::SCWMssOS::DEBUG:  swdes dump  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-03-30.14:52:17::SCWMssOS::Sw design exists and opened at  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-03-30.14:52:17::SCWReader::No isolation master present  
+TRACE::2025-03-30.14:52:17::SCWDomain::checking for install qemu data   : 
+TRACE::2025-03-30.14:52:17::SCWDomain:: Using the QEMU Data from install at  : D:/Xilinx/Vitis/2023.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2025-03-30.14:52:17::SCWDomain:: Using the QEMU args  from install at  : D:/Xilinx/Vitis/2023.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2025-03-30.14:52:17::SCWPlatform::Trying to open the hw design at D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:17::SCWPlatform::DSA given D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:17::SCWPlatform::DSA absoulate path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:17::SCWPlatform::DSA directory D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw
+TRACE::2025-03-30.14:52:17::SCWPlatform:: Platform Path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:17::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-03-30.14:52:17::SCWPlatform::Trying to set the existing hwdb with name ZYNQ_CORE_wrapper
+TRACE::2025-03-30.14:52:17::SCWPlatform::Opened existing hwdb ZYNQ_CORE_wrapper
+TRACE::2025-03-30.14:52:17::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-03-30.14:52:17::SCWPlatform::Trying to open the hw design at D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:17::SCWPlatform::DSA given D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:17::SCWPlatform::DSA absoulate path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:17::SCWPlatform::DSA directory D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw
+TRACE::2025-03-30.14:52:17::SCWPlatform:: Platform Path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:17::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-03-30.14:52:17::SCWPlatform::Trying to set the existing hwdb with name ZYNQ_CORE_wrapper
+TRACE::2025-03-30.14:52:17::SCWPlatform::Opened existing hwdb ZYNQ_CORE_wrapper
+TRACE::2025-03-30.14:52:17::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-03-30.14:52:17::SCWPlatform::Trying to open the hw design at D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:17::SCWPlatform::DSA given D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:17::SCWPlatform::DSA absoulate path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:17::SCWPlatform::DSA directory D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw
+TRACE::2025-03-30.14:52:17::SCWPlatform:: Platform Path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:17::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-03-30.14:52:17::SCWPlatform::Trying to set the existing hwdb with name ZYNQ_CORE_wrapper
+TRACE::2025-03-30.14:52:17::SCWPlatform::Opened existing hwdb ZYNQ_CORE_wrapper
+TRACE::2025-03-30.14:52:17::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-03-30.14:52:17::SCWMssOS::Checking the sw design at  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-03-30.14:52:17::SCWMssOS::DEBUG:  swdes dump  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-03-30.14:52:17::SCWMssOS::No sw design opened at  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-03-30.14:52:17::SCWMssOS::mss exists loading the mss file  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-03-30.14:52:17::SCWMssOS::Opened the sw design from mss  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-03-30.14:52:17::SCWMssOS::Adding the swdes entry D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss with des name system_0
+TRACE::2025-03-30.14:52:17::SCWMssOS::updating the scw layer about changes
+TRACE::2025-03-30.14:52:17::SCWMssOS::Opened the sw design.  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-03-30.14:52:17::SCWMssOS::Saving the mss changes D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-03-30.14:52:17::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-03-30.14:52:17::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-03-30.14:52:17::SCWMssOS::Commit changes completed.
+TRACE::2025-03-30.14:52:17::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2025-03-30.14:52:17::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2025-03-30.14:52:17::SCWPlatform::Trying to open the hw design at D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:17::SCWPlatform::DSA given D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:17::SCWPlatform::DSA absoulate path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:17::SCWPlatform::DSA directory D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw
+TRACE::2025-03-30.14:52:17::SCWPlatform:: Platform Path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:17::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-03-30.14:52:17::SCWPlatform::Trying to set the existing hwdb with name ZYNQ_CORE_wrapper
+TRACE::2025-03-30.14:52:17::SCWPlatform::Opened existing hwdb ZYNQ_CORE_wrapper
+TRACE::2025-03-30.14:52:17::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-03-30.14:52:17::SCWMssOS::Checking the sw design at  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-03-30.14:52:17::SCWMssOS::DEBUG:  swdes dump  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-03-30.14:52:17::SCWMssOS::Sw design exists and opened at  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-03-30.14:52:17::SCWReader::No isolation master present  
+TRACE::2025-03-30.14:52:20::SCWPlatform::DSA given D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/tempdsa/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:20::SCWPlatform::DSA absoulate path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/tempdsa/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:20::SCWPlatform:: Platform location is D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/tempdsa
+TRACE::2025-03-30.14:52:20::SCWPlatform:: Platform Path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/tempdsa/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:20::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-03-30.14:52:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-03-30.14:52:22::SCWMssOS::Doing hw sync for the mss in domain: zynq_fsbl
+TRACE::2025-03-30.14:52:22::SCWPlatform::Trying to open the hw design at D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:22::SCWPlatform::DSA given D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:22::SCWPlatform::DSA absoulate path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:22::SCWPlatform::DSA directory D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw
+TRACE::2025-03-30.14:52:22::SCWPlatform:: Platform Path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:22::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-03-30.14:52:22::SCWPlatform::Trying to set the existing hwdb with name ZYNQ_CORE_wrapper
+TRACE::2025-03-30.14:52:22::SCWPlatform::Opened existing hwdb ZYNQ_CORE_wrapper
+TRACE::2025-03-30.14:52:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-03-30.14:52:22::SCWPlatform::Trying to open the hw design at D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:22::SCWPlatform::DSA given D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:22::SCWPlatform::DSA absoulate path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:22::SCWPlatform::DSA directory D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw
+TRACE::2025-03-30.14:52:22::SCWPlatform:: Platform Path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:22::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-03-30.14:52:22::SCWPlatform::Trying to set the existing hwdb with name ZYNQ_CORE_wrapper
+TRACE::2025-03-30.14:52:22::SCWPlatform::Opened existing hwdb ZYNQ_CORE_wrapper
+TRACE::2025-03-30.14:52:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-03-30.14:52:22::SCWMssOS::Checking the sw design at  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-03-30.14:52:22::SCWMssOS::DEBUG:  swdes dump  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-03-30.14:52:22::SCWMssOS::Sw design exists and opened at  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-03-30.14:52:22::SCWPlatform::Trying to open the hw design at D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/tempdsa/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:22::SCWPlatform::DSA given D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/tempdsa/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:22::SCWPlatform::DSA absoulate path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/tempdsa/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:22::SCWPlatform::DSA directory D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/tempdsa
+TRACE::2025-03-30.14:52:22::SCWPlatform:: Platform Path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/tempdsa/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:22::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-03-30.14:52:22::SCWPlatform::update - Opened existing hwdb ZYNQ_CORE_wrapper_0
+TRACE::2025-03-30.14:52:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-03-30.14:52:22::SCWMssOS::Doing hw sync for the mss in domain: standalone_ps7_cortexa9_0
+TRACE::2025-03-30.14:52:22::SCWPlatform::Trying to open the hw design at D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:22::SCWPlatform::DSA given D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:22::SCWPlatform::DSA absoulate path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:22::SCWPlatform::DSA directory D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw
+TRACE::2025-03-30.14:52:22::SCWPlatform:: Platform Path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:22::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-03-30.14:52:22::SCWPlatform::Trying to set the existing hwdb with name ZYNQ_CORE_wrapper
+TRACE::2025-03-30.14:52:22::SCWPlatform::Opened existing hwdb ZYNQ_CORE_wrapper
+TRACE::2025-03-30.14:52:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-03-30.14:52:22::SCWPlatform::Trying to open the hw design at D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:22::SCWPlatform::DSA given D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:22::SCWPlatform::DSA absoulate path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:22::SCWPlatform::DSA directory D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw
+TRACE::2025-03-30.14:52:22::SCWPlatform:: Platform Path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:22::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-03-30.14:52:22::SCWPlatform::Trying to set the existing hwdb with name ZYNQ_CORE_wrapper
+TRACE::2025-03-30.14:52:22::SCWPlatform::Opened existing hwdb ZYNQ_CORE_wrapper
+TRACE::2025-03-30.14:52:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-03-30.14:52:22::SCWMssOS::Checking the sw design at  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-03-30.14:52:22::SCWMssOS::DEBUG:  swdes dump  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-03-30.14:52:22::SCWMssOS::Sw design exists and opened at  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-03-30.14:52:22::SCWPlatform::Trying to open the hw design at D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/tempdsa/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:22::SCWPlatform::DSA given D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/tempdsa/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:22::SCWPlatform::DSA absoulate path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/tempdsa/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:22::SCWPlatform::DSA directory D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/tempdsa
+TRACE::2025-03-30.14:52:22::SCWPlatform:: Platform Path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/tempdsa/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:22::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-03-30.14:52:22::SCWPlatform::update - Opened existing hwdb ZYNQ_CORE_wrapper_0
+TRACE::2025-03-30.14:52:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-03-30.14:52:22::SCWMssOS::Saving the mss changes D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-03-30.14:52:22::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-03-30.14:52:22::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-03-30.14:52:22::SCWMssOS::Commit changes completed.
+TRACE::2025-03-30.14:52:22::SCWMssOS::Completed hw sync for the mss in domain: zynq_fsbl
+TRACE::2025-03-30.14:52:22::SCWMssOS::Removing the swdes entry for  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-03-30.14:52:22::SCWMssOS::Saving the mss changes D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-03-30.14:52:22::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-03-30.14:52:22::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-03-30.14:52:22::SCWMssOS::Commit changes completed.
+TRACE::2025-03-30.14:52:22::SCWMssOS::Completed hw sync for the mss in domain: standalone_ps7_cortexa9_0
+TRACE::2025-03-30.14:52:22::SCWMssOS::Removing the swdes entry for  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-03-30.14:52:22::SCWPlatform::Trying to open the hw design at D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:22::SCWPlatform::DSA given D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:22::SCWPlatform::DSA absoulate path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:22::SCWPlatform::DSA directory D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw
+TRACE::2025-03-30.14:52:22::SCWPlatform:: Platform Path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:22::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-03-30.14:52:22::SCWPlatform::Do not have an existing db opened. 
+TRACE::2025-03-30.14:52:23::SCWPlatform::Opened new HwDB with name ZYNQ_CORE_wrapper_1
+TRACE::2025-03-30.14:52:23::SCWMssOS::Saving the mss changes D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-03-30.14:52:23::SCWMssOS::Adding the swdes entry, mss present, able to open swdb D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2025-03-30.14:52:23::SCWMssOS::Writing the mss file completed D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-03-30.14:52:23::SCWMssOS::Commit changes completed.
+TRACE::2025-03-30.14:52:23::SCWMssOS::Saving the mss changes D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-03-30.14:52:23::SCWMssOS::Adding the swdes entry, mss present, able to open swdb D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss with des name system_0
+TRACE::2025-03-30.14:52:23::SCWMssOS::Writing the mss file completed D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-03-30.14:52:23::SCWMssOS::Commit changes completed.
+TRACE::2025-03-30.14:52:23::SCWPlatform::Trying to open the hw design at D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:23::SCWPlatform::DSA given D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:23::SCWPlatform::DSA absoulate path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:23::SCWPlatform::DSA directory D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw
+TRACE::2025-03-30.14:52:23::SCWPlatform:: Platform Path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:23::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-03-30.14:52:23::SCWPlatform::Trying to set the existing hwdb with name ZYNQ_CORE_wrapper_1
+TRACE::2025-03-30.14:52:23::SCWPlatform::Opened existing hwdb ZYNQ_CORE_wrapper_1
+TRACE::2025-03-30.14:52:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-03-30.14:52:23::SCWMssOS::Checking the sw design at  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-03-30.14:52:23::SCWMssOS::DEBUG:  swdes dump  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-03-30.14:52:23::SCWMssOS::Sw design exists and opened at  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-03-30.14:52:23::SCWPlatform::Trying to open the hw design at D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:23::SCWPlatform::DSA given D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:23::SCWPlatform::DSA absoulate path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:23::SCWPlatform::DSA directory D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw
+TRACE::2025-03-30.14:52:23::SCWPlatform:: Platform Path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:23::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-03-30.14:52:23::SCWPlatform::Trying to set the existing hwdb with name ZYNQ_CORE_wrapper_1
+TRACE::2025-03-30.14:52:23::SCWPlatform::Opened existing hwdb ZYNQ_CORE_wrapper_1
+TRACE::2025-03-30.14:52:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-03-30.14:52:23::SCWMssOS::Checking the sw design at  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-03-30.14:52:23::SCWMssOS::DEBUG:  swdes dump  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-03-30.14:52:23::SCWMssOS::Sw design exists and opened at  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-03-30.14:52:23::SCWWriter::formatted JSON is {
+	"platformName":	"ZYNQ_CORE_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"ZYNQ_CORE_wrapper",
+	"platHandOff":	"D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CORE_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/ZYNQ_CORE_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"ZYNQ_CORE_wrapper",
+	"systems":	[{
+			"systemName":	"ZYNQ_CORE_wrapper",
+			"systemDesc":	"ZYNQ_CORE_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"ZYNQ_CORE_wrapper",
+			"sysActiveDom":	"standalone_ps7_cortexa9_0",
+			"sysDefaultDom":	"standalone_ps7_cortexa9_0",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.1",
+					"mssFile":	"",
+					"md5Digest":	"c3051b6fb569b0c7ebb570299ad0e6561",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:5.0", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_ps7_cortexa9_0",
+					"domainDispName":	"standalone_ps7_cortexa9_0",
+					"domainDesc":	"standalone_ps7_cortexa9_0",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"<platformDir>/resources/ZYNQ_CORE_wrapper/standalone_ps7_cortexa9_0/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/ZYNQ_CORE_wrapper/standalone_ps7_cortexa9_0/qemu",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.1",
+					"mssFile":	"",
+					"md5Digest":	"01074fe04f793c8313a60361ca2397481",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2025-03-30.14:52:33::SCWPlatform::Started generating the artifacts platform ZYNQ_CORE_wrapper
+TRACE::2025-03-30.14:52:33::SCWPlatform::Sanity checking of platform is completed
+LOG::2025-03-30.14:52:33::SCWPlatform::Started generating the artifacts for system configuration ZYNQ_CORE_wrapper
+LOG::2025-03-30.14:52:33::SCWSystem::Checking the domain zynq_fsbl
+LOG::2025-03-30.14:52:33::SCWSystem::Doing application build for :  zynq_fsbl
+TRACE::2025-03-30.14:52:33::SCWBDomain::Not a forced makefile updation, No changes are present. 
+TRACE::2025-03-30.14:52:33::SCWDomain::Skipping the build for domain :  zynq_fsbl
+LOG::2025-03-30.14:52:33::SCWSystem::Checking the domain standalone_ps7_cortexa9_0
+LOG::2025-03-30.14:52:33::SCWSystem::Not a boot domain 
+LOG::2025-03-30.14:52:33::SCWSystem::Started Processing the domain standalone_ps7_cortexa9_0
+TRACE::2025-03-30.14:52:33::SCWDomain::Generating domain artifcats
+TRACE::2025-03-30.14:52:33::SCWMssOS::Generating standalone artifcats
+TRACE::2025-03-30.14:52:33::SCWMssOS::Copying the qemu file from  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/resources/ZYNQ_CORE_wrapper/standalone_ps7_cortexa9_0/qemu_args.txt To D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/sw/ZYNQ_CORE_wrapper/qemu/
+TRACE::2025-03-30.14:52:33::SCWMssOS::Copying the qemu file from  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/resources/ZYNQ_CORE_wrapper/standalone_ps7_cortexa9_0/qemu_args.txt To D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/sw/ZYNQ_CORE_wrapper/standalone_ps7_cortexa9_0/qemu/
+TRACE::2025-03-30.14:52:33::SCWMssOS:: Copying the user libraries. 
+TRACE::2025-03-30.14:52:33::SCWPlatform::Trying to open the hw design at D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:33::SCWPlatform::DSA given D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:33::SCWPlatform::DSA absoulate path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:33::SCWPlatform::DSA directory D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw
+TRACE::2025-03-30.14:52:33::SCWPlatform:: Platform Path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:33::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-03-30.14:52:33::SCWPlatform::Trying to set the existing hwdb with name ZYNQ_CORE_wrapper_1
+TRACE::2025-03-30.14:52:33::SCWPlatform::Opened existing hwdb ZYNQ_CORE_wrapper_1
+TRACE::2025-03-30.14:52:33::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-03-30.14:52:33::SCWMssOS::Checking the sw design at  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-03-30.14:52:33::SCWMssOS::DEBUG:  swdes dump  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-03-30.14:52:33::SCWMssOS::Sw design exists and opened at  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-03-30.14:52:33::SCWMssOS::Completed writing the mss file at D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp
+TRACE::2025-03-30.14:52:33::SCWMssOS::Mss edits present, copying mssfile into export location D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-03-30.14:52:33::SCWMssOS::bsp generated is stale removing and regenerating. 
+TRACE::2025-03-30.14:52:33::SCWMssOS::doing bsp build ... 
+TRACE::2025-03-30.14:52:33::SCWMssOS::System Command Ran  D: & cd  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp & make 
+TRACE::2025-03-30.14:52:33::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2025-03-30.14:52:34::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/axivdma_v6_13/src"
+
+TRACE::2025-03-30.14:52:34::SCWMssOS::make -C ps7_cortexa9_0/libsrc/axivdma_v6_13/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+TRACE::2025-03-30.14:52:34::SCWMssOS::s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+TRACE::2025-03-30.14:52:34::SCWMssOS::startfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-03-30.14:52:34::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/bram_v4_8/src"
+
+TRACE::2025-03-30.14:52:34::SCWMssOS::make -C ps7_cortexa9_0/libsrc/bram_v4_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
+TRACE::2025-03-30.14:52:34::SCWMssOS::ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostar
+TRACE::2025-03-30.14:52:34::SCWMssOS::tfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-03-30.14:52:34::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src"
+
+TRACE::2025-03-30.14:52:34::SCWMssOS::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none
+TRACE::2025-03-30.14:52:34::SCWMssOS::-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=h
+TRACE::2025-03-30.14:52:34::SCWMssOS::ard -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-03-30.14:52:34::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_11/src"
+
+TRACE::2025-03-30.14:52:34::SCWMssOS::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_11/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-e
+TRACE::2025-03-30.14:52:34::SCWMssOS::abi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=har
+TRACE::2025-03-30.14:52:34::SCWMssOS::d -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-03-30.14:52:34::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/cycle_num_v1_0/src"
+
+TRACE::2025-03-30.14:52:34::SCWMssOS::make -C ps7_cortexa9_0/libsrc/cycle_num_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+TRACE::2025-03-30.14:52:34::SCWMssOS::as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+TRACE::2025-03-30.14:52:34::SCWMssOS::ostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-03-30.14:52:34::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_2/src"
+
+TRACE::2025-03-30.14:52:34::SCWMssOS::make -C ps7_cortexa9_0/libsrc/ddrps_v1_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2025-03-30.14:52:34::SCWMssOS::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2025-03-30.14:52:34::SCWMssOS::rtfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-03-30.14:52:34::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_7/src"
+
+TRACE::2025-03-30.14:52:34::SCWMssOS::make -C ps7_cortexa9_0/libsrc/devcfg_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2025-03-30.14:52:34::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2025-03-30.14:52:34::SCWMssOS::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-03-30.14:52:34::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_8/src"
+
+TRACE::2025-03-30.14:52:34::SCWMssOS::make -C ps7_cortexa9_0/libsrc/dmaps_v2_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2025-03-30.14:52:34::SCWMssOS::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2025-03-30.14:52:34::SCWMssOS::rtfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-03-30.14:52:34::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_11/src"
+
+TRACE::2025-03-30.14:52:34::SCWMssOS::make -C ps7_cortexa9_0/libsrc/gpiops_v3_11/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2025-03-30.14:52:34::SCWMssOS::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2025-03-30.14:52:34::SCWMssOS::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-03-30.14:52:34::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_9/src"
+
+TRACE::2025-03-30.14:52:34::SCWMssOS::make -C ps7_cortexa9_0/libsrc/gpio_v4_9/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
+TRACE::2025-03-30.14:52:34::SCWMssOS::ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostar
+TRACE::2025-03-30.14:52:34::SCWMssOS::tfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-03-30.14:52:34::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/scugic_v5_1/src"
+
+TRACE::2025-03-30.14:52:34::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scugic_v5_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2025-03-30.14:52:34::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2025-03-30.14:52:34::SCWMssOS::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-03-30.14:52:34::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_4/src"
+
+TRACE::2025-03-30.14:52:34::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scutimer_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+TRACE::2025-03-30.14:52:34::SCWMssOS::s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+TRACE::2025-03-30.14:52:34::SCWMssOS::startfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-03-30.14:52:34::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_4/src"
+
+TRACE::2025-03-30.14:52:34::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scuwdt_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2025-03-30.14:52:34::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2025-03-30.14:52:34::SCWMssOS::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-03-30.14:52:34::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/sdps_v4_1/src"
+
+TRACE::2025-03-30.14:52:34::SCWMssOS::make -C ps7_cortexa9_0/libsrc/sdps_v4_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
+TRACE::2025-03-30.14:52:34::SCWMssOS::ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostar
+TRACE::2025-03-30.14:52:34::SCWMssOS::tfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-03-30.14:52:35::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/standalone_v8_1/src"
+
+TRACE::2025-03-30.14:52:35::SCWMssOS::make -C ps7_cortexa9_0/libsrc/standalone_v8_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2025-03-30.14:52:35::SCWMssOS::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2025-03-30.14:52:35::SCWMssOS::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-03-30.14:52:35::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_6/src"
+
+TRACE::2025-03-30.14:52:35::SCWMssOS::make -C ps7_cortexa9_0/libsrc/xadcps_v2_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2025-03-30.14:52:35::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2025-03-30.14:52:35::SCWMssOS::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-03-30.14:52:35::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/cycle_num_v1_0/src"
+
+TRACE::2025-03-30.14:52:35::SCWMssOS::make -C ps7_cortexa9_0/libsrc/cycle_num_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2025-03-30.14:52:35::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2025-03-30.14:52:35::SCWMssOS::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-03-30.14:52:35::SCWMssOS::"Compiling simple_adder..."
+
+TRACE::2025-03-30.14:52:36::SCWMssOS::'Finished building libraries sequentially.'
+
+TRACE::2025-03-30.14:52:36::SCWMssOS::make -j 18 --no-print-directory par_libs
+
+TRACE::2025-03-30.14:52:36::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/axivdma_v6_13/src"
+
+TRACE::2025-03-30.14:52:36::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/bram_v4_8/src"
+
+TRACE::2025-03-30.14:52:36::SCWMssOS::make -C ps7_cortexa9_0/libsrc/axivdma_v6_13/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+TRACE::2025-03-30.14:52:36::SCWMssOS::s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+TRACE::2025-03-30.14:52:36::SCWMssOS::startfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-03-30.14:52:36::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src"
+
+TRACE::2025-03-30.14:52:36::SCWMssOS::make -C ps7_cortexa9_0/libsrc/bram_v4_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
+TRACE::2025-03-30.14:52:36::SCWMssOS::ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostar
+TRACE::2025-03-30.14:52:36::SCWMssOS::tfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-03-30.14:52:36::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_11/src"
+
+TRACE::2025-03-30.14:52:36::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/cycle_num_v1_0/src"
+
+TRACE::2025-03-30.14:52:36::SCWMssOS::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none
+TRACE::2025-03-30.14:52:36::SCWMssOS::-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=h
+TRACE::2025-03-30.14:52:36::SCWMssOS::ard -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-03-30.14:52:36::SCWMssOS::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_11/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-e
+TRACE::2025-03-30.14:52:36::SCWMssOS::abi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=har
+TRACE::2025-03-30.14:52:36::SCWMssOS::d -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-03-30.14:52:36::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_2/src"
+
+TRACE::2025-03-30.14:52:36::SCWMssOS::make -C ps7_cortexa9_0/libsrc/cycle_num_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+TRACE::2025-03-30.14:52:36::SCWMssOS::as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+TRACE::2025-03-30.14:52:36::SCWMssOS::ostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-03-30.14:52:36::SCWMssOS::make -C ps7_cortexa9_0/libsrc/ddrps_v1_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2025-03-30.14:52:36::SCWMssOS::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2025-03-30.14:52:36::SCWMssOS::rtfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-03-30.14:52:36::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_7/src"
+
+TRACE::2025-03-30.14:52:36::SCWMssOS::make -C ps7_cortexa9_0/libsrc/devcfg_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2025-03-30.14:52:36::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2025-03-30.14:52:36::SCWMssOS::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-03-30.14:52:36::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_8/src"
+
+TRACE::2025-03-30.14:52:36::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_11/src"
+
+TRACE::2025-03-30.14:52:36::SCWMssOS::make -C ps7_cortexa9_0/libsrc/dmaps_v2_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2025-03-30.14:52:36::SCWMssOS::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2025-03-30.14:52:36::SCWMssOS::rtfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-03-30.14:52:36::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_9/src"
+
+TRACE::2025-03-30.14:52:36::SCWMssOS::make -C ps7_cortexa9_0/libsrc/gpiops_v3_11/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2025-03-30.14:52:36::SCWMssOS::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2025-03-30.14:52:36::SCWMssOS::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-03-30.14:52:36::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/scugic_v5_1/src"
+
+TRACE::2025-03-30.14:52:36::SCWMssOS::make -C ps7_cortexa9_0/libsrc/gpio_v4_9/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
+TRACE::2025-03-30.14:52:36::SCWMssOS::ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostar
+TRACE::2025-03-30.14:52:36::SCWMssOS::tfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-03-30.14:52:36::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scugic_v5_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2025-03-30.14:52:36::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2025-03-30.14:52:36::SCWMssOS::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-03-30.14:52:36::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_4/src"
+
+TRACE::2025-03-30.14:52:36::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scutimer_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+TRACE::2025-03-30.14:52:36::SCWMssOS::s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+TRACE::2025-03-30.14:52:36::SCWMssOS::startfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-03-30.14:52:36::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_4/src"
+
+TRACE::2025-03-30.14:52:36::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scuwdt_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2025-03-30.14:52:36::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2025-03-30.14:52:36::SCWMssOS::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-03-30.14:52:36::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/sdps_v4_1/src"
+
+TRACE::2025-03-30.14:52:36::SCWMssOS::make -C ps7_cortexa9_0/libsrc/sdps_v4_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
+TRACE::2025-03-30.14:52:36::SCWMssOS::ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostar
+TRACE::2025-03-30.14:52:36::SCWMssOS::tfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-03-30.14:52:36::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/standalone_v8_1/src"
+
+TRACE::2025-03-30.14:52:36::SCWMssOS::make -C ps7_cortexa9_0/libsrc/standalone_v8_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2025-03-30.14:52:36::SCWMssOS::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2025-03-30.14:52:36::SCWMssOS::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-03-30.14:52:36::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_6/src"
+
+TRACE::2025-03-30.14:52:36::SCWMssOS::make -C ps7_cortexa9_0/libsrc/xadcps_v2_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2025-03-30.14:52:36::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2025-03-30.14:52:36::SCWMssOS::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-03-30.14:52:36::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/axivdma_v6_13/src"
+
+TRACE::2025-03-30.14:52:36::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/bram_v4_8/src"
+
+TRACE::2025-03-30.14:52:36::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src"
+
+TRACE::2025-03-30.14:52:36::SCWMssOS::make -C ps7_cortexa9_0/libsrc/axivdma_v6_13/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2025-03-30.14:52:36::SCWMssOS::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2025-03-30.14:52:36::SCWMssOS::rtfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-03-30.14:52:36::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_11/src"
+
+TRACE::2025-03-30.14:52:36::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_2/src"
+
+TRACE::2025-03-30.14:52:36::SCWMssOS::make -C ps7_cortexa9_0/libsrc/bram_v4_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "ARC
+TRACE::2025-03-30.14:52:36::SCWMssOS::HIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfi
+TRACE::2025-03-30.14:52:36::SCWMssOS::les -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-03-30.14:52:36::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_7/src"
+
+TRACE::2025-03-30.14:52:36::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_8/src"
+
+TRACE::2025-03-30.14:52:36::SCWMssOS::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-ea
+TRACE::2025-03-30.14:52:36::SCWMssOS::bi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard
+TRACE::2025-03-30.14:52:36::SCWMssOS:: -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-03-30.14:52:36::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_11/src"
+
+TRACE::2025-03-30.14:52:36::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_9/src"
+
+TRACE::2025-03-30.14:52:36::SCWMssOS::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_11/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2025-03-30.14:52:36::SCWMssOS::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2025-03-30.14:52:36::SCWMssOS::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-03-30.14:52:36::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v5_1/src"
+
+TRACE::2025-03-30.14:52:36::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_4/src"
+
+TRACE::2025-03-30.14:52:36::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_4/src"
+
+TRACE::2025-03-30.14:52:36::SCWMssOS::make -C ps7_cortexa9_0/libsrc/ddrps_v1_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "AR
+TRACE::2025-03-30.14:52:36::SCWMssOS::CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartf
+TRACE::2025-03-30.14:52:36::SCWMssOS::iles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-03-30.14:52:36::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v4_1/src"
+
+TRACE::2025-03-30.14:52:36::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v8_1/src"
+
+TRACE::2025-03-30.14:52:36::SCWMssOS::make -C ps7_cortexa9_0/libsrc/devcfg_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2025-03-30.14:52:36::SCWMssOS::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2025-03-30.14:52:36::SCWMssOS::files -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-03-30.14:52:36::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_6/src"
+
+TRACE::2025-03-30.14:52:36::SCWMssOS::make -C ps7_cortexa9_0/libsrc/dmaps_v2_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "AR
+TRACE::2025-03-30.14:52:36::SCWMssOS::CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartf
+TRACE::2025-03-30.14:52:36::SCWMssOS::iles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-03-30.14:52:36::SCWMssOS::make -C ps7_cortexa9_0/libsrc/gpiops_v3_11/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
+TRACE::2025-03-30.14:52:36::SCWMssOS::ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostar
+TRACE::2025-03-30.14:52:36::SCWMssOS::tfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-03-30.14:52:36::SCWMssOS::make -C ps7_cortexa9_0/libsrc/gpio_v4_9/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "ARC
+TRACE::2025-03-30.14:52:36::SCWMssOS::HIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfi
+TRACE::2025-03-30.14:52:36::SCWMssOS::les -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-03-30.14:52:36::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scugic_v5_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2025-03-30.14:52:36::SCWMssOS::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2025-03-30.14:52:36::SCWMssOS::files -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-03-30.14:52:36::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scutimer_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2025-03-30.14:52:36::SCWMssOS::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2025-03-30.14:52:36::SCWMssOS::rtfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-03-30.14:52:36::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scuwdt_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2025-03-30.14:52:36::SCWMssOS::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2025-03-30.14:52:36::SCWMssOS::files -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-03-30.14:52:36::SCWMssOS::make -C ps7_cortexa9_0/libsrc/sdps_v4_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "ARC
+TRACE::2025-03-30.14:52:36::SCWMssOS::HIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfi
+TRACE::2025-03-30.14:52:36::SCWMssOS::les -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-03-30.14:52:36::SCWMssOS::make -C ps7_cortexa9_0/libsrc/standalone_v8_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2025-03-30.14:52:36::SCWMssOS::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2025-03-30.14:52:36::SCWMssOS::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-03-30.14:52:36::SCWMssOS::make -C ps7_cortexa9_0/libsrc/xadcps_v2_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2025-03-30.14:52:36::SCWMssOS::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2025-03-30.14:52:36::SCWMssOS::files -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-03-30.14:52:37::SCWMssOS::'Finished building libraries parallelly.'
+
+TRACE::2025-03-30.14:52:37::SCWMssOS::make --no-print-directory archive
+
+TRACE::2025-03-30.14:52:37::SCWMssOS::arm-none-eabi-ar -r  ps7_cortexa9_0/lib/libxil.a ps7_cortexa9_0/lib/_exit.o ps7_cortexa9_0/lib/_open.o ps7_cortexa9_0/lib/_sbrk
+TRACE::2025-03-30.14:52:37::SCWMssOS::.o ps7_cortexa9_0/lib/abort.o ps7_cortexa9_0/lib/asm_vectors.o ps7_cortexa9_0/lib/boot.o ps7_cortexa9_0/lib/close.o ps7_cortexa
+TRACE::2025-03-30.14:52:37::SCWMssOS::9_0/lib/cpputest_time.o ps7_cortexa9_0/lib/cpu_init.o ps7_cortexa9_0/lib/errno.o ps7_cortexa9_0/lib/fcntl.o ps7_cortexa9_0/lib/
+TRACE::2025-03-30.14:52:37::SCWMssOS::fstat.o ps7_cortexa9_0/lib/getentropy.o ps7_cortexa9_0/lib/getpid.o ps7_cortexa9_0/lib/inbyte.o ps7_cortexa9_0/lib/isatty.o ps7
+TRACE::2025-03-30.14:52:37::SCWMssOS::_cortexa9_0/lib/kill.o ps7_cortexa9_0/lib/lseek.o ps7_cortexa9_0/lib/open.o ps7_cortexa9_0/lib/outbyte.o ps7_cortexa9_0/lib/pri
+TRACE::2025-03-30.14:52:37::SCWMssOS::nt.o ps7_cortexa9_0/lib/putnum.o ps7_cortexa9_0/lib/read.o ps7_cortexa9_0/lib/sbrk.o ps7_cortexa9_0/lib/sleep.o ps7_cortexa9_0/
+TRACE::2025-03-30.14:52:37::SCWMssOS::lib/time.o ps7_cortexa9_0/lib/translation_table.o ps7_cortexa9_0/lib/unlink.o ps7_cortexa9_0/lib/usleep.o ps7_cortexa9_0/lib/ve
+TRACE::2025-03-30.14:52:37::SCWMssOS::ctors.o ps7_cortexa9_0/lib/write.o ps7_cortexa9_0/lib/xadcps.o ps7_cortexa9_0/lib/xadcps_g.o ps7_cortexa9_0/lib/xadcps_intr.o p
+TRACE::2025-03-30.14:52:37::SCWMssOS::s7_cortexa9_0/lib/xadcps_selftest.o ps7_cortexa9_0/lib/xadcps_sinit.o ps7_cortexa9_0/lib/xaxivdma.o ps7_cortexa9_0/lib/xaxivdma
+TRACE::2025-03-30.14:52:37::SCWMssOS::_channel.o ps7_cortexa9_0/lib/xaxivdma_g.o ps7_cortexa9_0/lib/xaxivdma_intr.o ps7_cortexa9_0/lib/xaxivdma_selftest.o ps7_cortex
+TRACE::2025-03-30.14:52:37::SCWMssOS::a9_0/lib/xaxivdma_sinit.o ps7_cortexa9_0/lib/xbram.o ps7_cortexa9_0/lib/xbram_g.o ps7_cortexa9_0/lib/xbram_intr.o ps7_cortexa9_
+TRACE::2025-03-30.14:52:37::SCWMssOS::0/lib/xbram_selftest.o ps7_cortexa9_0/lib/xbram_sinit.o ps7_cortexa9_0/lib/xcoresightpsdcc.o ps7_cortexa9_0/lib/xdevcfg.o ps7_c
+TRACE::2025-03-30.14:52:37::SCWMssOS::ortexa9_0/lib/xdevcfg_g.o ps7_cortexa9_0/lib/xdevcfg_hw.o ps7_cortexa9_0/lib/xdevcfg_intr.o ps7_cortexa9_0/lib/xdevcfg_selftest
+TRACE::2025-03-30.14:52:37::SCWMssOS::.o ps7_cortexa9_0/lib/xdevcfg_sinit.o ps7_cortexa9_0/lib/xdmaps.o ps7_cortexa9_0/lib/xdmaps_g.o ps7_cortexa9_0/lib/xdmaps_hw.o 
+TRACE::2025-03-30.14:52:37::SCWMssOS::ps7_cortexa9_0/lib/xdmaps_selftest.o ps7_cortexa9_0/lib/xdmaps_sinit.o ps7_cortexa9_0/lib/xgpio.o ps7_cortexa9_0/lib/xgpio_extr
+TRACE::2025-03-30.14:52:37::SCWMssOS::a.o ps7_cortexa9_0/lib/xgpio_g.o ps7_cortexa9_0/lib/xgpio_intr.o ps7_cortexa9_0/lib/xgpio_selftest.o ps7_cortexa9_0/lib/xgpio_s
+TRACE::2025-03-30.14:52:37::SCWMssOS::init.o ps7_cortexa9_0/lib/xgpiops.o ps7_cortexa9_0/lib/xgpiops_g.o ps7_cortexa9_0/lib/xgpiops_hw.o ps7_cortexa9_0/lib/xgpiops_i
+TRACE::2025-03-30.14:52:37::SCWMssOS::ntr.o ps7_cortexa9_0/lib/xgpiops_selftest.o ps7_cortexa9_0/lib/xgpiops_sinit.o ps7_cortexa9_0/lib/xil-crt0.o ps7_cortexa9_0/lib
+TRACE::2025-03-30.14:52:37::SCWMssOS::/xil_assert.o ps7_cortexa9_0/lib/xil_cache.o ps7_cortexa9_0/lib/xil_clocking.o ps7_cortexa9_0/lib/xil_exception.o ps7_cortexa9_
+TRACE::2025-03-30.14:52:37::SCWMssOS::0/lib/xil_mem.o ps7_cortexa9_0/lib/xil_misc_psreset_api.o ps7_cortexa9_0/lib/xil_mmu.o ps7_cortexa9_0/lib/xil_printf.o ps7_cort
+TRACE::2025-03-30.14:52:37::SCWMssOS::exa9_0/lib/xil_sleepcommon.o ps7_cortexa9_0/lib/xil_sleeptimer.o ps7_cortexa9_0/lib/xil_spinlock.o ps7_cortexa9_0/lib/xil_testc
+TRACE::2025-03-30.14:52:37::SCWMssOS::ache.o ps7_cortexa9_0/lib/xil_testio.o ps7_cortexa9_0/lib/xil_testmem.o ps7_cortexa9_0/lib/xil_util.o ps7_cortexa9_0/lib/xinter
+TRACE::2025-03-30.14:52:37::SCWMssOS::rupt_wrap.o ps7_cortexa9_0/lib/xl2cc_counter.o ps7_cortexa9_0/lib/xplatform_info.o ps7_cortexa9_0/lib/xpm_counter.o ps7_cortexa
+TRACE::2025-03-30.14:52:37::SCWMssOS::9_0/lib/xscugic.o ps7_cortexa9_0/lib/xscugic_g.o ps7_cortexa9_0/lib/xscugic_hw.o ps7_cortexa9_0/lib/xscugic_intr.o ps7_cortexa9
+TRACE::2025-03-30.14:52:37::SCWMssOS::_0/lib/xscugic_selftest.o ps7_cortexa9_0/lib/xscugic_sinit.o ps7_cortexa9_0/lib/xscutimer.o ps7_cortexa9_0/lib/xscutimer_g.o ps
+TRACE::2025-03-30.14:52:37::SCWMssOS::7_cortexa9_0/lib/xscutimer_selftest.o ps7_cortexa9_0/lib/xscutimer_sinit.o ps7_cortexa9_0/lib/xscuwdt.o ps7_cortexa9_0/lib/xscu
+TRACE::2025-03-30.14:52:37::SCWMssOS::wdt_g.o ps7_cortexa9_0/lib/xscuwdt_selftest.o ps7_cortexa9_0/lib/xscuwdt_sinit.o ps7_cortexa9_0/lib/xsdps.o ps7_cortexa9_0/lib/
+TRACE::2025-03-30.14:52:37::SCWMssOS::xsdps_card.o ps7_cortexa9_0/lib/xsdps_g.o ps7_cortexa9_0/lib/xsdps_host.o ps7_cortexa9_0/lib/xsdps_options.o ps7_cortexa9_0/lib
+TRACE::2025-03-30.14:52:37::SCWMssOS::/xsdps_sinit.o ps7_cortexa9_0/lib/xtime_l.o
+
+TRACE::2025-03-30.14:52:37::SCWMssOS::'Finished building libraries'
+
+TRACE::2025-03-30.14:52:38::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2025-03-30.14:52:38::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2025-03-30.14:52:38::SCWSystem::Completed Processing the domain standalone_ps7_cortexa9_0
+LOG::2025-03-30.14:52:38::SCWSystem::Completed Processing the sysconfig ZYNQ_CORE_wrapper
+LOG::2025-03-30.14:52:38::SCWPlatform::Completed generating the artifacts for system configuration ZYNQ_CORE_wrapper
+TRACE::2025-03-30.14:52:38::SCWPlatform::Started preparing the platform 
+TRACE::2025-03-30.14:52:38::SCWSystem::Writing the bif file for system config ZYNQ_CORE_wrapper
+TRACE::2025-03-30.14:52:38::SCWSystem::dir created 
+TRACE::2025-03-30.14:52:38::SCWSystem::Writing the bif 
+TRACE::2025-03-30.14:52:38::SCWPlatform::Started writing the spfm file 
+TRACE::2025-03-30.14:52:38::SCWPlatform::Started writing the xpfm file 
+TRACE::2025-03-30.14:52:38::SCWPlatform::Completed generating the platform
+TRACE::2025-03-30.14:52:38::SCWMssOS::Saving the mss changes D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-03-30.14:52:38::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-03-30.14:52:38::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-03-30.14:52:38::SCWMssOS::Commit changes completed.
+TRACE::2025-03-30.14:52:38::SCWMssOS::Saving the mss changes D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-03-30.14:52:38::SCWMssOS::Adding the swdes entry, mss present, able to open swdb D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss with des name system_0
+TRACE::2025-03-30.14:52:38::SCWMssOS::Writing the mss file completed D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-03-30.14:52:38::SCWMssOS::Commit changes completed.
+TRACE::2025-03-30.14:52:38::SCWPlatform::Trying to open the hw design at D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:38::SCWPlatform::DSA given D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:38::SCWPlatform::DSA absoulate path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:38::SCWPlatform::DSA directory D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw
+TRACE::2025-03-30.14:52:38::SCWPlatform:: Platform Path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:38::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-03-30.14:52:38::SCWPlatform::Trying to set the existing hwdb with name ZYNQ_CORE_wrapper_1
+TRACE::2025-03-30.14:52:38::SCWPlatform::Opened existing hwdb ZYNQ_CORE_wrapper_1
+TRACE::2025-03-30.14:52:38::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-03-30.14:52:38::SCWMssOS::Checking the sw design at  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-03-30.14:52:38::SCWMssOS::DEBUG:  swdes dump  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-03-30.14:52:38::SCWMssOS::Sw design exists and opened at  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-03-30.14:52:38::SCWPlatform::Trying to open the hw design at D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:38::SCWPlatform::DSA given D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:38::SCWPlatform::DSA absoulate path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:38::SCWPlatform::DSA directory D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw
+TRACE::2025-03-30.14:52:38::SCWPlatform:: Platform Path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:38::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-03-30.14:52:38::SCWPlatform::Trying to set the existing hwdb with name ZYNQ_CORE_wrapper_1
+TRACE::2025-03-30.14:52:38::SCWPlatform::Opened existing hwdb ZYNQ_CORE_wrapper_1
+TRACE::2025-03-30.14:52:38::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-03-30.14:52:38::SCWMssOS::Checking the sw design at  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-03-30.14:52:38::SCWMssOS::DEBUG:  swdes dump  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-03-30.14:52:38::SCWMssOS::Sw design exists and opened at  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-03-30.14:52:38::SCWWriter::formatted JSON is {
+	"platformName":	"ZYNQ_CORE_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"ZYNQ_CORE_wrapper",
+	"platHandOff":	"D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CORE_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/ZYNQ_CORE_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"ZYNQ_CORE_wrapper",
+	"systems":	[{
+			"systemName":	"ZYNQ_CORE_wrapper",
+			"systemDesc":	"ZYNQ_CORE_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"ZYNQ_CORE_wrapper",
+			"sysActiveDom":	"standalone_ps7_cortexa9_0",
+			"sysDefaultDom":	"standalone_ps7_cortexa9_0",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.1",
+					"mssFile":	"",
+					"md5Digest":	"c3051b6fb569b0c7ebb570299ad0e6561",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:5.0", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_ps7_cortexa9_0",
+					"domainDispName":	"standalone_ps7_cortexa9_0",
+					"domainDesc":	"standalone_ps7_cortexa9_0",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"<platformDir>/resources/ZYNQ_CORE_wrapper/standalone_ps7_cortexa9_0/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/ZYNQ_CORE_wrapper/standalone_ps7_cortexa9_0/qemu",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.1",
+					"mssFile":	"",
+					"md5Digest":	"01074fe04f793c8313a60361ca239748",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2025-03-30.14:52:38::SCWPlatform::updated the xpfm file.
+TRACE::2025-03-30.14:52:38::SCWPlatform::Trying to open the hw design at D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:38::SCWPlatform::DSA given D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:38::SCWPlatform::DSA absoulate path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:38::SCWPlatform::DSA directory D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw
+TRACE::2025-03-30.14:52:38::SCWPlatform:: Platform Path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:38::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-03-30.14:52:38::SCWPlatform::Trying to set the existing hwdb with name ZYNQ_CORE_wrapper_1
+TRACE::2025-03-30.14:52:38::SCWPlatform::Opened existing hwdb ZYNQ_CORE_wrapper_1
+TRACE::2025-03-30.14:52:38::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-03-30.14:52:38::SCWMssOS::Checking the sw design at  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-03-30.14:52:38::SCWMssOS::DEBUG:  swdes dump  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-03-30.14:52:38::SCWMssOS::Sw design exists and opened at  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-03-30.14:52:42::SCWPlatform::Clearing the existing platform
+TRACE::2025-03-30.14:52:42::SCWSystem::Clearing the existing sysconfig
+TRACE::2025-03-30.14:52:42::SCWBDomain::clearing the fsbl build
+TRACE::2025-03-30.14:52:42::SCWMssOS::Removing the swdes entry for  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-03-30.14:52:42::SCWMssOS::Removing the swdes entry for  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-03-30.14:52:42::SCWSystem::Clearing the domains completed.
+TRACE::2025-03-30.14:52:42::SCWPlatform::Clearing the opened hw db.
+TRACE::2025-03-30.14:52:42::SCWPlatform::DSA given D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:42::SCWPlatform::DSA absoulate path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:42::SCWPlatform:: Platform location is D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw
+TRACE::2025-03-30.14:52:42::SCWPlatform:: Platform Path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:42::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-03-30.14:52:42::SCWPlatform::Removing the HwDB with name D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:42::SCWPlatform::Trying to open the hw design at D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:42::SCWPlatform::DSA given D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:42::SCWPlatform::DSA absoulate path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:42::SCWPlatform::DSA directory D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw
+TRACE::2025-03-30.14:52:42::SCWPlatform:: Platform Path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:42::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-03-30.14:52:42::SCWPlatform::Do not have an existing db opened. 
+TRACE::2025-03-30.14:52:43::SCWPlatform::Opened new HwDB with name ZYNQ_CORE_wrapper_2
+TRACE::2025-03-30.14:52:43::SCWReader::Active system found as  ZYNQ_CORE_wrapper
+TRACE::2025-03-30.14:52:43::SCWReader::Handling sysconfig ZYNQ_CORE_wrapper
+TRACE::2025-03-30.14:52:43::SCWDomain::checking for install qemu data   : 
+TRACE::2025-03-30.14:52:43::SCWDomain:: Using the QEMU Data from install at  : D:/Xilinx/Vitis/2023.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2025-03-30.14:52:43::SCWDomain:: Using the QEMU args  from install at  : D:/Xilinx/Vitis/2023.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2025-03-30.14:52:43::SCWPlatform::Trying to open the hw design at D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:43::SCWPlatform::DSA given D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:43::SCWPlatform::DSA absoulate path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:43::SCWPlatform::DSA directory D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw
+TRACE::2025-03-30.14:52:43::SCWPlatform:: Platform Path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:43::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-03-30.14:52:43::SCWPlatform::Trying to set the existing hwdb with name ZYNQ_CORE_wrapper_2
+TRACE::2025-03-30.14:52:43::SCWPlatform::Opened existing hwdb ZYNQ_CORE_wrapper_2
+TRACE::2025-03-30.14:52:43::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-03-30.14:52:43::SCWPlatform::Trying to open the hw design at D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:43::SCWPlatform::DSA given D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:43::SCWPlatform::DSA absoulate path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:43::SCWPlatform::DSA directory D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw
+TRACE::2025-03-30.14:52:43::SCWPlatform:: Platform Path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:43::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-03-30.14:52:43::SCWPlatform::Trying to set the existing hwdb with name ZYNQ_CORE_wrapper_2
+TRACE::2025-03-30.14:52:43::SCWPlatform::Opened existing hwdb ZYNQ_CORE_wrapper_2
+TRACE::2025-03-30.14:52:43::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-03-30.14:52:43::SCWPlatform::Trying to open the hw design at D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:43::SCWPlatform::DSA given D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:43::SCWPlatform::DSA absoulate path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:43::SCWPlatform::DSA directory D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw
+TRACE::2025-03-30.14:52:43::SCWPlatform:: Platform Path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:43::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-03-30.14:52:43::SCWPlatform::Trying to set the existing hwdb with name ZYNQ_CORE_wrapper_2
+TRACE::2025-03-30.14:52:43::SCWPlatform::Opened existing hwdb ZYNQ_CORE_wrapper_2
+TRACE::2025-03-30.14:52:43::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-03-30.14:52:43::SCWReader::Boot application domain added for zynq_fsbl
+TRACE::2025-03-30.14:52:43::SCWPlatform::Trying to open the hw design at D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:43::SCWPlatform::DSA given D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:43::SCWPlatform::DSA absoulate path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:43::SCWPlatform::DSA directory D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw
+TRACE::2025-03-30.14:52:43::SCWPlatform:: Platform Path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:43::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-03-30.14:52:43::SCWPlatform::Trying to set the existing hwdb with name ZYNQ_CORE_wrapper_2
+TRACE::2025-03-30.14:52:43::SCWPlatform::Opened existing hwdb ZYNQ_CORE_wrapper_2
+TRACE::2025-03-30.14:52:43::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-03-30.14:52:43::SCWMssOS::Checking the sw design at  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-03-30.14:52:43::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2025-03-30.14:52:43::SCWMssOS::No sw design opened at  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-03-30.14:52:43::SCWMssOS::mss exists loading the mss file  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-03-30.14:52:43::SCWMssOS::Opened the sw design from mss  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-03-30.14:52:43::SCWMssOS::Adding the swdes entry D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2025-03-30.14:52:43::SCWMssOS::updating the scw layer about changes
+TRACE::2025-03-30.14:52:43::SCWMssOS::Opened the sw design.  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-03-30.14:52:43::SCWPlatform::Trying to open the hw design at D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:43::SCWPlatform::DSA given D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:43::SCWPlatform::DSA absoulate path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:43::SCWPlatform::DSA directory D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw
+TRACE::2025-03-30.14:52:43::SCWPlatform:: Platform Path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:43::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-03-30.14:52:43::SCWPlatform::Trying to set the existing hwdb with name ZYNQ_CORE_wrapper_2
+TRACE::2025-03-30.14:52:43::SCWPlatform::Opened existing hwdb ZYNQ_CORE_wrapper_2
+TRACE::2025-03-30.14:52:43::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-03-30.14:52:43::SCWMssOS::Checking the sw design at  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-03-30.14:52:43::SCWMssOS::DEBUG:  swdes dump  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-03-30.14:52:43::SCWMssOS::Sw design exists and opened at  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-03-30.14:52:43::SCWMssOS:: library already available in sw design:  xilffs:5.0
+TRACE::2025-03-30.14:52:43::SCWPlatform::Trying to open the hw design at D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:43::SCWPlatform::DSA given D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:43::SCWPlatform::DSA absoulate path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:43::SCWPlatform::DSA directory D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw
+TRACE::2025-03-30.14:52:43::SCWPlatform:: Platform Path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:43::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-03-30.14:52:43::SCWPlatform::Trying to set the existing hwdb with name ZYNQ_CORE_wrapper_2
+TRACE::2025-03-30.14:52:43::SCWPlatform::Opened existing hwdb ZYNQ_CORE_wrapper_2
+TRACE::2025-03-30.14:52:43::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-03-30.14:52:43::SCWMssOS::Checking the sw design at  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-03-30.14:52:43::SCWMssOS::DEBUG:  swdes dump  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-03-30.14:52:43::SCWMssOS::Sw design exists and opened at  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-03-30.14:52:43::SCWMssOS:: library already available in sw design:  xilrsa:1.6
+TRACE::2025-03-30.14:52:43::SCWMssOS::Saving the mss changes D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-03-30.14:52:43::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-03-30.14:52:43::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-03-30.14:52:43::SCWMssOS::Commit changes completed.
+TRACE::2025-03-30.14:52:43::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2025-03-30.14:52:43::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2025-03-30.14:52:43::SCWPlatform::Trying to open the hw design at D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:43::SCWPlatform::DSA given D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:43::SCWPlatform::DSA absoulate path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:43::SCWPlatform::DSA directory D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw
+TRACE::2025-03-30.14:52:43::SCWPlatform:: Platform Path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:43::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-03-30.14:52:43::SCWPlatform::Trying to set the existing hwdb with name ZYNQ_CORE_wrapper_2
+TRACE::2025-03-30.14:52:43::SCWPlatform::Opened existing hwdb ZYNQ_CORE_wrapper_2
+TRACE::2025-03-30.14:52:43::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-03-30.14:52:43::SCWMssOS::Checking the sw design at  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-03-30.14:52:43::SCWMssOS::DEBUG:  swdes dump  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-03-30.14:52:43::SCWMssOS::Sw design exists and opened at  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-03-30.14:52:43::SCWReader::No isolation master present  
+TRACE::2025-03-30.14:52:43::SCWDomain::checking for install qemu data   : 
+TRACE::2025-03-30.14:52:43::SCWDomain:: Using the QEMU Data from install at  : D:/Xilinx/Vitis/2023.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2025-03-30.14:52:43::SCWDomain:: Using the QEMU args  from install at  : D:/Xilinx/Vitis/2023.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2025-03-30.14:52:43::SCWPlatform::Trying to open the hw design at D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:43::SCWPlatform::DSA given D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:43::SCWPlatform::DSA absoulate path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:43::SCWPlatform::DSA directory D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw
+TRACE::2025-03-30.14:52:43::SCWPlatform:: Platform Path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:43::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-03-30.14:52:43::SCWPlatform::Trying to set the existing hwdb with name ZYNQ_CORE_wrapper_2
+TRACE::2025-03-30.14:52:43::SCWPlatform::Opened existing hwdb ZYNQ_CORE_wrapper_2
+TRACE::2025-03-30.14:52:43::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-03-30.14:52:43::SCWPlatform::Trying to open the hw design at D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:43::SCWPlatform::DSA given D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:43::SCWPlatform::DSA absoulate path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:43::SCWPlatform::DSA directory D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw
+TRACE::2025-03-30.14:52:43::SCWPlatform:: Platform Path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:43::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-03-30.14:52:43::SCWPlatform::Trying to set the existing hwdb with name ZYNQ_CORE_wrapper_2
+TRACE::2025-03-30.14:52:43::SCWPlatform::Opened existing hwdb ZYNQ_CORE_wrapper_2
+TRACE::2025-03-30.14:52:43::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-03-30.14:52:43::SCWPlatform::Trying to open the hw design at D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:43::SCWPlatform::DSA given D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:43::SCWPlatform::DSA absoulate path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:43::SCWPlatform::DSA directory D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw
+TRACE::2025-03-30.14:52:43::SCWPlatform:: Platform Path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:43::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-03-30.14:52:43::SCWPlatform::Trying to set the existing hwdb with name ZYNQ_CORE_wrapper_2
+TRACE::2025-03-30.14:52:43::SCWPlatform::Opened existing hwdb ZYNQ_CORE_wrapper_2
+TRACE::2025-03-30.14:52:43::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-03-30.14:52:43::SCWMssOS::Checking the sw design at  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-03-30.14:52:43::SCWMssOS::DEBUG:  swdes dump  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-03-30.14:52:43::SCWMssOS::No sw design opened at  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-03-30.14:52:43::SCWMssOS::mss exists loading the mss file  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-03-30.14:52:43::SCWMssOS::Opened the sw design from mss  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-03-30.14:52:43::SCWMssOS::Adding the swdes entry D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss with des name system_0
+TRACE::2025-03-30.14:52:43::SCWMssOS::updating the scw layer about changes
+TRACE::2025-03-30.14:52:43::SCWMssOS::Opened the sw design.  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-03-30.14:52:43::SCWMssOS::Saving the mss changes D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-03-30.14:52:43::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-03-30.14:52:43::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-03-30.14:52:43::SCWMssOS::Commit changes completed.
+TRACE::2025-03-30.14:52:43::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2025-03-30.14:52:43::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2025-03-30.14:52:43::SCWPlatform::Trying to open the hw design at D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:43::SCWPlatform::DSA given D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:43::SCWPlatform::DSA absoulate path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:43::SCWPlatform::DSA directory D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw
+TRACE::2025-03-30.14:52:43::SCWPlatform:: Platform Path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:43::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-03-30.14:52:43::SCWPlatform::Trying to set the existing hwdb with name ZYNQ_CORE_wrapper_2
+TRACE::2025-03-30.14:52:43::SCWPlatform::Opened existing hwdb ZYNQ_CORE_wrapper_2
+TRACE::2025-03-30.14:52:43::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-03-30.14:52:43::SCWMssOS::Checking the sw design at  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-03-30.14:52:43::SCWMssOS::DEBUG:  swdes dump  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-03-30.14:52:43::SCWMssOS::Sw design exists and opened at  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-03-30.14:52:43::SCWReader::No isolation master present  
+TRACE::2025-03-30.14:52:43::SCWPlatform::Trying to open the hw design at D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:43::SCWPlatform::DSA given D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:43::SCWPlatform::DSA absoulate path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:43::SCWPlatform::DSA directory D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw
+TRACE::2025-03-30.14:52:43::SCWPlatform:: Platform Path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:43::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-03-30.14:52:43::SCWPlatform::Trying to set the existing hwdb with name ZYNQ_CORE_wrapper_2
+TRACE::2025-03-30.14:52:43::SCWPlatform::Opened existing hwdb ZYNQ_CORE_wrapper_2
+TRACE::2025-03-30.14:52:43::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-03-30.14:52:43::SCWMssOS::Checking the sw design at  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-03-30.14:52:43::SCWMssOS::DEBUG:  swdes dump  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-03-30.14:52:43::SCWMssOS::Sw design exists and opened at  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-03-30.14:52:43::SCWMssOS::In reload Mss file.
+TRACE::2025-03-30.14:52:43::SCWPlatform::Trying to open the hw design at D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:43::SCWPlatform::DSA given D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:43::SCWPlatform::DSA absoulate path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:43::SCWPlatform::DSA directory D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw
+TRACE::2025-03-30.14:52:43::SCWPlatform:: Platform Path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:43::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-03-30.14:52:43::SCWPlatform::Trying to set the existing hwdb with name ZYNQ_CORE_wrapper_2
+TRACE::2025-03-30.14:52:43::SCWPlatform::Opened existing hwdb ZYNQ_CORE_wrapper_2
+TRACE::2025-03-30.14:52:43::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-03-30.14:52:43::SCWMssOS::Checking the sw design at  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-03-30.14:52:43::SCWMssOS::DEBUG:  swdes dump  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-03-30.14:52:43::SCWMssOS::No sw design opened at  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-03-30.14:52:43::SCWMssOS::mss exists loading the mss file  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-03-30.14:52:43::SCWMssOS::Opened the sw design from mss  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-03-30.14:52:43::SCWMssOS::Adding the swdes entry D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss with des name system_0
+TRACE::2025-03-30.14:52:43::SCWMssOS::updating the scw layer about changes
+TRACE::2025-03-30.14:52:43::SCWMssOS::Opened the sw design.  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-03-30.14:52:43::SCWMssOS::Saving the mss changes D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-03-30.14:52:43::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-03-30.14:52:43::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-03-30.14:52:43::SCWMssOS::Commit changes completed.
+TRACE::2025-03-30.14:52:43::SCWPlatform::Trying to open the hw design at D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:43::SCWPlatform::DSA given D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:43::SCWPlatform::DSA absoulate path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:43::SCWPlatform::DSA directory D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw
+TRACE::2025-03-30.14:52:43::SCWPlatform:: Platform Path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:43::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-03-30.14:52:43::SCWPlatform::Trying to set the existing hwdb with name ZYNQ_CORE_wrapper_2
+TRACE::2025-03-30.14:52:43::SCWPlatform::Opened existing hwdb ZYNQ_CORE_wrapper_2
+TRACE::2025-03-30.14:52:43::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-03-30.14:52:43::SCWMssOS::Checking the sw design at  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-03-30.14:52:43::SCWMssOS::DEBUG:  swdes dump  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-03-30.14:52:43::SCWMssOS::Sw design exists and opened at  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-03-30.14:52:43::SCWMssOS::Removing the swdes entry for  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-03-30.14:52:44::SCWPlatform::Trying to open the hw design at D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:44::SCWPlatform::DSA given D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:44::SCWPlatform::DSA absoulate path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:44::SCWPlatform::DSA directory D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw
+TRACE::2025-03-30.14:52:44::SCWPlatform:: Platform Path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:44::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-03-30.14:52:44::SCWPlatform::Trying to set the existing hwdb with name ZYNQ_CORE_wrapper_2
+TRACE::2025-03-30.14:52:44::SCWPlatform::Opened existing hwdb ZYNQ_CORE_wrapper_2
+TRACE::2025-03-30.14:52:44::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-03-30.14:52:44::SCWMssOS::Checking the sw design at  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-03-30.14:52:44::SCWMssOS::DEBUG:  swdes dump  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-03-30.14:52:44::SCWMssOS::No sw design opened at  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-03-30.14:52:44::SCWMssOS::mss exists loading the mss file  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-03-30.14:52:44::SCWMssOS::Opened the sw design from mss  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-03-30.14:52:44::SCWMssOS::Adding the swdes entry D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss with des name system_0
+TRACE::2025-03-30.14:52:44::SCWMssOS::updating the scw layer about changes
+TRACE::2025-03-30.14:52:44::SCWMssOS::Opened the sw design.  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-03-30.14:52:46::SCWMssOS::In reload Mss file.
+TRACE::2025-03-30.14:52:46::SCWPlatform::Trying to open the hw design at D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:46::SCWPlatform::DSA given D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:46::SCWPlatform::DSA absoulate path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:46::SCWPlatform::DSA directory D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw
+TRACE::2025-03-30.14:52:46::SCWPlatform:: Platform Path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:46::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-03-30.14:52:46::SCWPlatform::Trying to set the existing hwdb with name ZYNQ_CORE_wrapper_2
+TRACE::2025-03-30.14:52:46::SCWPlatform::Opened existing hwdb ZYNQ_CORE_wrapper_2
+TRACE::2025-03-30.14:52:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-03-30.14:52:46::SCWMssOS::Checking the sw design at  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-03-30.14:52:46::SCWMssOS::DEBUG:  swdes dump  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-03-30.14:52:46::SCWMssOS::No sw design opened at  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-03-30.14:52:46::SCWMssOS::mss exists loading the mss file  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-03-30.14:52:46::SCWMssOS::Opened the sw design from mss  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-03-30.14:52:46::SCWMssOS::Adding the swdes entry D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss with des name system_0
+TRACE::2025-03-30.14:52:46::SCWMssOS::updating the scw layer about changes
+TRACE::2025-03-30.14:52:46::SCWMssOS::Opened the sw design.  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-03-30.14:52:46::SCWMssOS::Saving the mss changes D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-03-30.14:52:46::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-03-30.14:52:46::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-03-30.14:52:46::SCWMssOS::Commit changes completed.
+TRACE::2025-03-30.14:52:46::SCWPlatform::Trying to open the hw design at D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:46::SCWPlatform::DSA given D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:46::SCWPlatform::DSA absoulate path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:46::SCWPlatform::DSA directory D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw
+TRACE::2025-03-30.14:52:46::SCWPlatform:: Platform Path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.14:52:46::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-03-30.14:52:46::SCWPlatform::Trying to set the existing hwdb with name ZYNQ_CORE_wrapper_2
+TRACE::2025-03-30.14:52:46::SCWPlatform::Opened existing hwdb ZYNQ_CORE_wrapper_2
+TRACE::2025-03-30.14:52:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-03-30.14:52:46::SCWMssOS::Checking the sw design at  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-03-30.14:52:46::SCWMssOS::DEBUG:  swdes dump  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-03-30.14:52:46::SCWMssOS::Sw design exists and opened at  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-03-30.14:52:46::SCWMssOS::Removing the swdes entry for  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+LOG::2025-03-30.15:00:19::SCWPlatform::Started generating the artifacts platform ZYNQ_CORE_wrapper
+TRACE::2025-03-30.15:00:19::SCWPlatform::Sanity checking of platform is completed
+LOG::2025-03-30.15:00:19::SCWPlatform::Started generating the artifacts for system configuration ZYNQ_CORE_wrapper
+LOG::2025-03-30.15:00:19::SCWSystem::Checking the domain zynq_fsbl
+LOG::2025-03-30.15:00:19::SCWSystem::Doing application build for :  zynq_fsbl
+TRACE::2025-03-30.15:00:19::SCWBDomain::Not a forced makefile updation, No changes are present. 
+TRACE::2025-03-30.15:00:19::SCWDomain::Skipping the build for domain :  zynq_fsbl
+LOG::2025-03-30.15:00:19::SCWSystem::Checking the domain standalone_ps7_cortexa9_0
+LOG::2025-03-30.15:00:19::SCWSystem::Not a boot domain 
+LOG::2025-03-30.15:00:19::SCWSystem::Started Processing the domain standalone_ps7_cortexa9_0
+TRACE::2025-03-30.15:00:19::SCWDomain::Generating domain artifcats
+TRACE::2025-03-30.15:00:19::SCWMssOS::Generating standalone artifcats
+TRACE::2025-03-30.15:00:19::SCWMssOS::Copying the qemu file from  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/resources/ZYNQ_CORE_wrapper/standalone_ps7_cortexa9_0/qemu_args.txt To D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/sw/ZYNQ_CORE_wrapper/qemu/
+TRACE::2025-03-30.15:00:19::SCWMssOS::Copying the qemu file from  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/resources/ZYNQ_CORE_wrapper/standalone_ps7_cortexa9_0/qemu_args.txt To D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/sw/ZYNQ_CORE_wrapper/standalone_ps7_cortexa9_0/qemu/
+TRACE::2025-03-30.15:00:19::SCWMssOS:: Copying the user libraries. 
+TRACE::2025-03-30.15:00:19::SCWPlatform::Trying to open the hw design at D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.15:00:19::SCWPlatform::DSA given D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.15:00:19::SCWPlatform::DSA absoulate path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.15:00:19::SCWPlatform::DSA directory D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw
+TRACE::2025-03-30.15:00:19::SCWPlatform:: Platform Path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.15:00:19::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-03-30.15:00:19::SCWPlatform::Trying to set the existing hwdb with name ZYNQ_CORE_wrapper_2
+TRACE::2025-03-30.15:00:19::SCWPlatform::Opened existing hwdb ZYNQ_CORE_wrapper_2
+TRACE::2025-03-30.15:00:19::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-03-30.15:00:19::SCWMssOS::Checking the sw design at  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-03-30.15:00:19::SCWMssOS::DEBUG:  swdes dump  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-03-30.15:00:19::SCWMssOS::No sw design opened at  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-03-30.15:00:19::SCWMssOS::mss exists loading the mss file  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-03-30.15:00:19::SCWMssOS::Opened the sw design from mss  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-03-30.15:00:19::SCWMssOS::Adding the swdes entry D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss with des name system_0
+TRACE::2025-03-30.15:00:19::SCWMssOS::updating the scw layer about changes
+TRACE::2025-03-30.15:00:19::SCWMssOS::Opened the sw design.  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-03-30.15:00:19::SCWMssOS::Completed writing the mss file at D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp
+TRACE::2025-03-30.15:00:19::SCWMssOS::Mss edits present, copying mssfile into export location D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-03-30.15:00:19::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2025-03-30.15:00:19::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2025-03-30.15:00:19::SCWDomain::Skipping the build for domain :  standalone_ps7_cortexa9_0
+TRACE::2025-03-30.15:00:19::SCWMssOS::skipping the bsp build ... 
+TRACE::2025-03-30.15:00:19::SCWMssOS::Copying to export directory.
+TRACE::2025-03-30.15:00:19::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2025-03-30.15:00:19::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2025-03-30.15:00:19::SCWSystem::Completed Processing the domain standalone_ps7_cortexa9_0
+LOG::2025-03-30.15:00:19::SCWSystem::Completed Processing the sysconfig ZYNQ_CORE_wrapper
+LOG::2025-03-30.15:00:19::SCWPlatform::Completed generating the artifacts for system configuration ZYNQ_CORE_wrapper
+TRACE::2025-03-30.15:00:19::SCWPlatform::Started preparing the platform 
+TRACE::2025-03-30.15:00:19::SCWSystem::Writing the bif file for system config ZYNQ_CORE_wrapper
+TRACE::2025-03-30.15:00:19::SCWSystem::dir created 
+TRACE::2025-03-30.15:00:19::SCWSystem::Writing the bif 
+TRACE::2025-03-30.15:00:19::SCWPlatform::Started writing the spfm file 
+TRACE::2025-03-30.15:00:19::SCWPlatform::Started writing the xpfm file 
+TRACE::2025-03-30.15:00:19::SCWPlatform::Completed generating the platform
+TRACE::2025-03-30.15:00:19::SCWMssOS::Saving the mss changes D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-03-30.15:00:19::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-03-30.15:00:19::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-03-30.15:00:19::SCWMssOS::Commit changes completed.
+TRACE::2025-03-30.15:00:19::SCWMssOS::Saving the mss changes D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-03-30.15:00:19::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-03-30.15:00:19::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-03-30.15:00:19::SCWMssOS::Commit changes completed.
+TRACE::2025-03-30.15:00:19::SCWPlatform::Trying to open the hw design at D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.15:00:19::SCWPlatform::DSA given D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.15:00:19::SCWPlatform::DSA absoulate path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.15:00:19::SCWPlatform::DSA directory D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw
+TRACE::2025-03-30.15:00:19::SCWPlatform:: Platform Path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.15:00:19::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-03-30.15:00:19::SCWPlatform::Trying to set the existing hwdb with name ZYNQ_CORE_wrapper_2
+TRACE::2025-03-30.15:00:19::SCWPlatform::Opened existing hwdb ZYNQ_CORE_wrapper_2
+TRACE::2025-03-30.15:00:19::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-03-30.15:00:19::SCWMssOS::Checking the sw design at  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-03-30.15:00:19::SCWMssOS::DEBUG:  swdes dump  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-03-30.15:00:19::SCWMssOS::Sw design exists and opened at  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-03-30.15:00:19::SCWPlatform::Trying to open the hw design at D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.15:00:19::SCWPlatform::DSA given D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.15:00:19::SCWPlatform::DSA absoulate path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.15:00:19::SCWPlatform::DSA directory D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw
+TRACE::2025-03-30.15:00:19::SCWPlatform:: Platform Path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.15:00:19::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-03-30.15:00:19::SCWPlatform::Trying to set the existing hwdb with name ZYNQ_CORE_wrapper_2
+TRACE::2025-03-30.15:00:19::SCWPlatform::Opened existing hwdb ZYNQ_CORE_wrapper_2
+TRACE::2025-03-30.15:00:19::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-03-30.15:00:19::SCWMssOS::Checking the sw design at  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-03-30.15:00:19::SCWMssOS::DEBUG:  swdes dump  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-03-30.15:00:19::SCWMssOS::Sw design exists and opened at  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-03-30.15:00:19::SCWWriter::formatted JSON is {
+	"platformName":	"ZYNQ_CORE_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"ZYNQ_CORE_wrapper",
+	"platHandOff":	"D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CORE_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/ZYNQ_CORE_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"ZYNQ_CORE_wrapper",
+	"systems":	[{
+			"systemName":	"ZYNQ_CORE_wrapper",
+			"systemDesc":	"ZYNQ_CORE_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"ZYNQ_CORE_wrapper",
+			"sysActiveDom":	"standalone_ps7_cortexa9_0",
+			"sysDefaultDom":	"standalone_ps7_cortexa9_0",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.1",
+					"mssFile":	"",
+					"md5Digest":	"c3051b6fb569b0c7ebb570299ad0e6561",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:5.0", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_ps7_cortexa9_0",
+					"domainDispName":	"standalone_ps7_cortexa9_0",
+					"domainDesc":	"standalone_ps7_cortexa9_0",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"<platformDir>/resources/ZYNQ_CORE_wrapper/standalone_ps7_cortexa9_0/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/ZYNQ_CORE_wrapper/standalone_ps7_cortexa9_0/qemu",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.1",
+					"mssFile":	"",
+					"md5Digest":	"01074fe04f793c8313a60361ca239748",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2025-03-30.15:00:19::SCWPlatform::updated the xpfm file.
+TRACE::2025-03-30.15:00:20::SCWPlatform::Trying to open the hw design at D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.15:00:20::SCWPlatform::DSA given D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.15:00:20::SCWPlatform::DSA absoulate path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.15:00:20::SCWPlatform::DSA directory D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw
+TRACE::2025-03-30.15:00:20::SCWPlatform:: Platform Path D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa
+TRACE::2025-03-30.15:00:20::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-03-30.15:00:20::SCWPlatform::Trying to set the existing hwdb with name ZYNQ_CORE_wrapper_2
+TRACE::2025-03-30.15:00:20::SCWPlatform::Opened existing hwdb ZYNQ_CORE_wrapper_2
+TRACE::2025-03-30.15:00:20::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-03-30.15:00:20::SCWMssOS::Checking the sw design at  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2025-03-30.15:00:20::SCWMssOS::DEBUG:  swdes dump  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-03-30.15:00:20::SCWMssOS::Sw design exists and opened at  D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/VitisPrj/ZYNQ_CORE_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss

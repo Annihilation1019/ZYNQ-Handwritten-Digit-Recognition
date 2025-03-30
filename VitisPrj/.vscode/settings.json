@@ -2,6 +2,7 @@
     "files.associations": {
         "xparameters.h": "c",
         "xbram.h": "c",
-        "bram_init.h": "c"
+        "bram_init.h": "c",
+        "xgpio.h": "c"
     }
 }

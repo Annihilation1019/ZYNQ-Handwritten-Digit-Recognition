@@ -1,0 +1,433 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Wed Mar 26 22:43:48 2025
+# Process ID: 15528
+# Current directory: D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3732 D:\Programs\Workspace\Xilinx_Prj\ZYNQ_CNN\ZYNQ_CNN.xpr
+# Log file: D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/vivado.log
+# Journal file: D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN\vivado.jou
+# Running On: LAPTOP-DUUNQKAE, OS: Windows, CPU Frequency: 2918 MHz, CPU Physical cores: 14, Host memory: 16890 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at D:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at D:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at D:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at D:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at D:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at D:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at D:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.3 available at D:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.3/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at D:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.1 available at D:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at D:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.1 available at D:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at D:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at D:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at D:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at D:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/rgb2dvi'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ip_repo/cycle_num_1_0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/ov5640_cap_data'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2023.1/data/ip'.
+open_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:11 . Memory (MB): peak = 3018.238 ; gain = 460.535
+open_bd_design {D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.srcs/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE.bd}
+Reading block design file <D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.srcs/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE.bd>...
+Adding component instance block -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+Adding component instance block -- xilinx.com:ip:axi_vdma:6.3 - axi_vdma_0
+Adding component instance block -- xilinx.com:ip:v_axi4s_vid_out:4.0 - v_axi4s_vid_out_0
+Adding component instance block -- xilinx.com:ip:v_tc:6.2 - v_tc_0
+Adding component instance block -- xilinx.com:ip:clk_wiz:6.0 - clk_wiz_0
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - ps7_0_axi_periph
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps7_0_50M
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - axi_mem_intercon
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps7_0_150M
+Adding component instance block -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_0
+Adding component instance block -- digilentinc.com:ip:rgb2dvi:1.4 - rgb2dvi_0
+CRITICAL WARNING: [BD 41-51] Could not find bus definition for the interface: TMDS 
+CRITICAL WARNING: [BD 41-49] Could not find abstraction definition for the interface: TMDS 
+CRITICAL WARNING: [BD 41-49] Could not find abstraction definition for the interface: TMDS 
+Adding component instance block -- xilinx.com:ip:v_vid_in_axi4s:5.0 - v_vid_in_axi4s_0
+Adding component instance block -- alientek.com:user:ov5640_capture_data:1.0 - ov5640_capture_data_0
+Adding component instance block -- xilinx.com:ip:blk_mem_gen:8.4 - blk_mem_gen_0
+Adding component instance block -- xilinx.com:module_ref:show_num:1.0 - show_num_0
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - xlslice_0
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_1
+Adding component instance block -- xilinx.com:user:cycle_num:1.0 - cycle_num_0
+Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_0
+Adding component instance block -- xilinx.com:ip:vio:3.0 - vio_0
+Adding component instance block -- xilinx.com:ip:blk_mem_gen:8.4 - blk_mem_gen_1
+Adding component instance block -- xilinx.com:ip:axi_bram_ctrl:4.1 - axi_bram_ctrl_0
+Adding component instance block -- xilinx.com:module_ref:border_adder:1.0 - border_adder_0
+Adding component instance block -- xilinx.com:module_ref:binarizer:1.0 - binarizer_0
+Adding component instance block -- xilinx.com:module_ref:img_buffer_controller:1.0 - img_buffer_controller_0
+Successfully read diagram <ZYNQ_CORE> from block design file <D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.srcs/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE.bd>
+open_bd_design: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 3065.246 ; gain = 21.316
+update_compile_order -fileset sources_1
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.srcs/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE.bd]
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7z020clg484-1
+Top: ZYNQ_CORE_wrapper
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+WARNING: [Synth 8-10929] literal value 'hff_00_00 truncated to fit in 23 bits [D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.srcs/sources_1/new/border_adder.v:49]
+WARNING: [Synth 8-10929] literal value 'hff_ff_ff truncated to fit in 23 bits [D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.srcs/sources_1/new/border_adder.v:52]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 3885.141 ; gain = 394.121
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_wrapper' [D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/hdl/ZYNQ_CORE_wrapper.v:13]
+INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE' [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:13]
+INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_axi_bram_ctrl_0_3' [D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/.Xil/Vivado-15528-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_axi_bram_ctrl_0_3_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_axi_bram_ctrl_0_3' (0#1) [D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/.Xil/Vivado-15528-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_axi_bram_ctrl_0_3_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_axi_gpio_0_0' [D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/.Xil/Vivado-15528-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_axi_gpio_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_axi_gpio_0_0' (0#1) [D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/.Xil/Vivado-15528-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_axi_gpio_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_axi_mem_intercon_1' [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:1053]
+INFO: [Synth 8-6157] synthesizing module 'm00_couplers_imp_1UFV9PU' [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:2733]
+INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_auto_pc_4' [D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/.Xil/Vivado-15528-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_auto_pc_4_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_auto_pc_4' (0#1) [D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/.Xil/Vivado-15528-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_auto_pc_4_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'm00_couplers_imp_1UFV9PU' (0#1) [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:2733]
+INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_X4EE9A' [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:4608]
+INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_X4EE9A' (0#1) [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:4608]
+INFO: [Synth 8-6157] synthesizing module 's01_couplers_imp_18LL33Q' [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:4712]
+INFO: [Synth 8-6155] done synthesizing module 's01_couplers_imp_18LL33Q' (0#1) [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:4712]
+INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_xbar_0' [D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/.Xil/Vivado-15528-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_xbar_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_xbar_0' (0#1) [D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/.Xil/Vivado-15528-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_xbar_0_stub.v:6]
+WARNING: [Synth 8-689] width (1) of port connection 's_axi_arready' does not match port width (2) of module 'ZYNQ_CORE_xbar_0' [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:1616]
+WARNING: [Synth 8-689] width (64) of port connection 's_axi_rdata' does not match port width (128) of module 'ZYNQ_CORE_xbar_0' [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:1633]
+WARNING: [Synth 8-689] width (1) of port connection 's_axi_rlast' does not match port width (2) of module 'ZYNQ_CORE_xbar_0' [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:1634]
+WARNING: [Synth 8-689] width (2) of port connection 's_axi_rresp' does not match port width (4) of module 'ZYNQ_CORE_xbar_0' [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:1636]
+WARNING: [Synth 8-689] width (1) of port connection 's_axi_rvalid' does not match port width (2) of module 'ZYNQ_CORE_xbar_0' [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:1637]
+WARNING: [Synth 8-7071] port 's_axi_bid' of module 'ZYNQ_CORE_xbar_0' is unconnected for instance 'xbar' [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:1566]
+WARNING: [Synth 8-7071] port 's_axi_rid' of module 'ZYNQ_CORE_xbar_0' is unconnected for instance 'xbar' [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:1566]
+WARNING: [Synth 8-7023] instance 'xbar' of module 'ZYNQ_CORE_xbar_0' has 78 connections declared, but only 76 given [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:1566]
+INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_axi_mem_intercon_1' (0#1) [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:1053]
+INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_axi_vdma_0_0' [D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/.Xil/Vivado-15528-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_axi_vdma_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_axi_vdma_0_0' (0#1) [D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/.Xil/Vivado-15528-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_axi_vdma_0_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'mm2s_frame_ptr_out' of module 'ZYNQ_CORE_axi_vdma_0_0' is unconnected for instance 'axi_vdma_0' [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:533]
+WARNING: [Synth 8-7071] port 's2mm_frame_ptr_out' of module 'ZYNQ_CORE_axi_vdma_0_0' is unconnected for instance 'axi_vdma_0' [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:533]
+WARNING: [Synth 8-7071] port 'm_axis_mm2s_tkeep' of module 'ZYNQ_CORE_axi_vdma_0_0' is unconnected for instance 'axi_vdma_0' [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:533]
+WARNING: [Synth 8-7071] port 'mm2s_introut' of module 'ZYNQ_CORE_axi_vdma_0_0' is unconnected for instance 'axi_vdma_0' [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:533]
+WARNING: [Synth 8-7071] port 's2mm_introut' of module 'ZYNQ_CORE_axi_vdma_0_0' is unconnected for instance 'axi_vdma_0' [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:533]
+WARNING: [Synth 8-7023] instance 'axi_vdma_0' of module 'ZYNQ_CORE_axi_vdma_0_0' has 67 connections declared, but only 62 given [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:533]
+INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_binarizer_0_0' [D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/.Xil/Vivado-15528-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_binarizer_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_binarizer_0_0' (0#1) [D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/.Xil/Vivado-15528-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_binarizer_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_blk_mem_gen_0_0' [D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/.Xil/Vivado-15528-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_blk_mem_gen_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_blk_mem_gen_0_0' (0#1) [D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/.Xil/Vivado-15528-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_blk_mem_gen_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_blk_mem_gen_1_3' [D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/.Xil/Vivado-15528-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_blk_mem_gen_1_3_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_blk_mem_gen_1_3' (0#1) [D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/.Xil/Vivado-15528-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_blk_mem_gen_1_3_stub.v:6]
+WARNING: [Synth 8-7071] port 'douta' of module 'ZYNQ_CORE_blk_mem_gen_1_3' is unconnected for instance 'blk_mem_gen_1' [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:615]
+WARNING: [Synth 8-7023] instance 'blk_mem_gen_1' of module 'ZYNQ_CORE_blk_mem_gen_1_3' has 14 connections declared, but only 13 given [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:615]
+INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_border_adder_0_0' [D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/.Xil/Vivado-15528-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_border_adder_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_border_adder_0_0' (0#1) [D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/.Xil/Vivado-15528-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_border_adder_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_clk_wiz_0_0' [D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/.Xil/Vivado-15528-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_clk_wiz_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_clk_wiz_0_0' (0#1) [D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/.Xil/Vivado-15528-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_clk_wiz_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_cycle_num_0_1' [D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/.Xil/Vivado-15528-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_cycle_num_0_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_cycle_num_0_1' (0#1) [D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/.Xil/Vivado-15528-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_cycle_num_0_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_img_buffer_controller_0_0' [D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/.Xil/Vivado-15528-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_img_buffer_controller_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_img_buffer_controller_0_0' (0#1) [D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/.Xil/Vivado-15528-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_img_buffer_controller_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_ov5640_capture_data_0_0' [D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/.Xil/Vivado-15528-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_ov5640_capture_data_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_ov5640_capture_data_0_0' (0#1) [D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/.Xil/Vivado-15528-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_ov5640_capture_data_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_processing_system7_0_0' [D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/.Xil/Vivado-15528-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_processing_system7_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_processing_system7_0_0' (0#1) [D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/.Xil/Vivado-15528-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_processing_system7_0_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'S_AXI_HP0_RCOUNT' of module 'ZYNQ_CORE_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:699]
+WARNING: [Synth 8-7071] port 'S_AXI_HP0_WCOUNT' of module 'ZYNQ_CORE_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:699]
+WARNING: [Synth 8-7071] port 'S_AXI_HP0_RACOUNT' of module 'ZYNQ_CORE_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:699]
+WARNING: [Synth 8-7071] port 'S_AXI_HP0_WACOUNT' of module 'ZYNQ_CORE_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:699]
+WARNING: [Synth 8-7023] instance 'processing_system7_0' of module 'ZYNQ_CORE_processing_system7_0_0' has 111 connections declared, but only 107 given [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:699]
+INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_ps7_0_axi_periph_1' [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:1645]
+INFO: [Synth 8-6157] synthesizing module 'm00_couplers_imp_ET6XN9' [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:3138]
+INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_auto_pc_0' [D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/.Xil/Vivado-15528-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_auto_pc_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_auto_pc_0' (0#1) [D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/.Xil/Vivado-15528-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_auto_pc_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'm_axi_awprot' of module 'ZYNQ_CORE_auto_pc_0' is unconnected for instance 'auto_pc' [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:3357]
+WARNING: [Synth 8-7071] port 'm_axi_wstrb' of module 'ZYNQ_CORE_auto_pc_0' is unconnected for instance 'auto_pc' [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:3357]
+WARNING: [Synth 8-7071] port 'm_axi_arprot' of module 'ZYNQ_CORE_auto_pc_0' is unconnected for instance 'auto_pc' [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:3357]
+WARNING: [Synth 8-7023] instance 'auto_pc' of module 'ZYNQ_CORE_auto_pc_0' has 56 connections declared, but only 53 given [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:3357]
+INFO: [Synth 8-6155] done synthesizing module 'm00_couplers_imp_ET6XN9' (0#1) [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:3138]
+INFO: [Synth 8-6157] synthesizing module 'm01_couplers_imp_1QUL5E5' [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:3413]
+INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_auto_pc_1' [D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/.Xil/Vivado-15528-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_auto_pc_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_auto_pc_1' (0#1) [D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/.Xil/Vivado-15528-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_auto_pc_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'm01_couplers_imp_1QUL5E5' (0#1) [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:3413]
+INFO: [Synth 8-6157] synthesizing module 'm02_couplers_imp_I9KZL0' [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:3703]
+INFO: [Synth 8-6155] done synthesizing module 'm02_couplers_imp_I9KZL0' (0#1) [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:3703]
+INFO: [Synth 8-6157] synthesizing module 'm03_couplers_imp_15OH8QK' [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:3933]
+INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_auto_pc_2' [D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/.Xil/Vivado-15528-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_auto_pc_2_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_auto_pc_2' (0#1) [D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/.Xil/Vivado-15528-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_auto_pc_2_stub.v:6]
+WARNING: [Synth 8-7071] port 'm_axi_awprot' of module 'ZYNQ_CORE_auto_pc_2' is unconnected for instance 'auto_pc' [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:4156]
+WARNING: [Synth 8-7071] port 'm_axi_arprot' of module 'ZYNQ_CORE_auto_pc_2' is unconnected for instance 'auto_pc' [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:4156]
+WARNING: [Synth 8-7023] instance 'auto_pc' of module 'ZYNQ_CORE_auto_pc_2' has 56 connections declared, but only 54 given [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:4156]
+INFO: [Synth 8-6155] done synthesizing module 'm03_couplers_imp_15OH8QK' (0#1) [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:3933]
+INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_1C2Y0SP' [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:4213]
+INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_auto_pc_3' [D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/.Xil/Vivado-15528-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_auto_pc_3_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_auto_pc_3' (0#1) [D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/.Xil/Vivado-15528-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_auto_pc_3_stub.v:6]
+WARNING: [Synth 8-7071] port 'm_axi_awregion' of module 'ZYNQ_CORE_auto_pc_3' is unconnected for instance 'auto_pc' [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:4528]
+WARNING: [Synth 8-7071] port 'm_axi_arregion' of module 'ZYNQ_CORE_auto_pc_3' is unconnected for instance 'auto_pc' [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:4528]
+WARNING: [Synth 8-7023] instance 'auto_pc' of module 'ZYNQ_CORE_auto_pc_3' has 79 connections declared, but only 77 given [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:4528]
+INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_1C2Y0SP' (0#1) [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:4213]
+INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_xbar_1' [D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/.Xil/Vivado-15528-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_xbar_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_xbar_1' (0#1) [D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/.Xil/Vivado-15528-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_xbar_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_ps7_0_axi_periph_1' (0#1) [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:1645]
+INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_rgb2dvi_0_0' [D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/.Xil/Vivado-15528-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_rgb2dvi_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_rgb2dvi_0_0' (0#1) [D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/.Xil/Vivado-15528-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_rgb2dvi_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_rst_ps7_0_150M_1' [D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/.Xil/Vivado-15528-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_rst_ps7_0_150M_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_rst_ps7_0_150M_1' (0#1) [D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/.Xil/Vivado-15528-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_rst_ps7_0_150M_1_stub.v:6]
+WARNING: [Synth 8-7071] port 'mb_reset' of module 'ZYNQ_CORE_rst_ps7_0_150M_1' is unconnected for instance 'rst_ps7_0_150M' [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:953]
+WARNING: [Synth 8-7071] port 'bus_struct_reset' of module 'ZYNQ_CORE_rst_ps7_0_150M_1' is unconnected for instance 'rst_ps7_0_150M' [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:953]
+WARNING: [Synth 8-7071] port 'peripheral_reset' of module 'ZYNQ_CORE_rst_ps7_0_150M_1' is unconnected for instance 'rst_ps7_0_150M' [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:953]
+WARNING: [Synth 8-7071] port 'interconnect_aresetn' of module 'ZYNQ_CORE_rst_ps7_0_150M_1' is unconnected for instance 'rst_ps7_0_150M' [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:953]
+WARNING: [Synth 8-7023] instance 'rst_ps7_0_150M' of module 'ZYNQ_CORE_rst_ps7_0_150M_1' has 10 connections declared, but only 6 given [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:953]
+INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_rst_ps7_0_50M_1' [D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/.Xil/Vivado-15528-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_rst_ps7_0_50M_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_rst_ps7_0_50M_1' (0#1) [D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/.Xil/Vivado-15528-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_rst_ps7_0_50M_1_stub.v:6]
+WARNING: [Synth 8-7071] port 'mb_reset' of module 'ZYNQ_CORE_rst_ps7_0_50M_1' is unconnected for instance 'rst_ps7_0_50M' [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:960]
+WARNING: [Synth 8-7071] port 'bus_struct_reset' of module 'ZYNQ_CORE_rst_ps7_0_50M_1' is unconnected for instance 'rst_ps7_0_50M' [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:960]
+WARNING: [Synth 8-7071] port 'peripheral_reset' of module 'ZYNQ_CORE_rst_ps7_0_50M_1' is unconnected for instance 'rst_ps7_0_50M' [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:960]
+WARNING: [Synth 8-7071] port 'interconnect_aresetn' of module 'ZYNQ_CORE_rst_ps7_0_50M_1' is unconnected for instance 'rst_ps7_0_50M' [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:960]
+WARNING: [Synth 8-7023] instance 'rst_ps7_0_50M' of module 'ZYNQ_CORE_rst_ps7_0_50M_1' has 10 connections declared, but only 6 given [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:960]
+INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_show_num_0_1' [D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/.Xil/Vivado-15528-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_show_num_0_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_show_num_0_1' (0#1) [D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/.Xil/Vivado-15528-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_show_num_0_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_util_vector_logic_0_0' [D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/.Xil/Vivado-15528-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_util_vector_logic_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_util_vector_logic_0_0' (0#1) [D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/.Xil/Vivado-15528-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_util_vector_logic_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_v_axi4s_vid_out_0_0' [D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/.Xil/Vivado-15528-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_v_axi4s_vid_out_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_v_axi4s_vid_out_0_0' (0#1) [D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/.Xil/Vivado-15528-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_v_axi4s_vid_out_0_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'vid_vblank' of module 'ZYNQ_CORE_v_axi4s_vid_out_0_0' is unconnected for instance 'v_axi4s_vid_out_0' [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:986]
+WARNING: [Synth 8-7071] port 'vid_hblank' of module 'ZYNQ_CORE_v_axi4s_vid_out_0_0' is unconnected for instance 'v_axi4s_vid_out_0' [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:986]
+WARNING: [Synth 8-7071] port 'vid_field_id' of module 'ZYNQ_CORE_v_axi4s_vid_out_0_0' is unconnected for instance 'v_axi4s_vid_out_0' [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:986]
+WARNING: [Synth 8-7071] port 'locked' of module 'ZYNQ_CORE_v_axi4s_vid_out_0_0' is unconnected for instance 'v_axi4s_vid_out_0' [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:986]
+WARNING: [Synth 8-7071] port 'overflow' of module 'ZYNQ_CORE_v_axi4s_vid_out_0_0' is unconnected for instance 'v_axi4s_vid_out_0' [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:986]
+WARNING: [Synth 8-7071] port 'underflow' of module 'ZYNQ_CORE_v_axi4s_vid_out_0_0' is unconnected for instance 'v_axi4s_vid_out_0' [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:986]
+WARNING: [Synth 8-7071] port 'fifo_read_level' of module 'ZYNQ_CORE_v_axi4s_vid_out_0_0' is unconnected for instance 'v_axi4s_vid_out_0' [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:986]
+WARNING: [Synth 8-7071] port 'status' of module 'ZYNQ_CORE_v_axi4s_vid_out_0_0' is unconnected for instance 'v_axi4s_vid_out_0' [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:986]
+WARNING: [Synth 8-7071] port 'sof_state_out' of module 'ZYNQ_CORE_v_axi4s_vid_out_0_0' is unconnected for instance 'v_axi4s_vid_out_0' [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:986]
+WARNING: [Synth 8-7023] instance 'v_axi4s_vid_out_0' of module 'ZYNQ_CORE_v_axi4s_vid_out_0_0' has 32 connections declared, but only 23 given [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:986]
+INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_v_tc_0_0' [D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/.Xil/Vivado-15528-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_v_tc_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_v_tc_0_0' (0#1) [D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/.Xil/Vivado-15528-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_v_tc_0_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'fsync_out' of module 'ZYNQ_CORE_v_tc_0_0' is unconnected for instance 'v_tc_0' [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:1010]
+WARNING: [Synth 8-7023] instance 'v_tc_0' of module 'ZYNQ_CORE_v_tc_0_0' has 11 connections declared, but only 10 given [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:1010]
+INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_v_vid_in_axi4s_0_0' [D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/.Xil/Vivado-15528-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_v_vid_in_axi4s_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_v_vid_in_axi4s_0_0' (0#1) [D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/.Xil/Vivado-15528-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_v_vid_in_axi4s_0_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'fid' of module 'ZYNQ_CORE_v_vid_in_axi4s_0_0' is unconnected for instance 'v_vid_in_axi4s_0' [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:1021]
+WARNING: [Synth 8-7071] port 'vtd_active_video' of module 'ZYNQ_CORE_v_vid_in_axi4s_0_0' is unconnected for instance 'v_vid_in_axi4s_0' [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:1021]
+WARNING: [Synth 8-7071] port 'vtd_vblank' of module 'ZYNQ_CORE_v_vid_in_axi4s_0_0' is unconnected for instance 'v_vid_in_axi4s_0' [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:1021]
+WARNING: [Synth 8-7071] port 'vtd_hblank' of module 'ZYNQ_CORE_v_vid_in_axi4s_0_0' is unconnected for instance 'v_vid_in_axi4s_0' [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:1021]
+WARNING: [Synth 8-7071] port 'vtd_vsync' of module 'ZYNQ_CORE_v_vid_in_axi4s_0_0' is unconnected for instance 'v_vid_in_axi4s_0' [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:1021]
+WARNING: [Synth 8-7071] port 'vtd_hsync' of module 'ZYNQ_CORE_v_vid_in_axi4s_0_0' is unconnected for instance 'v_vid_in_axi4s_0' [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:1021]
+WARNING: [Synth 8-7071] port 'vtd_field_id' of module 'ZYNQ_CORE_v_vid_in_axi4s_0_0' is unconnected for instance 'v_vid_in_axi4s_0' [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:1021]
+WARNING: [Synth 8-7071] port 'overflow' of module 'ZYNQ_CORE_v_vid_in_axi4s_0_0' is unconnected for instance 'v_vid_in_axi4s_0' [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:1021]
+WARNING: [Synth 8-7071] port 'underflow' of module 'ZYNQ_CORE_v_vid_in_axi4s_0_0' is unconnected for instance 'v_vid_in_axi4s_0' [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:1021]
+WARNING: [Synth 8-7023] instance 'v_vid_in_axi4s_0' of module 'ZYNQ_CORE_v_vid_in_axi4s_0_0' has 28 connections declared, but only 19 given [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:1021]
+INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_vio_0_0' [D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/.Xil/Vivado-15528-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_vio_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_vio_0_0' (0#1) [D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/.Xil/Vivado-15528-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_vio_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_xlconstant_0_1' [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_xlconstant_0_1/synth/ZYNQ_CORE_xlconstant_0_1.v:53]
+INFO: [Synth 8-6157] synthesizing module 'xlconstant_v1_1_7_xlconstant' [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ipshared/b0f2/hdl/xlconstant_v1_1_vl_rfs.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'xlconstant_v1_1_7_xlconstant' (0#1) [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ipshared/b0f2/hdl/xlconstant_v1_1_vl_rfs.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_xlconstant_0_1' (0#1) [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_xlconstant_0_1/synth/ZYNQ_CORE_xlconstant_0_1.v:53]
+INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_xlconstant_1_0' [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_xlconstant_1_0/synth/ZYNQ_CORE_xlconstant_1_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'xlconstant_v1_1_7_xlconstant__parameterized0' [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ipshared/b0f2/hdl/xlconstant_v1_1_vl_rfs.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'xlconstant_v1_1_7_xlconstant__parameterized0' (0#1) [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ipshared/b0f2/hdl/xlconstant_v1_1_vl_rfs.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_xlconstant_1_0' (0#1) [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_xlconstant_1_0/synth/ZYNQ_CORE_xlconstant_1_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_xlslice_0_0' [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_xlslice_0_0/synth/ZYNQ_CORE_xlslice_0_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'xlslice_v1_0_2_xlslice' [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ipshared/11d0/hdl/xlslice_v1_0_vl_rfs.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'xlslice_v1_0_2_xlslice' (0#1) [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ipshared/11d0/hdl/xlslice_v1_0_vl_rfs.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_xlslice_0_0' (0#1) [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_xlslice_0_0/synth/ZYNQ_CORE_xlslice_0_0.v:53]
+INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE' (0#1) [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:13]
+INFO: [Synth 8-6157] synthesizing module 'IOBUF' [D:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:76334]
+INFO: [Synth 8-6155] done synthesizing module 'IOBUF' (0#1) [D:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:76334]
+INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_wrapper' (0#1) [D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/hdl/ZYNQ_CORE_wrapper.v:13]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'vio_0'. This will prevent further optimization [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:1041]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'img_buffer_controller_0'. This will prevent further optimization [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:673]
+WARNING: [Synth 8-7129] Port Din[23] in module xlslice_v1_0_2_xlslice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[22] in module xlslice_v1_0_2_xlslice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[21] in module xlslice_v1_0_2_xlslice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[20] in module xlslice_v1_0_2_xlslice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[19] in module xlslice_v1_0_2_xlslice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[18] in module xlslice_v1_0_2_xlslice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[17] in module xlslice_v1_0_2_xlslice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[16] in module xlslice_v1_0_2_xlslice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[15] in module xlslice_v1_0_2_xlslice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[14] in module xlslice_v1_0_2_xlslice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[13] in module xlslice_v1_0_2_xlslice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[12] in module xlslice_v1_0_2_xlslice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[11] in module xlslice_v1_0_2_xlslice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[10] in module xlslice_v1_0_2_xlslice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[9] in module xlslice_v1_0_2_xlslice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[8] in module xlslice_v1_0_2_xlslice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_ACLK in module s00_couplers_imp_1C2Y0SP is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_ARESETN in module s00_couplers_imp_1C2Y0SP is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_ACLK in module m03_couplers_imp_15OH8QK is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_ARESETN in module m03_couplers_imp_15OH8QK is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_ACLK in module m02_couplers_imp_I9KZL0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_ARESETN in module m02_couplers_imp_I9KZL0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_ACLK in module m02_couplers_imp_I9KZL0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_ARESETN in module m02_couplers_imp_I9KZL0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_ACLK in module m01_couplers_imp_1QUL5E5 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_ARESETN in module m01_couplers_imp_1QUL5E5 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_ACLK in module m00_couplers_imp_ET6XN9 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_ARESETN in module m00_couplers_imp_ET6XN9 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M00_ACLK in module ZYNQ_CORE_ps7_0_axi_periph_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M00_ARESETN in module ZYNQ_CORE_ps7_0_axi_periph_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M01_ACLK in module ZYNQ_CORE_ps7_0_axi_periph_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M01_ARESETN in module ZYNQ_CORE_ps7_0_axi_periph_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M02_ACLK in module ZYNQ_CORE_ps7_0_axi_periph_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M02_ARESETN in module ZYNQ_CORE_ps7_0_axi_periph_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M03_ACLK in module ZYNQ_CORE_ps7_0_axi_periph_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M03_ARESETN in module ZYNQ_CORE_ps7_0_axi_periph_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S00_ACLK in module ZYNQ_CORE_ps7_0_axi_periph_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S00_ARESETN in module ZYNQ_CORE_ps7_0_axi_periph_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_ACLK in module s01_couplers_imp_18LL33Q is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_ARESETN in module s01_couplers_imp_18LL33Q is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_ACLK in module s01_couplers_imp_18LL33Q is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_ARESETN in module s01_couplers_imp_18LL33Q is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_ACLK in module s00_couplers_imp_X4EE9A is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_ARESETN in module s00_couplers_imp_X4EE9A is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_ACLK in module s00_couplers_imp_X4EE9A is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_ARESETN in module s00_couplers_imp_X4EE9A is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_ACLK in module m00_couplers_imp_1UFV9PU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_ARESETN in module m00_couplers_imp_1UFV9PU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_AXI_bid[5] in module m00_couplers_imp_1UFV9PU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_AXI_bid[4] in module m00_couplers_imp_1UFV9PU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_AXI_bid[3] in module m00_couplers_imp_1UFV9PU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_AXI_bid[2] in module m00_couplers_imp_1UFV9PU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_AXI_bid[1] in module m00_couplers_imp_1UFV9PU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_AXI_rid[5] in module m00_couplers_imp_1UFV9PU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_AXI_rid[4] in module m00_couplers_imp_1UFV9PU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_AXI_rid[3] in module m00_couplers_imp_1UFV9PU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_AXI_rid[2] in module m00_couplers_imp_1UFV9PU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_AXI_rid[1] in module m00_couplers_imp_1UFV9PU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M00_ACLK in module ZYNQ_CORE_axi_mem_intercon_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M00_ARESETN in module ZYNQ_CORE_axi_mem_intercon_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S00_ACLK in module ZYNQ_CORE_axi_mem_intercon_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S00_ARESETN in module ZYNQ_CORE_axi_mem_intercon_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S01_ACLK in module ZYNQ_CORE_axi_mem_intercon_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S01_ARESETN in module ZYNQ_CORE_axi_mem_intercon_1 is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 3992.828 ; gain = 501.809
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 4010.730 ; gain = 519.711
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 4010.730 ; gain = 519.711
+---------------------------------------------------------------------------------
+INFO: [Project 1-454] Reading design checkpoint 'd:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_axi_bram_ctrl_0_3/ZYNQ_CORE_axi_bram_ctrl_0_3.dcp' for cell 'ZYNQ_CORE_i/axi_bram_ctrl_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_axi_gpio_0_0/ZYNQ_CORE_axi_gpio_0_0.dcp' for cell 'ZYNQ_CORE_i/axi_gpio_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_axi_vdma_0_0/ZYNQ_CORE_axi_vdma_0_0.dcp' for cell 'ZYNQ_CORE_i/axi_vdma_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_binarizer_0_0/ZYNQ_CORE_binarizer_0_0.dcp' for cell 'ZYNQ_CORE_i/binarizer_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_blk_mem_gen_0_0/ZYNQ_CORE_blk_mem_gen_0_0.dcp' for cell 'ZYNQ_CORE_i/blk_mem_gen_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_blk_mem_gen_1_3/ZYNQ_CORE_blk_mem_gen_1_3.dcp' for cell 'ZYNQ_CORE_i/blk_mem_gen_1'
+INFO: [Project 1-454] Reading design checkpoint 'd:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_border_adder_0_0/ZYNQ_CORE_border_adder_0_0.dcp' for cell 'ZYNQ_CORE_i/border_adder_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_clk_wiz_0_0/ZYNQ_CORE_clk_wiz_0_0.dcp' for cell 'ZYNQ_CORE_i/clk_wiz_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_cycle_num_0_1/ZYNQ_CORE_cycle_num_0_1.dcp' for cell 'ZYNQ_CORE_i/cycle_num_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_img_buffer_controller_0_0/ZYNQ_CORE_img_buffer_controller_0_0.dcp' for cell 'ZYNQ_CORE_i/img_buffer_controller_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_ov5640_capture_data_0_0/ZYNQ_CORE_ov5640_capture_data_0_0.dcp' for cell 'ZYNQ_CORE_i/ov5640_capture_data_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_processing_system7_0_0/ZYNQ_CORE_processing_system7_0_0.dcp' for cell 'ZYNQ_CORE_i/processing_system7_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_rgb2dvi_0_0/ZYNQ_CORE_rgb2dvi_0_0.dcp' for cell 'ZYNQ_CORE_i/rgb2dvi_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_rst_ps7_0_150M_1/ZYNQ_CORE_rst_ps7_0_150M_1.dcp' for cell 'ZYNQ_CORE_i/rst_ps7_0_150M'
+INFO: [Project 1-454] Reading design checkpoint 'd:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_rst_ps7_0_50M_1/ZYNQ_CORE_rst_ps7_0_50M_1.dcp' for cell 'ZYNQ_CORE_i/rst_ps7_0_50M'
+INFO: [Project 1-454] Reading design checkpoint 'd:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_show_num_0_1/ZYNQ_CORE_show_num_0_1.dcp' for cell 'ZYNQ_CORE_i/show_num_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_util_vector_logic_0_0/ZYNQ_CORE_util_vector_logic_0_0.dcp' for cell 'ZYNQ_CORE_i/util_vector_logic_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_v_axi4s_vid_out_0_0/ZYNQ_CORE_v_axi4s_vid_out_0_0.dcp' for cell 'ZYNQ_CORE_i/v_axi4s_vid_out_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_v_tc_0_0/ZYNQ_CORE_v_tc_0_0.dcp' for cell 'ZYNQ_CORE_i/v_tc_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_v_vid_in_axi4s_0_0/ZYNQ_CORE_v_vid_in_axi4s_0_0.dcp' for cell 'ZYNQ_CORE_i/v_vid_in_axi4s_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_vio_0_0/ZYNQ_CORE_vio_0_0.dcp' for cell 'ZYNQ_CORE_i/vio_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_xbar_0/ZYNQ_CORE_xbar_0.dcp' for cell 'ZYNQ_CORE_i/axi_mem_intercon/xbar'
+INFO: [Project 1-454] Reading design checkpoint 'd:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_4/ZYNQ_CORE_auto_pc_4.dcp' for cell 'ZYNQ_CORE_i/axi_mem_intercon/m00_couplers/auto_pc'
+INFO: [Project 1-454] Reading design checkpoint 'd:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_xbar_1/ZYNQ_CORE_xbar_1.dcp' for cell 'ZYNQ_CORE_i/ps7_0_axi_periph/xbar'
+INFO: [Project 1-454] Reading design checkpoint 'd:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_0/ZYNQ_CORE_auto_pc_0.dcp' for cell 'ZYNQ_CORE_i/ps7_0_axi_periph/m00_couplers/auto_pc'
+INFO: [Project 1-454] Reading design checkpoint 'd:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_1/ZYNQ_CORE_auto_pc_1.dcp' for cell 'ZYNQ_CORE_i/ps7_0_axi_periph/m01_couplers/auto_pc'
+INFO: [Project 1-454] Reading design checkpoint 'd:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_2/ZYNQ_CORE_auto_pc_2.dcp' for cell 'ZYNQ_CORE_i/ps7_0_axi_periph/m03_couplers/auto_pc'
+INFO: [Project 1-454] Reading design checkpoint 'd:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_3/ZYNQ_CORE_auto_pc_3.dcp' for cell 'ZYNQ_CORE_i/ps7_0_axi_periph/s00_couplers/auto_pc'
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.316 . Memory (MB): peak = 4037.301 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 433 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2023.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'ZYNQ_CORE_i/clk_wiz_0/clk_in1' is not directly connected to top level port. Synthesis is ignored for IBUF_LOW_PWR but preserved for implementation.
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_processing_system7_0_0/ZYNQ_CORE_processing_system7_0_0.xdc] for cell 'ZYNQ_CORE_i/processing_system7_0/inst'
+Finished Parsing XDC File [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_processing_system7_0_0/ZYNQ_CORE_processing_system7_0_0.xdc] for cell 'ZYNQ_CORE_i/processing_system7_0/inst'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_processing_system7_0_0/ZYNQ_CORE_processing_system7_0_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/ZYNQ_CORE_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/ZYNQ_CORE_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_axi_vdma_0_0/ZYNQ_CORE_axi_vdma_0_0.xdc] for cell 'ZYNQ_CORE_i/axi_vdma_0/U0'
+Finished Parsing XDC File [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_axi_vdma_0_0/ZYNQ_CORE_axi_vdma_0_0.xdc] for cell 'ZYNQ_CORE_i/axi_vdma_0/U0'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_axi_vdma_0_0/ZYNQ_CORE_axi_vdma_0_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/ZYNQ_CORE_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/ZYNQ_CORE_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_clk_wiz_0_0/ZYNQ_CORE_clk_wiz_0_0_board.xdc] for cell 'ZYNQ_CORE_i/clk_wiz_0/inst'
+Finished Parsing XDC File [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_clk_wiz_0_0/ZYNQ_CORE_clk_wiz_0_0_board.xdc] for cell 'ZYNQ_CORE_i/clk_wiz_0/inst'
+Parsing XDC File [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_clk_wiz_0_0/ZYNQ_CORE_clk_wiz_0_0.xdc] for cell 'ZYNQ_CORE_i/clk_wiz_0/inst'
+Finished Parsing XDC File [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_clk_wiz_0_0/ZYNQ_CORE_clk_wiz_0_0.xdc] for cell 'ZYNQ_CORE_i/clk_wiz_0/inst'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_clk_wiz_0_0/ZYNQ_CORE_clk_wiz_0_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/ZYNQ_CORE_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/ZYNQ_CORE_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_rst_ps7_0_50M_1/ZYNQ_CORE_rst_ps7_0_50M_1_board.xdc] for cell 'ZYNQ_CORE_i/rst_ps7_0_50M/U0'
+Finished Parsing XDC File [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_rst_ps7_0_50M_1/ZYNQ_CORE_rst_ps7_0_50M_1_board.xdc] for cell 'ZYNQ_CORE_i/rst_ps7_0_50M/U0'
+Parsing XDC File [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_rst_ps7_0_50M_1/ZYNQ_CORE_rst_ps7_0_50M_1.xdc] for cell 'ZYNQ_CORE_i/rst_ps7_0_50M/U0'
+Finished Parsing XDC File [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_rst_ps7_0_50M_1/ZYNQ_CORE_rst_ps7_0_50M_1.xdc] for cell 'ZYNQ_CORE_i/rst_ps7_0_50M/U0'
+Parsing XDC File [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_rst_ps7_0_150M_1/ZYNQ_CORE_rst_ps7_0_150M_1_board.xdc] for cell 'ZYNQ_CORE_i/rst_ps7_0_150M/U0'
+Finished Parsing XDC File [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_rst_ps7_0_150M_1/ZYNQ_CORE_rst_ps7_0_150M_1_board.xdc] for cell 'ZYNQ_CORE_i/rst_ps7_0_150M/U0'
+Parsing XDC File [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_rst_ps7_0_150M_1/ZYNQ_CORE_rst_ps7_0_150M_1.xdc] for cell 'ZYNQ_CORE_i/rst_ps7_0_150M/U0'
+Finished Parsing XDC File [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_rst_ps7_0_150M_1/ZYNQ_CORE_rst_ps7_0_150M_1.xdc] for cell 'ZYNQ_CORE_i/rst_ps7_0_150M/U0'
+Parsing XDC File [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_rgb2dvi_0_0/src/rgb2dvi.xdc] for cell 'ZYNQ_CORE_i/rgb2dvi_0/U0'
+Finished Parsing XDC File [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_rgb2dvi_0_0/src/rgb2dvi.xdc] for cell 'ZYNQ_CORE_i/rgb2dvi_0/U0'
+Parsing XDC File [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_axi_gpio_0_0/ZYNQ_CORE_axi_gpio_0_0_board.xdc] for cell 'ZYNQ_CORE_i/axi_gpio_0/U0'
+Finished Parsing XDC File [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_axi_gpio_0_0/ZYNQ_CORE_axi_gpio_0_0_board.xdc] for cell 'ZYNQ_CORE_i/axi_gpio_0/U0'
+Parsing XDC File [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_axi_gpio_0_0/ZYNQ_CORE_axi_gpio_0_0.xdc] for cell 'ZYNQ_CORE_i/axi_gpio_0/U0'
+Finished Parsing XDC File [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_axi_gpio_0_0/ZYNQ_CORE_axi_gpio_0_0.xdc] for cell 'ZYNQ_CORE_i/axi_gpio_0/U0'
+Parsing XDC File [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_vio_0_0/ZYNQ_CORE_vio_0_0.xdc] for cell 'ZYNQ_CORE_i/vio_0'
+Finished Parsing XDC File [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_vio_0_0/ZYNQ_CORE_vio_0_0.xdc] for cell 'ZYNQ_CORE_i/vio_0'
+INFO: [Timing 38-2] Deriving generated clocks
+Parsing XDC File [D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.srcs/constrs_1/new/OV.xdc]
+WARNING: [Vivado 12-507] No nets matched 'cam_pclk_0_IBUF'. [D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.srcs/constrs_1/new/OV.xdc:40]
+Finished Parsing XDC File [D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.srcs/constrs_1/new/OV.xdc]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [D:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.srcs/constrs_1/new/OV.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/ZYNQ_CORE_wrapper_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+Parsing XDC File [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_axi_vdma_0_0/ZYNQ_CORE_axi_vdma_0_0_clocks.xdc] for cell 'ZYNQ_CORE_i/axi_vdma_0/U0'
+Finished Parsing XDC File [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_axi_vdma_0_0/ZYNQ_CORE_axi_vdma_0_0_clocks.xdc] for cell 'ZYNQ_CORE_i/axi_vdma_0/U0'
+Parsing XDC File [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_v_axi4s_vid_out_0_0/ZYNQ_CORE_v_axi4s_vid_out_0_0_clocks.xdc] for cell 'ZYNQ_CORE_i/v_axi4s_vid_out_0/inst'
+Finished Parsing XDC File [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_v_axi4s_vid_out_0_0/ZYNQ_CORE_v_axi4s_vid_out_0_0_clocks.xdc] for cell 'ZYNQ_CORE_i/v_axi4s_vid_out_0/inst'
+Parsing XDC File [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_v_tc_0_0/ZYNQ_CORE_v_tc_0_0_clocks.xdc] for cell 'ZYNQ_CORE_i/v_tc_0/U0'
+Finished Parsing XDC File [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_v_tc_0_0/ZYNQ_CORE_v_tc_0_0_clocks.xdc] for cell 'ZYNQ_CORE_i/v_tc_0/U0'
+Parsing XDC File [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_rgb2dvi_0_0/src/rgb2dvi_clocks.xdc] for cell 'ZYNQ_CORE_i/rgb2dvi_0/U0'
+Finished Parsing XDC File [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_rgb2dvi_0_0/src/rgb2dvi_clocks.xdc] for cell 'ZYNQ_CORE_i/rgb2dvi_0/U0'
+Parsing XDC File [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_v_vid_in_axi4s_0_0/ZYNQ_CORE_v_vid_in_axi4s_0_0_clocks.xdc] for cell 'ZYNQ_CORE_i/v_vid_in_axi4s_0/inst'
+Finished Parsing XDC File [d:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ZYNQ_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_v_vid_in_axi4s_0_0/ZYNQ_CORE_v_vid_in_axi4s_0_0_clocks.xdc] for cell 'ZYNQ_CORE_i/v_vid_in_axi4s_0/inst'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/Xilinx/Vivado/2023.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/ZYNQ_CORE_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/ZYNQ_CORE_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/Xilinx/Vivado/2023.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/ZYNQ_CORE_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/ZYNQ_CORE_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/Xilinx/Vivado/2023.1/data/ip/xpm/xpm_fifo/tcl/xpm_fifo_rst.tcl]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/ZYNQ_CORE_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/ZYNQ_CORE_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/Xilinx/Vivado/2023.1/data/ip/xpm/xpm_fifo/tcl/xpm_fifo_rst.tcl]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/ZYNQ_CORE_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/ZYNQ_CORE_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+INFO: [Project 1-1714] 27 XPM XDC files have been applied to the design.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 4143.176 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 7 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 2 instances
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 4 instances
+  RAM32X1D => RAM32X1D (RAMD32(x2)): 1 instance 
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:09 ; elapsed = 00:00:13 . Memory (MB): peak = 4298.105 ; gain = 807.086
+139 Infos, 132 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:11 ; elapsed = 00:00:16 . Memory (MB): peak = 4298.105 ; gain = 1175.945
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Mar 26 22:48:33 2025...

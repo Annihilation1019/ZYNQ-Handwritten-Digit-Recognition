@@ -19,26 +19,17 @@
 #include "CNN/maxpool_layer_2.h"
 #include "CNN/affine_layer.h"
 
-#include "Bram/bram_init.h"
-#include "xbram.h"
-
 #include "cycle_num.h"
 
 // 定义图像大小和每块最大可拷贝字节数
 #define IMAGE_SIZE (140 * 140) // 19600字节
-#define GPIO_DEVICE_ID XPAR_XGPIOPS_0_DEVICE_ID
 
 void output_max_index();
 void window_average_filter(const u8 *image, u8 *output);
 void window_subsample(const u8 *image, u8 *output);
-int init_axi_gpio(void);
 
 // 全局变量
 XAxiVdma vdma;
-XBram Bram0;  /* The Instance of the BRAM Driver */
-XBram Bram1;  /* The Instance of the BRAM Driver */
-XBram Bram2;  /* The Instance of the BRAM Driver */
-XGpioPs Gpio; /* The driver instance for GPIO Device. */
 // 图片数据
 static u8 image[IMAGE_SIZE];
 static u8 input_layer[784];
@@ -70,15 +61,10 @@ int main(void)
 	// 配置VDMA
 	run_triple_frame_buffer(&vdma, VDMA_ID, WIDTH, HEIGHT, (int)FRAME_BUFFER_ADDR, 0, 0);
 
-	// 初始化AXI GPIO
-	Status = init_axi_gpio();
-
 	// 载入参数
 	param_init();
 	while (1)
 	{
-		if (XGpioPs_ReadPin(&Gpio, 1) == 1)
-		{
 			/* 读取图像 */
 			memcpy(image, (u8 *)PICTURE_BASEADDR, IMAGE_SIZE);
 
@@ -97,7 +83,6 @@ int main(void)
 
 			/* 结果输出 */
 			output_max_index();
-		}
 	}
 }
 void output_max_index()
@@ -156,33 +141,4 @@ void window_subsample(const u8 *image, u8 *output)
 			output[out_row * outW + out_col] = image[in_index];
 		}
 	}
-}
-
-
-int init_axi_gpio(void)
-{
-	XGpioPs_Config *ConfigPtr;
-	int Status;
-
-	// 查找GPIO配置数据
-	ConfigPtr = XGpioPs_LookupConfig(GPIO_DEVICE_ID);
-	if (ConfigPtr == NULL)
-	{
-		return XST_FAILURE;
-	}
-
-	// 初始化GPIO实例
-	Status = XGpioPs_CfgInitialize(&Gpio, ConfigPtr,
-								   ConfigPtr->BaseAddr);
-	if (Status != XST_SUCCESS)
-	{
-		return Status;
-	}
-
-	// 设置 MY_INPUT_PIN 为输入方向（第三个参数设为0）
-	XGpioPs_SetDirectionPin(&Gpio, 1, 0);
-	// 关闭该引脚的输出功能（可选，因为输入模式下默认输出也不会使能）
-	XGpioPs_SetOutputEnablePin(&Gpio, 1, 0);
-
-	return XST_SUCCESS;
 }

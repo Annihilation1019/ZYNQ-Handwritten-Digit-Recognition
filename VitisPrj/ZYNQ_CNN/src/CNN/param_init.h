@@ -7,6 +7,6 @@
 extern float *conv1_param_w;
 extern float *conv1_param_b;
 
-Status param_init();
+void param_init();
 
 #endif
