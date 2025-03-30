@@ -70,7 +70,6 @@ proc create_report { reportName command } {
   }
 }
 OPTRACE "ZYNQ_CORE_axi_gpio_0_0_synth_1" START { ROLLUP_AUTO }
-set_param chipscope.maxJobs 5
 set_msg_config -id {HDL-1065} -limit 10000
 set_param project.vivado.isBlockSynthRun true
 set_msg_config -msgmgr_mode ooc_run
@@ -96,7 +95,7 @@ set_property ip_output_repo d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.cache
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
-read_ip -quiet d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_axi_gpio_0_0/ZYNQ_CORE_axi_gpio_0_0.xci
+read_ip -quiet D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_axi_gpio_0_0/ZYNQ_CORE_axi_gpio_0_0.xci
 set_property used_in_implementation false [get_files -all d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_axi_gpio_0_0/ZYNQ_CORE_axi_gpio_0_0_board.xdc]
 set_property used_in_implementation false [get_files -all d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_axi_gpio_0_0/ZYNQ_CORE_axi_gpio_0_0_ooc.xdc]
 set_property used_in_implementation false [get_files -all d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_axi_gpio_0_0/ZYNQ_CORE_axi_gpio_0_0.xdc]

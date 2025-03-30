@@ -750,3 +750,59 @@ con
 15:12:01 INFO  : Platform repository initialization has completed.
 15:12:20 INFO  : Registering command handlers for Vitis TCF services
 15:12:20 INFO  : Successfully done query RDI_DATADIR 
+15:48:54 INFO  : Hardware specification for platform project 'ZYNQ_CORE_wrapper' is updated.
+15:49:20 INFO  : Result from executing command 'getProjects': ZYNQ_CORE_wrapper
+15:49:20 INFO  : Result from executing command 'getPlatforms': ZYNQ_CORE_wrapper|D:/Programs/Workspace/Xilinx_Prj/PL_CNN/VitisPrj/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/ZYNQ_CORE_wrapper.xpfm;xilinx_vck190_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+15:49:21 INFO  : Checking for BSP changes to sync application flags for project 'PL_CNN'...
+15:50:04 INFO  : The hardware specification used by project 'PL_CNN' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+15:50:04 INFO  : The file 'D:\Programs\Workspace\Xilinx_Prj\PL_CNN\VitisPrj\PL_CNN\_ide\bitstream\ZYNQ_CORE_wrapper.bit' stored in project is removed.
+15:50:04 INFO  : The file 'D:\Programs\Workspace\Xilinx_Prj\PL_CNN\VitisPrj\PL_CNN\_ide\bitstream\ZYNQ_CORE_wrapper.mmi' stored in project is removed.
+15:50:04 INFO  : The updated bitstream files are copied from platform to folder 'D:\Programs\Workspace\Xilinx_Prj\PL_CNN\VitisPrj\PL_CNN\_ide\bitstream' in project 'PL_CNN'.
+15:50:04 INFO  : The file 'D:\Programs\Workspace\Xilinx_Prj\PL_CNN\VitisPrj\PL_CNN\_ide\psinit\ps7_init.tcl' stored in project is removed.
+15:50:07 INFO  : The updated ps init files are copied from platform to folder 'D:\Programs\Workspace\Xilinx_Prj\PL_CNN\VitisPrj\PL_CNN\_ide\psinit' in project 'PL_CNN'.
+15:50:53 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:50:54 INFO  : Jtag cable 'HelloFpga JTAG-SP2 03SD35A' is selected.
+15:50:54 INFO  : 'jtag frequency' command is executed.
+15:50:55 INFO  : Context for 'APU' is selected.
+15:50:55 INFO  : System reset is completed.
+15:50:58 INFO  : 'after 3000' command is executed.
+15:50:58 INFO  : 'targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}' command is executed.
+15:51:01 INFO  : Device configured successfully with "D:/Programs/Workspace/Xilinx_Prj/PL_CNN/VitisPrj/PL_CNN/_ide/bitstream/ZYNQ_CORE_wrapper.bit"
+15:51:01 INFO  : Context for 'APU' is selected.
+15:51:01 INFO  : Hardware design and registers information is loaded from 'D:/Programs/Workspace/Xilinx_Prj/PL_CNN/VitisPrj/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa'.
+15:51:01 INFO  : 'configparams force-mem-access 1' command is executed.
+15:51:01 INFO  : Context for 'APU' is selected.
+15:51:01 INFO  : Sourcing of 'D:/Programs/Workspace/Xilinx_Prj/PL_CNN/VitisPrj/PL_CNN/_ide/psinit/ps7_init.tcl' is done.
+15:51:01 INFO  : 'ps7_init' command is executed.
+15:51:01 INFO  : 'ps7_post_config' command is executed.
+15:51:01 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:51:39 INFO  : The application 'D:/Programs/Workspace/Xilinx_Prj/PL_CNN/VitisPrj/PL_CNN/Debug/PL_CNN.elf' is downloaded to processor 'ps7_cortexa9_0'.
+15:51:39 INFO  : 'configparams force-mem-access 0' command is executed.
+15:51:39 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "HelloFpga JTAG-SP2 03SD35A" && level==0 && jtag_device_ctx=="jsn-JTAG-SP2-03SD35A-23727093-0"}
+fpga -file D:/Programs/Workspace/Xilinx_Prj/PL_CNN/VitisPrj/PL_CNN/_ide/bitstream/ZYNQ_CORE_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw D:/Programs/Workspace/Xilinx_Prj/PL_CNN/VitisPrj/ZYNQ_CORE_wrapper/export/ZYNQ_CORE_wrapper/hw/ZYNQ_CORE_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source D:/Programs/Workspace/Xilinx_Prj/PL_CNN/VitisPrj/PL_CNN/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow D:/Programs/Workspace/Xilinx_Prj/PL_CNN/VitisPrj/PL_CNN/Debug/PL_CNN.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+15:51:39 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:51:39 INFO  : 'con' command is executed.
+15:51:39 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+15:51:39 INFO  : Launch script is exported to file 'D:\Programs\Workspace\Xilinx_Prj\PL_CNN\VitisPrj\PL_CNN_system\_ide\scripts\systemdebugger_pl_cnn_system_standalone.tcl'
+15:52:58 INFO  : Disconnected from the channel tcfchan#3.

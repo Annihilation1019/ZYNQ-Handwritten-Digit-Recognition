@@ -60,3 +60,6 @@ timestamp=[2025-03-30 14:42:43], mode=BUILD, duration=0:00:05.796, duration_ms=5
 timestamp=[2025-03-30 15:12:01], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.701, duration_ms=701, data={}
 timestamp=[2025-03-30 15:12:20], mode=WORKBENCH_START, duration=0:00:24.509, duration_ms=24509, data={}
 timestamp=[2025-03-30 15:12:20], mode=WORKBENCH_UI_INIT, duration=0:00:00.240, duration_ms=240, data={editors_count=6, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=PL_CNN,PL_CNN_system,RemoteSystemsTempFiles,ZYNQ_CORE_wrapper}
+timestamp=[2025-03-30 15:49:21], mode=PLATFORM_GENERATION, duration=0:00:08.176, duration_ms=8176, data={name=ZYNQ_CORE_wrapper}
+timestamp=[2025-03-30 15:50:04], mode=BUILD, duration=0:00:42.050, duration_ms=42050, data={name=PL_CNN, configuration=Debug, clean_build=false}
+timestamp=[2025-03-30 15:50:12], mode=BUILD, duration=0:00:04.845, duration_ms=4845, data={name=PL_CNN_system, configuration=Debug, clean_build=false}

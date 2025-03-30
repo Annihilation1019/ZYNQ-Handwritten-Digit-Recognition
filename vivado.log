@@ -88,3 +88,323 @@ Wrote  : <D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/bd/ZYNQ_
 INFO: [Vivado 12-8231] Launching Vitis
 INFO: [Vivado 12-417] Running vitis
 INFO: [Vivado 12-8232] Vitis launch initiated. Please check console for any further messages.
+CRITICAL WARNING: [HDL 9-1206] Syntax error near ')' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/new/bram_wr_ctrl.v:33]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near ')' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/new/bram_wr_ctrl.v:33]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near ')' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/new/bram_wr_ctrl.v:33]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near ')' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/new/bram_wr_ctrl.v:33]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near ')' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/new/bram_wr_ctrl.v:33]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near ')' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/new/bram_wr_ctrl.v:33]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near ')' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/new/bram_wr_ctrl.v:33]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near ')' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/new/bram_wr_ctrl.v:33]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near ')' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/new/bram_wr_ctrl.v:33]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near ')' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/new/bram_wr_ctrl.v:33]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near ')' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/new/bram_wr_ctrl.v:33]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'localparam' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/new/bram_wr_ctrl.v:37]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'localparam' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/new/bram_wr_ctrl.v:37]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'localparam' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/new/bram_wr_ctrl.v:37]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'localparam' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/new/bram_wr_ctrl.v:37]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'localparam' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/new/bram_wr_ctrl.v:37]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'localparam' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/new/bram_wr_ctrl.v:37]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'localparam' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/new/bram_wr_ctrl.v:37]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'localparam' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/new/bram_wr_ctrl.v:37]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'localparam' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/new/bram_wr_ctrl.v:37]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'localparam' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/new/bram_wr_ctrl.v:37]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'localparam' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/new/bram_wr_ctrl.v:37]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'localparam' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/new/bram_wr_ctrl.v:38]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'localparam' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/new/bram_wr_ctrl.v:38]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'localparam' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/new/bram_wr_ctrl.v:38]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'localparam' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/new/bram_wr_ctrl.v:38]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'localparam' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/new/bram_wr_ctrl.v:38]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near ')' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/new/bram_wr_ctrl.v:33]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near ')' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/new/bram_wr_ctrl.v:33]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near ')' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/new/bram_wr_ctrl.v:33]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near ')' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/new/bram_wr_ctrl.v:33]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'end' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/new/bram_wr_ctrl.v:75]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'end' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/new/bram_wr_ctrl.v:75]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'end' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/new/bram_wr_ctrl.v:75]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'end' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/new/bram_wr_ctrl.v:75]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'end' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/new/bram_wr_ctrl.v:75]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'end' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/new/bram_wr_ctrl.v:75]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'end' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/new/bram_wr_ctrl.v:75]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near ')' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/new/bram_wr_ctrl.v:75]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near ')' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/new/bram_wr_ctrl.v:75]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near ')' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/new/bram_wr_ctrl.v:75]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near ')' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/new/bram_wr_ctrl.v:75]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'end' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/new/bram_wr_ctrl.v:76]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'end' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/new/bram_wr_ctrl.v:76]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'end' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/new/bram_wr_ctrl.v:76]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'end' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/new/bram_wr_ctrl.v:76]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'end' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/new/bram_wr_ctrl.v:77]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'end' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/new/bram_wr_ctrl.v:77]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'end' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/new/bram_wr_ctrl.v:77]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'end' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/new/bram_wr_ctrl.v:77]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'end' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/new/bram_wr_ctrl.v:78]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'end' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/new/bram_wr_ctrl.v:78]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'end' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/new/bram_wr_ctrl.v:79]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'end' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/new/bram_wr_ctrl.v:79]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'output' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/new/bram_wr_ctrl.v:34]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'output' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/new/bram_wr_ctrl.v:34]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'output' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/new/bram_wr_ctrl.v:34]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'output' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/new/bram_wr_ctrl.v:34]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'end' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/new/bram_wr_ctrl.v:80]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'end' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/new/bram_wr_ctrl.v:80]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'end' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/new/bram_wr_ctrl.v:80]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'end' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/new/bram_wr_ctrl.v:81]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'end' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/new/bram_wr_ctrl.v:81]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'end' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/new/bram_wr_ctrl.v:81]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'end' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/new/bram_wr_ctrl.v:81]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'end' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/new/bram_wr_ctrl.v:81]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'end' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/new/bram_wr_ctrl.v:81]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'end' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/new/bram_wr_ctrl.v:81]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'end' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/new/bram_wr_ctrl.v:81]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'end' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/new/bram_wr_ctrl.v:82]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'end' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/new/bram_wr_ctrl.v:82]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'end' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/new/bram_wr_ctrl.v:82]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'end' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/new/bram_wr_ctrl.v:82]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'end' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/new/bram_wr_ctrl.v:83]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'end' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/new/bram_wr_ctrl.v:83]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'end' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/new/bram_wr_ctrl.v:83]
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'end' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/new/bram_wr_ctrl.v:83]
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+startgroup
+set_property -dict [list \
+  CONFIG.C_ALL_OUTPUTS_2 {1} \
+  CONFIG.C_DOUT_DEFAULT_2 {0x0} \
+  CONFIG.C_GPIO2_WIDTH {1} \
+  CONFIG.C_IS_DUAL {1} \
+] [get_bd_cells axi_gpio_0]
+endgroup
+update_module_reference ZYNQ_CORE_bram_wr_ctrl_0_0
+INFO: [IP_Flow 19-5107] Inferred bus interface 'rstn' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'rstn': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+INFO: [IP_Flow 19-4728] Bus Interface 'clk': Added interface parameter 'ASSOCIATED_RESET' with value 'rstn'.
+WARNING: [IP_Flow 19-5661] Bus Interface 'clk' does not have any bus interfaces associated with it.
+WARNING: [IP_Flow 19-11770] Clock interface 'clk' has no FREQ_HZ parameter.
+INFO: [IP_Flow 19-5107] Inferred bus interface 'rstn' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'rstn': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+INFO: [IP_Flow 19-4728] Bus Interface 'clk': Added interface parameter 'ASSOCIATED_RESET' with value 'rstn'.
+WARNING: [IP_Flow 19-5661] Bus Interface 'clk' does not have any bus interfaces associated with it.
+WARNING: [IP_Flow 19-11770] Clock interface 'clk' has no FREQ_HZ parameter.
+Upgrading 'D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE.bd'
+INFO: [IP_Flow 19-3420] Updated ZYNQ_CORE_bram_wr_ctrl_0_0 to use current project options
+WARNING: [IP_Flow 19-4698] Upgrade has added port 'ps_read_done'
+WARNING: [IP_Flow 19-3298] Detected external port differences while upgrading 'ZYNQ_CORE_bram_wr_ctrl_0_0'. These changes may impact your design.
+CRITICAL WARNING: [Coretcl 2-1280] The upgrade of 'ZYNQ_CORE_bram_wr_ctrl_0_0' has identified issues that may require user intervention. Please verify that the instance is correctly configured, and review any upgrade messages.
+Wrote  : <D:\Programs\Workspace\Xilinx_Prj\PL_CNN\PL_CNN.srcs\sources_1\bd\ZYNQ_CORE\ZYNQ_CORE.bd> 
+Wrote  : <D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/bd/ZYNQ_CORE/ui/bd_ea28465c.ui> 
+CRITICAL WARNING: [HDL 9-1206] Syntax error near 'end' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/new/bram_wr_ctrl.v:83]
+startgroup
+set_property CONFIG.C_IS_DUAL {0} [get_bd_cells axi_gpio_0]
+endgroup
+update_module_reference ZYNQ_CORE_bram_wr_ctrl_0_0
+INFO: [IP_Flow 19-5107] Inferred bus interface 'rstn' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'rstn': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+INFO: [IP_Flow 19-4728] Bus Interface 'clk': Added interface parameter 'ASSOCIATED_RESET' with value 'rstn'.
+WARNING: [IP_Flow 19-5661] Bus Interface 'clk' does not have any bus interfaces associated with it.
+WARNING: [IP_Flow 19-11770] Clock interface 'clk' has no FREQ_HZ parameter.
+INFO: [IP_Flow 19-5107] Inferred bus interface 'rstn' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'rstn': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+INFO: [IP_Flow 19-4728] Bus Interface 'clk': Added interface parameter 'ASSOCIATED_RESET' with value 'rstn'.
+WARNING: [IP_Flow 19-5661] Bus Interface 'clk' does not have any bus interfaces associated with it.
+WARNING: [IP_Flow 19-11770] Clock interface 'clk' has no FREQ_HZ parameter.
+Upgrading 'D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE.bd'
+INFO: [IP_Flow 19-3420] Updated ZYNQ_CORE_bram_wr_ctrl_0_0 to use current project options
+WARNING: [IP_Flow 19-4700] Upgrade has removed port 'ps_read_done'
+WARNING: [IP_Flow 19-3298] Detected external port differences while upgrading 'ZYNQ_CORE_bram_wr_ctrl_0_0'. These changes may impact your design.
+CRITICAL WARNING: [Coretcl 2-1280] The upgrade of 'ZYNQ_CORE_bram_wr_ctrl_0_0' has identified issues that may require user intervention. Please verify that the instance is correctly configured, and review any upgrade messages.
+Wrote  : <D:\Programs\Workspace\Xilinx_Prj\PL_CNN\PL_CNN.srcs\sources_1\bd\ZYNQ_CORE\ZYNQ_CORE.bd> 
+Wrote  : <D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/bd/ZYNQ_CORE/ui/bd_ea28465c.ui> 
+regenerate_bd_layout
+regenerate_bd_layout
+regenerate_bd_layout
+regenerate_bd_layout
+regenerate_bd_layout
+validate_bd_design
+WARNING: [filemgmt 56-443] The ECC Algorithm string is empty. Setting the Memory Map to default ECC value to ECC_NONE.
+INFO: [xilinx.com:ip:clk_wiz:6.0-1] /clk_wiz_0 clk_wiz propagate
+CRITICAL WARNING: [BD 41-49] Could not find abstraction definition for the interface: TMDS 
+save_bd_design
+Wrote  : <D:\Programs\Workspace\Xilinx_Prj\PL_CNN\PL_CNN.srcs\sources_1\bd\ZYNQ_CORE\ZYNQ_CORE.bd> 
+Wrote  : <D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/bd/ZYNQ_CORE/ui/bd_ea28465c.ui> 
+make_wrapper -files [get_files D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE.bd] -top
+INFO: [BD 41-1662] The design 'ZYNQ_CORE.bd' is already validated. Therefore parameter propagation will not be re-run.
+WARNING: [filemgmt 56-443] The ECC Algorithm string is empty. Setting the Memory Map to default ECC value to ECC_NONE.
+WARNING: [filemgmt 56-443] The ECC Algorithm string is empty. Setting the Memory Map to default ECC value to ECC_NONE.
+CRITICAL WARNING: [BD 41-49] Could not find abstraction definition for the interface: TMDS 
+CRITICAL WARNING: [BD 41-49] Could not find abstraction definition for the interface: TMDS 
+CRITICAL WARNING: [BD 41-49] Could not find abstraction definition for the interface: TMDS 
+CRITICAL WARNING: [BD 41-49] Could not find abstraction definition for the interface: TMDS 
+CRITICAL WARNING: [BD 41-49] Could not find abstraction definition for the interface: TMDS 
+CRITICAL WARNING: [BD 41-49] Could not find abstraction definition for the interface: TMDS 
+CRITICAL WARNING: [BD 41-49] Could not find abstraction definition for the interface: TMDS 
+CRITICAL WARNING: [BD 41-49] Could not find abstraction definition for the interface: TMDS 
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_mem_intercon/m00_couplers/auto_pc/m_axi_rid'(1) to pin: '/axi_mem_intercon/m00_couplers/M_AXI_rid'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_mem_intercon/m00_couplers/auto_pc/m_axi_bid'(1) to pin: '/axi_mem_intercon/m00_couplers/M_AXI_bid'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/blk_mem_gen_1/addra'(32) to pin: '/axi_bram_ctrl_0/bram_addr_a'(15) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_AWID'(6) to pin: '/axi_mem_intercon/M00_AXI_awid'(1) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_ARID'(6) to pin: '/axi_mem_intercon/M00_AXI_arid'(1) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_WID'(6) to pin: '/axi_mem_intercon/M00_AXI_wid'(1) - Only lower order bits will be connected.
+Verilog Output written to : d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_mem_intercon/m00_couplers/auto_pc/m_axi_rid'(1) to pin: '/axi_mem_intercon/m00_couplers/M_AXI_rid'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_mem_intercon/m00_couplers/auto_pc/m_axi_bid'(1) to pin: '/axi_mem_intercon/m00_couplers/M_AXI_bid'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/blk_mem_gen_1/addra'(32) to pin: '/axi_bram_ctrl_0/bram_addr_a'(15) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_AWID'(6) to pin: '/axi_mem_intercon/M00_AXI_awid'(1) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_ARID'(6) to pin: '/axi_mem_intercon/M00_AXI_arid'(1) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_WID'(6) to pin: '/axi_mem_intercon/M00_AXI_wid'(1) - Only lower order bits will be connected.
+Verilog Output written to : d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/sim/ZYNQ_CORE.v
+Verilog Output written to : d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/hdl/ZYNQ_CORE_wrapper.v
+reset_run ZYNQ_CORE_axi_gpio_0_0_synth_1
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/utils_1/imports/synth_1/ZYNQ_CORE_wrapper.dcp with file D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/ZYNQ_CORE_wrapper.dcp
+launch_runs synth_1 -jobs 20
+INFO: [BD 41-1662] The design 'ZYNQ_CORE.bd' is already validated. Therefore parameter propagation will not be re-run.
+WARNING: [filemgmt 56-443] The ECC Algorithm string is empty. Setting the Memory Map to default ECC value to ECC_NONE.
+WARNING: [filemgmt 56-443] The ECC Algorithm string is empty. Setting the Memory Map to default ECC value to ECC_NONE.
+CRITICAL WARNING: [BD 41-49] Could not find abstraction definition for the interface: TMDS 
+CRITICAL WARNING: [BD 41-49] Could not find abstraction definition for the interface: TMDS 
+CRITICAL WARNING: [BD 41-49] Could not find abstraction definition for the interface: TMDS 
+CRITICAL WARNING: [BD 41-49] Could not find abstraction definition for the interface: TMDS 
+CRITICAL WARNING: [BD 41-49] Could not find abstraction definition for the interface: TMDS 
+CRITICAL WARNING: [BD 41-49] Could not find abstraction definition for the interface: TMDS 
+CRITICAL WARNING: [BD 41-49] Could not find abstraction definition for the interface: TMDS 
+CRITICAL WARNING: [BD 41-49] Could not find abstraction definition for the interface: TMDS 
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_mem_intercon/m00_couplers/auto_pc/m_axi_rid'(1) to pin: '/axi_mem_intercon/m00_couplers/M_AXI_rid'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_mem_intercon/m00_couplers/auto_pc/m_axi_bid'(1) to pin: '/axi_mem_intercon/m00_couplers/M_AXI_bid'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/blk_mem_gen_1/addra'(32) to pin: '/axi_bram_ctrl_0/bram_addr_a'(15) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_AWID'(6) to pin: '/axi_mem_intercon/M00_AXI_awid'(1) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_ARID'(6) to pin: '/axi_mem_intercon/M00_AXI_arid'(1) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_WID'(6) to pin: '/axi_mem_intercon/M00_AXI_wid'(1) - Only lower order bits will be connected.
+Verilog Output written to : d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_mem_intercon/m00_couplers/auto_pc/m_axi_rid'(1) to pin: '/axi_mem_intercon/m00_couplers/M_AXI_rid'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_mem_intercon/m00_couplers/auto_pc/m_axi_bid'(1) to pin: '/axi_mem_intercon/m00_couplers/M_AXI_bid'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/blk_mem_gen_1/addra'(32) to pin: '/axi_bram_ctrl_0/bram_addr_a'(15) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_AWID'(6) to pin: '/axi_mem_intercon/M00_AXI_awid'(1) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_ARID'(6) to pin: '/axi_mem_intercon/M00_AXI_arid'(1) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_WID'(6) to pin: '/axi_mem_intercon/M00_AXI_wid'(1) - Only lower order bits will be connected.
+Verilog Output written to : d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/sim/ZYNQ_CORE.v
+Verilog Output written to : d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/hdl/ZYNQ_CORE_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block cnn_top_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block bram_wr_ctrl_0 .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_3/ZYNQ_CORE_auto_pc_3_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_0/ZYNQ_CORE_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/m00_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_1/ZYNQ_CORE_auto_pc_1_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/m01_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_2/ZYNQ_CORE_auto_pc_2_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/m03_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_4/ZYNQ_CORE_auto_pc_4_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/m00_couplers/auto_pc .
+Exporting to file d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/hw_handoff/ZYNQ_CORE.hwh
+Generated Hardware Definition File d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.hwdef
+INFO: [IP_Flow 19-6930] IPCACHE: runCacheChecks() number of threads = 8
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP ZYNQ_CORE_auto_pc_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP ZYNQ_CORE_auto_pc_1
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP ZYNQ_CORE_auto_pc_2
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP ZYNQ_CORE_auto_pc_3
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP ZYNQ_CORE_auto_pc_4
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP ZYNQ_CORE_axi_gpio_0_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP ZYNQ_CORE_bram_wr_ctrl_0_0
+INFO: [IP_Flow 19-8020] IPCACHE: runCacheChecks() calling threadPool finishWork()
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: ZYNQ_CORE_auto_pc_0
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 8122dac668118956 to dir: d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_0
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.cache/ip/2023.1/8/1/8122dac668118956/ZYNQ_CORE_auto_pc_0.dcp to d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_0/ZYNQ_CORE_auto_pc_0.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_0/ZYNQ_CORE_auto_pc_0.dcp
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.cache/ip/2023.1/8/1/8122dac668118956/ZYNQ_CORE_auto_pc_0_sim_netlist.v to d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_0/ZYNQ_CORE_auto_pc_0_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_0/ZYNQ_CORE_auto_pc_0_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.cache/ip/2023.1/8/1/8122dac668118956/ZYNQ_CORE_auto_pc_0_sim_netlist.vhdl to d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_0/ZYNQ_CORE_auto_pc_0_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_0/ZYNQ_CORE_auto_pc_0_sim_netlist.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.cache/ip/2023.1/8/1/8122dac668118956/ZYNQ_CORE_auto_pc_0_stub.v to d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_0/ZYNQ_CORE_auto_pc_0_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_0/ZYNQ_CORE_auto_pc_0_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.cache/ip/2023.1/8/1/8122dac668118956/ZYNQ_CORE_auto_pc_0_stub.vhdl to d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_0/ZYNQ_CORE_auto_pc_0_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_0/ZYNQ_CORE_auto_pc_0_stub.vhdl
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP ZYNQ_CORE_auto_pc_0, cache-ID = 8122dac668118956; cache size = 11.892 MB.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: ZYNQ_CORE_auto_pc_1
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 8122dac668118956 to dir: d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_1
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.cache/ip/2023.1/8/1/8122dac668118956/ZYNQ_CORE_auto_pc_0.dcp to d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_1/ZYNQ_CORE_auto_pc_1.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_1/ZYNQ_CORE_auto_pc_1.dcp
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.cache/ip/2023.1/8/1/8122dac668118956/ZYNQ_CORE_auto_pc_0_sim_netlist.v to d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_1/ZYNQ_CORE_auto_pc_1_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_1/ZYNQ_CORE_auto_pc_1_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.cache/ip/2023.1/8/1/8122dac668118956/ZYNQ_CORE_auto_pc_0_sim_netlist.vhdl to d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_1/ZYNQ_CORE_auto_pc_1_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_1/ZYNQ_CORE_auto_pc_1_sim_netlist.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.cache/ip/2023.1/8/1/8122dac668118956/ZYNQ_CORE_auto_pc_0_stub.v to d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_1/ZYNQ_CORE_auto_pc_1_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_1/ZYNQ_CORE_auto_pc_1_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.cache/ip/2023.1/8/1/8122dac668118956/ZYNQ_CORE_auto_pc_0_stub.vhdl to d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_1/ZYNQ_CORE_auto_pc_1_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_1/ZYNQ_CORE_auto_pc_1_stub.vhdl
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP ZYNQ_CORE_auto_pc_1, cache-ID = 8122dac668118956; cache size = 11.892 MB.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: ZYNQ_CORE_auto_pc_2
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 8122dac668118956 to dir: d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_2
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.cache/ip/2023.1/8/1/8122dac668118956/ZYNQ_CORE_auto_pc_0.dcp to d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_2/ZYNQ_CORE_auto_pc_2.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_2/ZYNQ_CORE_auto_pc_2.dcp
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.cache/ip/2023.1/8/1/8122dac668118956/ZYNQ_CORE_auto_pc_0_sim_netlist.v to d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_2/ZYNQ_CORE_auto_pc_2_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_2/ZYNQ_CORE_auto_pc_2_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.cache/ip/2023.1/8/1/8122dac668118956/ZYNQ_CORE_auto_pc_0_sim_netlist.vhdl to d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_2/ZYNQ_CORE_auto_pc_2_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_2/ZYNQ_CORE_auto_pc_2_sim_netlist.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.cache/ip/2023.1/8/1/8122dac668118956/ZYNQ_CORE_auto_pc_0_stub.v to d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_2/ZYNQ_CORE_auto_pc_2_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_2/ZYNQ_CORE_auto_pc_2_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.cache/ip/2023.1/8/1/8122dac668118956/ZYNQ_CORE_auto_pc_0_stub.vhdl to d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_2/ZYNQ_CORE_auto_pc_2_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_2/ZYNQ_CORE_auto_pc_2_stub.vhdl
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP ZYNQ_CORE_auto_pc_2, cache-ID = 8122dac668118956; cache size = 11.892 MB.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: ZYNQ_CORE_auto_pc_3
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 5a5dcb1eeb4046c0 to dir: d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_3
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.cache/ip/2023.1/5/a/5a5dcb1eeb4046c0/ZYNQ_CORE_auto_pc_2.dcp to d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_3/ZYNQ_CORE_auto_pc_3.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_3/ZYNQ_CORE_auto_pc_3.dcp
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.cache/ip/2023.1/5/a/5a5dcb1eeb4046c0/ZYNQ_CORE_auto_pc_2_sim_netlist.v to d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_3/ZYNQ_CORE_auto_pc_3_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_3/ZYNQ_CORE_auto_pc_3_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.cache/ip/2023.1/5/a/5a5dcb1eeb4046c0/ZYNQ_CORE_auto_pc_2_sim_netlist.vhdl to d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_3/ZYNQ_CORE_auto_pc_3_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_3/ZYNQ_CORE_auto_pc_3_sim_netlist.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.cache/ip/2023.1/5/a/5a5dcb1eeb4046c0/ZYNQ_CORE_auto_pc_2_stub.v to d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_3/ZYNQ_CORE_auto_pc_3_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_3/ZYNQ_CORE_auto_pc_3_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.cache/ip/2023.1/5/a/5a5dcb1eeb4046c0/ZYNQ_CORE_auto_pc_2_stub.vhdl to d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_3/ZYNQ_CORE_auto_pc_3_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_3/ZYNQ_CORE_auto_pc_3_stub.vhdl
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP ZYNQ_CORE_auto_pc_3, cache-ID = 5a5dcb1eeb4046c0; cache size = 11.892 MB.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: ZYNQ_CORE_auto_pc_4
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry e6136d9902424a98 to dir: d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_4
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.cache/ip/2023.1/e/6/e6136d9902424a98/ZYNQ_CORE_auto_pc_1.dcp to d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_4/ZYNQ_CORE_auto_pc_4.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_4/ZYNQ_CORE_auto_pc_4.dcp
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.cache/ip/2023.1/e/6/e6136d9902424a98/ZYNQ_CORE_auto_pc_1_sim_netlist.v to d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_4/ZYNQ_CORE_auto_pc_4_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_4/ZYNQ_CORE_auto_pc_4_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.cache/ip/2023.1/e/6/e6136d9902424a98/ZYNQ_CORE_auto_pc_1_sim_netlist.vhdl to d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_4/ZYNQ_CORE_auto_pc_4_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_4/ZYNQ_CORE_auto_pc_4_sim_netlist.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.cache/ip/2023.1/e/6/e6136d9902424a98/ZYNQ_CORE_auto_pc_1_stub.v to d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_4/ZYNQ_CORE_auto_pc_4_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_4/ZYNQ_CORE_auto_pc_4_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.cache/ip/2023.1/e/6/e6136d9902424a98/ZYNQ_CORE_auto_pc_1_stub.vhdl to d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_4/ZYNQ_CORE_auto_pc_4_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_auto_pc_4/ZYNQ_CORE_auto_pc_4_stub.vhdl
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP ZYNQ_CORE_auto_pc_4, cache-ID = e6136d9902424a98; cache size = 11.892 MB.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: ZYNQ_CORE_axi_gpio_0_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: ZYNQ_CORE_bram_wr_ctrl_0_0
+[Sun Mar 30 15:40:55 2025] Launched ZYNQ_CORE_axi_gpio_0_0_synth_1, ZYNQ_CORE_cnn_top_0_0_synth_1, ZYNQ_CORE_bram_wr_ctrl_0_0_synth_1...
+Run output will be captured here:
+ZYNQ_CORE_axi_gpio_0_0_synth_1: D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/ZYNQ_CORE_axi_gpio_0_0_synth_1/runme.log
+ZYNQ_CORE_cnn_top_0_0_synth_1: D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/ZYNQ_CORE_cnn_top_0_0_synth_1/runme.log
+ZYNQ_CORE_bram_wr_ctrl_0_0_synth_1: D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/ZYNQ_CORE_bram_wr_ctrl_0_0_synth_1/runme.log
+[Sun Mar 30 15:40:55 2025] Launched synth_1...
+Run output will be captured here: D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 3610.090 ; gain = 0.000
+launch_runs impl_1 -jobs 20
+[Sun Mar 30 15:43:49 2025] Launched impl_1...
+Run output will be captured here: D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.368 . Memory (MB): peak = 3704.789 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 1365 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2023.1
+INFO: [Common 17-344] 'open_run' was cancelled
+launch_runs impl_1 -to_step write_bitstream -jobs 20
+[Sun Mar 30 15:47:32 2025] Launched impl_1...
+Run output will be captured here: D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/impl_1/runme.log
+write_hw_platform -fixed -include_bit -force -file D:/Programs/Workspace/Xilinx_Prj/PL_CNN/ZYNQ_CORE_wrapper.xsa
+INFO: [Project 1-1918] Creating Hardware Platform: D:/Programs/Workspace/Xilinx_Prj/PL_CNN/ZYNQ_CORE_wrapper.xsa ...
+INFO: [Project 1-1943] The Hardware Platform can be used for Hardware
+INFO: [Project 1-1941] Successfully created Hardware Platform: D:/Programs/Workspace/Xilinx_Prj/PL_CNN/ZYNQ_CORE_wrapper.xsa
+INFO: [Hsi 55-2053] elapsed time for repository (D:/Xilinx/Vivado/2023.1/data/embeddedsw) loading 0 seconds
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Mar 30 15:54:41 2025...

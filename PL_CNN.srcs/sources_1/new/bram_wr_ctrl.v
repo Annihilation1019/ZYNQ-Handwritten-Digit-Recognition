@@ -36,7 +36,7 @@ module bram_wr_ctrl(
     // =========== Define Parameter and Internal signals ===========
     //========================================================================/
     localparam                                  OUT_CNT =       4320            ;
-    parameter                                   TIMER   =       35_000_000      ;
+    parameter                                   TIMER   =       3_500_000       ;
 
     reg                                         pool_data_vld_r1                ;
     reg                                         latch_act                       ;

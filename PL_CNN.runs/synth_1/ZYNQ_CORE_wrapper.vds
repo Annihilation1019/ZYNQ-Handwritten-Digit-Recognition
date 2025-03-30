@@ -3,8 +3,8 @@
 # SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
 # IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
 # SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
-# Start of session at: Sun Mar 30 14:21:23 2025
-# Process ID: 9452
+# Start of session at: Sun Mar 30 15:42:53 2025
+# Process ID: 17616
 # Current directory: D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1
 # Command line: vivado.exe -log ZYNQ_CORE_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ZYNQ_CORE_wrapper.tcl
 # Log file: D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/ZYNQ_CORE_wrapper.vds
@@ -12,7 +12,7 @@
 # Running On: LAPTOP-DUUNQKAE, OS: Windows, CPU Frequency: 2918 MHz, CPU Physical cores: 14, Host memory: 16890 MB
 #-----------------------------------------------------------
 source ZYNQ_CORE_wrapper.tcl -notrace
-create_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1908.520 ; gain = 161.227
+create_project: Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1908.195 ; gain = 160.523
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Programs/Workspace/SmartZYNQ_SP2/VDMA_OV5640_HDMI/rgb2dvi'.
 INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Programs/Workspace/Xilinx_Prj/ZYNQ_CNN/ip_repo/cycle_num_1_0'.
@@ -30,27 +30,27 @@ INFO: [Designutils 20-5440] No compile time benefit to using incremental synthes
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 22040
+INFO: [Synth 8-7075] Helper process launched with PID 2052
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 2795.898 ; gain = 410.445
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 2795.719 ; gain = 409.484
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_wrapper' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/hdl/ZYNQ_CORE_wrapper.v:13]
 INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE' [d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:13]
-INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_axi_bram_ctrl_0_0' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-9452-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_axi_bram_ctrl_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_axi_bram_ctrl_0_0' (0#1) [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-9452-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_axi_bram_ctrl_0_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_axi_gpio_0_0' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-9452-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_axi_gpio_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_axi_gpio_0_0' (0#1) [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-9452-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_axi_gpio_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_axi_bram_ctrl_0_0' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-17616-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_axi_bram_ctrl_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_axi_bram_ctrl_0_0' (0#1) [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-17616-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_axi_bram_ctrl_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_axi_gpio_0_0' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-17616-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_axi_gpio_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_axi_gpio_0_0' (0#1) [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-17616-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_axi_gpio_0_0_stub.v:6]
 INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_axi_mem_intercon_1' [d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:1059]
 INFO: [Synth 8-6157] synthesizing module 'm00_couplers_imp_1UFV9PU' [d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:2739]
-INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_auto_pc_4' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-9452-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_auto_pc_4_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_auto_pc_4' (0#1) [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-9452-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_auto_pc_4_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_auto_pc_4' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-17616-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_auto_pc_4_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_auto_pc_4' (0#1) [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-17616-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_auto_pc_4_stub.v:6]
 INFO: [Synth 8-6155] done synthesizing module 'm00_couplers_imp_1UFV9PU' (0#1) [d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:2739]
 INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_X4EE9A' [d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:4614]
 INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_X4EE9A' (0#1) [d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:4614]
 INFO: [Synth 8-6157] synthesizing module 's01_couplers_imp_18LL33Q' [d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:4718]
 INFO: [Synth 8-6155] done synthesizing module 's01_couplers_imp_18LL33Q' (0#1) [d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:4718]
-INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_xbar_0' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-9452-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_xbar_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_xbar_0' (0#1) [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-9452-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_xbar_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_xbar_0' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-17616-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_xbar_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_xbar_0' (0#1) [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-17616-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_xbar_0_stub.v:6]
 WARNING: [Synth 8-689] width (1) of port connection 's_axi_arready' does not match port width (2) of module 'ZYNQ_CORE_xbar_0' [d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:1622]
 WARNING: [Synth 8-689] width (64) of port connection 's_axi_rdata' does not match port width (128) of module 'ZYNQ_CORE_xbar_0' [d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:1639]
 WARNING: [Synth 8-689] width (1) of port connection 's_axi_rlast' does not match port width (2) of module 'ZYNQ_CORE_xbar_0' [d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:1640]
@@ -60,36 +60,36 @@ WARNING: [Synth 8-7071] port 's_axi_bid' of module 'ZYNQ_CORE_xbar_0' is unconne
 WARNING: [Synth 8-7071] port 's_axi_rid' of module 'ZYNQ_CORE_xbar_0' is unconnected for instance 'xbar' [d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:1572]
 WARNING: [Synth 8-7023] instance 'xbar' of module 'ZYNQ_CORE_xbar_0' has 78 connections declared, but only 76 given [d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:1572]
 INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_axi_mem_intercon_1' (0#1) [d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:1059]
-INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_axi_vdma_0_0' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-9452-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_axi_vdma_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_axi_vdma_0_0' (0#1) [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-9452-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_axi_vdma_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_axi_vdma_0_0' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-17616-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_axi_vdma_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_axi_vdma_0_0' (0#1) [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-17616-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_axi_vdma_0_0_stub.v:6]
 WARNING: [Synth 8-7071] port 'mm2s_frame_ptr_out' of module 'ZYNQ_CORE_axi_vdma_0_0' is unconnected for instance 'axi_vdma_0' [d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:535]
 WARNING: [Synth 8-7071] port 's2mm_frame_ptr_out' of module 'ZYNQ_CORE_axi_vdma_0_0' is unconnected for instance 'axi_vdma_0' [d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:535]
 WARNING: [Synth 8-7071] port 'm_axis_mm2s_tkeep' of module 'ZYNQ_CORE_axi_vdma_0_0' is unconnected for instance 'axi_vdma_0' [d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:535]
 WARNING: [Synth 8-7071] port 'mm2s_introut' of module 'ZYNQ_CORE_axi_vdma_0_0' is unconnected for instance 'axi_vdma_0' [d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:535]
 WARNING: [Synth 8-7071] port 's2mm_introut' of module 'ZYNQ_CORE_axi_vdma_0_0' is unconnected for instance 'axi_vdma_0' [d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:535]
 WARNING: [Synth 8-7023] instance 'axi_vdma_0' of module 'ZYNQ_CORE_axi_vdma_0_0' has 67 connections declared, but only 62 given [d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:535]
-INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_binarizer_0_0' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-9452-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_binarizer_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_binarizer_0_0' (0#1) [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-9452-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_binarizer_0_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_blk_mem_gen_0_0' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-9452-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_blk_mem_gen_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_blk_mem_gen_0_0' (0#1) [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-9452-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_blk_mem_gen_0_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_blk_mem_gen_1_1' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-9452-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_blk_mem_gen_1_1_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_blk_mem_gen_1_1' (0#1) [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-9452-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_blk_mem_gen_1_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_binarizer_0_0' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-17616-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_binarizer_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_binarizer_0_0' (0#1) [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-17616-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_binarizer_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_blk_mem_gen_0_0' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-17616-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_blk_mem_gen_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_blk_mem_gen_0_0' (0#1) [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-17616-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_blk_mem_gen_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_blk_mem_gen_1_1' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-17616-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_blk_mem_gen_1_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_blk_mem_gen_1_1' (0#1) [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-17616-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_blk_mem_gen_1_1_stub.v:6]
 WARNING: [Synth 8-7071] port 'doutb' of module 'ZYNQ_CORE_blk_mem_gen_1_1' is unconnected for instance 'blk_mem_gen_1' [d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:617]
 WARNING: [Synth 8-7023] instance 'blk_mem_gen_1' of module 'ZYNQ_CORE_blk_mem_gen_1_1' has 14 connections declared, but only 13 given [d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:617]
-INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_border_adder_0_0' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-9452-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_border_adder_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_border_adder_0_0' (0#1) [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-9452-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_border_adder_0_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_bram_wr_ctrl_0_0' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-9452-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_bram_wr_ctrl_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_bram_wr_ctrl_0_0' (0#1) [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-9452-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_bram_wr_ctrl_0_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_clk_wiz_0_0' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-9452-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_clk_wiz_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_clk_wiz_0_0' (0#1) [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-9452-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_clk_wiz_0_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_cnn_top_0_0' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-9452-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_cnn_top_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_cnn_top_0_0' (0#1) [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-9452-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_cnn_top_0_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_cycle_num_0_1' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-9452-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_cycle_num_0_1_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_cycle_num_0_1' (0#1) [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-9452-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_cycle_num_0_1_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_ov5640_capture_data_0_0' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-9452-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_ov5640_capture_data_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_ov5640_capture_data_0_0' (0#1) [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-9452-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_ov5640_capture_data_0_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_processing_system7_0_0' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-9452-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_processing_system7_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_processing_system7_0_0' (0#1) [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-9452-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_processing_system7_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_border_adder_0_0' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-17616-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_border_adder_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_border_adder_0_0' (0#1) [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-17616-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_border_adder_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_bram_wr_ctrl_0_0' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-17616-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_bram_wr_ctrl_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_bram_wr_ctrl_0_0' (0#1) [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-17616-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_bram_wr_ctrl_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_clk_wiz_0_0' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-17616-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_clk_wiz_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_clk_wiz_0_0' (0#1) [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-17616-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_clk_wiz_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_cnn_top_0_0' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-17616-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_cnn_top_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_cnn_top_0_0' (0#1) [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-17616-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_cnn_top_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_cycle_num_0_1' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-17616-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_cycle_num_0_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_cycle_num_0_1' (0#1) [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-17616-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_cycle_num_0_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_ov5640_capture_data_0_0' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-17616-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_ov5640_capture_data_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_ov5640_capture_data_0_0' (0#1) [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-17616-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_ov5640_capture_data_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_processing_system7_0_0' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-17616-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_processing_system7_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_processing_system7_0_0' (0#1) [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-17616-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_processing_system7_0_0_stub.v:6]
 WARNING: [Synth 8-7071] port 'S_AXI_HP0_RCOUNT' of module 'ZYNQ_CORE_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:708]
 WARNING: [Synth 8-7071] port 'S_AXI_HP0_WCOUNT' of module 'ZYNQ_CORE_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:708]
 WARNING: [Synth 8-7071] port 'S_AXI_HP0_RACOUNT' of module 'ZYNQ_CORE_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:708]
@@ -97,58 +97,58 @@ WARNING: [Synth 8-7071] port 'S_AXI_HP0_WACOUNT' of module 'ZYNQ_CORE_processing
 WARNING: [Synth 8-7023] instance 'processing_system7_0' of module 'ZYNQ_CORE_processing_system7_0_0' has 111 connections declared, but only 107 given [d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:708]
 INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_ps7_0_axi_periph_1' [d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:1651]
 INFO: [Synth 8-6157] synthesizing module 'm00_couplers_imp_ET6XN9' [d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:3144]
-INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_auto_pc_0' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-9452-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_auto_pc_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_auto_pc_0' (0#1) [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-9452-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_auto_pc_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_auto_pc_0' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-17616-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_auto_pc_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_auto_pc_0' (0#1) [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-17616-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_auto_pc_0_stub.v:6]
 WARNING: [Synth 8-7071] port 'm_axi_awprot' of module 'ZYNQ_CORE_auto_pc_0' is unconnected for instance 'auto_pc' [d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:3363]
 WARNING: [Synth 8-7071] port 'm_axi_wstrb' of module 'ZYNQ_CORE_auto_pc_0' is unconnected for instance 'auto_pc' [d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:3363]
 WARNING: [Synth 8-7071] port 'm_axi_arprot' of module 'ZYNQ_CORE_auto_pc_0' is unconnected for instance 'auto_pc' [d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:3363]
 WARNING: [Synth 8-7023] instance 'auto_pc' of module 'ZYNQ_CORE_auto_pc_0' has 56 connections declared, but only 53 given [d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:3363]
 INFO: [Synth 8-6155] done synthesizing module 'm00_couplers_imp_ET6XN9' (0#1) [d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:3144]
 INFO: [Synth 8-6157] synthesizing module 'm01_couplers_imp_1QUL5E5' [d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:3419]
-INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_auto_pc_1' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-9452-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_auto_pc_1_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_auto_pc_1' (0#1) [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-9452-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_auto_pc_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_auto_pc_1' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-17616-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_auto_pc_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_auto_pc_1' (0#1) [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-17616-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_auto_pc_1_stub.v:6]
 INFO: [Synth 8-6155] done synthesizing module 'm01_couplers_imp_1QUL5E5' (0#1) [d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:3419]
 INFO: [Synth 8-6157] synthesizing module 'm02_couplers_imp_I9KZL0' [d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:3709]
 INFO: [Synth 8-6155] done synthesizing module 'm02_couplers_imp_I9KZL0' (0#1) [d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:3709]
 INFO: [Synth 8-6157] synthesizing module 'm03_couplers_imp_15OH8QK' [d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:3939]
-INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_auto_pc_2' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-9452-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_auto_pc_2_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_auto_pc_2' (0#1) [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-9452-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_auto_pc_2_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_auto_pc_2' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-17616-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_auto_pc_2_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_auto_pc_2' (0#1) [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-17616-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_auto_pc_2_stub.v:6]
 WARNING: [Synth 8-7071] port 'm_axi_awprot' of module 'ZYNQ_CORE_auto_pc_2' is unconnected for instance 'auto_pc' [d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:4162]
 WARNING: [Synth 8-7071] port 'm_axi_arprot' of module 'ZYNQ_CORE_auto_pc_2' is unconnected for instance 'auto_pc' [d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:4162]
 WARNING: [Synth 8-7023] instance 'auto_pc' of module 'ZYNQ_CORE_auto_pc_2' has 56 connections declared, but only 54 given [d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:4162]
 INFO: [Synth 8-6155] done synthesizing module 'm03_couplers_imp_15OH8QK' (0#1) [d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:3939]
 INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_1C2Y0SP' [d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:4219]
-INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_auto_pc_3' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-9452-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_auto_pc_3_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_auto_pc_3' (0#1) [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-9452-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_auto_pc_3_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_auto_pc_3' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-17616-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_auto_pc_3_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_auto_pc_3' (0#1) [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-17616-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_auto_pc_3_stub.v:6]
 WARNING: [Synth 8-7071] port 'm_axi_awregion' of module 'ZYNQ_CORE_auto_pc_3' is unconnected for instance 'auto_pc' [d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:4534]
 WARNING: [Synth 8-7071] port 'm_axi_arregion' of module 'ZYNQ_CORE_auto_pc_3' is unconnected for instance 'auto_pc' [d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:4534]
 WARNING: [Synth 8-7023] instance 'auto_pc' of module 'ZYNQ_CORE_auto_pc_3' has 79 connections declared, but only 77 given [d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:4534]
 INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_1C2Y0SP' (0#1) [d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:4219]
-INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_xbar_1' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-9452-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_xbar_1_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_xbar_1' (0#1) [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-9452-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_xbar_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_xbar_1' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-17616-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_xbar_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_xbar_1' (0#1) [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-17616-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_xbar_1_stub.v:6]
 INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_ps7_0_axi_periph_1' (0#1) [d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:1651]
-INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_rgb2dvi_0_0' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-9452-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_rgb2dvi_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_rgb2dvi_0_0' (0#1) [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-9452-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_rgb2dvi_0_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_rst_ps7_0_150M_1' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-9452-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_rst_ps7_0_150M_1_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_rst_ps7_0_150M_1' (0#1) [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-9452-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_rst_ps7_0_150M_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_rgb2dvi_0_0' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-17616-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_rgb2dvi_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_rgb2dvi_0_0' (0#1) [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-17616-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_rgb2dvi_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_rst_ps7_0_150M_1' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-17616-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_rst_ps7_0_150M_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_rst_ps7_0_150M_1' (0#1) [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-17616-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_rst_ps7_0_150M_1_stub.v:6]
 WARNING: [Synth 8-7071] port 'mb_reset' of module 'ZYNQ_CORE_rst_ps7_0_150M_1' is unconnected for instance 'rst_ps7_0_150M' [d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:962]
 WARNING: [Synth 8-7071] port 'bus_struct_reset' of module 'ZYNQ_CORE_rst_ps7_0_150M_1' is unconnected for instance 'rst_ps7_0_150M' [d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:962]
 WARNING: [Synth 8-7071] port 'peripheral_reset' of module 'ZYNQ_CORE_rst_ps7_0_150M_1' is unconnected for instance 'rst_ps7_0_150M' [d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:962]
 WARNING: [Synth 8-7071] port 'interconnect_aresetn' of module 'ZYNQ_CORE_rst_ps7_0_150M_1' is unconnected for instance 'rst_ps7_0_150M' [d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:962]
 WARNING: [Synth 8-7023] instance 'rst_ps7_0_150M' of module 'ZYNQ_CORE_rst_ps7_0_150M_1' has 10 connections declared, but only 6 given [d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:962]
-INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_rst_ps7_0_50M_1' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-9452-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_rst_ps7_0_50M_1_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_rst_ps7_0_50M_1' (0#1) [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-9452-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_rst_ps7_0_50M_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_rst_ps7_0_50M_1' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-17616-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_rst_ps7_0_50M_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_rst_ps7_0_50M_1' (0#1) [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-17616-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_rst_ps7_0_50M_1_stub.v:6]
 WARNING: [Synth 8-7071] port 'mb_reset' of module 'ZYNQ_CORE_rst_ps7_0_50M_1' is unconnected for instance 'rst_ps7_0_50M' [d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:969]
 WARNING: [Synth 8-7071] port 'bus_struct_reset' of module 'ZYNQ_CORE_rst_ps7_0_50M_1' is unconnected for instance 'rst_ps7_0_50M' [d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:969]
 WARNING: [Synth 8-7071] port 'peripheral_reset' of module 'ZYNQ_CORE_rst_ps7_0_50M_1' is unconnected for instance 'rst_ps7_0_50M' [d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:969]
 WARNING: [Synth 8-7071] port 'interconnect_aresetn' of module 'ZYNQ_CORE_rst_ps7_0_50M_1' is unconnected for instance 'rst_ps7_0_50M' [d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:969]
 WARNING: [Synth 8-7023] instance 'rst_ps7_0_50M' of module 'ZYNQ_CORE_rst_ps7_0_50M_1' has 10 connections declared, but only 6 given [d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:969]
-INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_show_num_0_1' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-9452-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_show_num_0_1_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_show_num_0_1' (0#1) [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-9452-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_show_num_0_1_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_util_vector_logic_0_0' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-9452-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_util_vector_logic_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_util_vector_logic_0_0' (0#1) [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-9452-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_util_vector_logic_0_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_v_axi4s_vid_out_0_0' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-9452-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_v_axi4s_vid_out_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_v_axi4s_vid_out_0_0' (0#1) [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-9452-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_v_axi4s_vid_out_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_show_num_0_1' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-17616-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_show_num_0_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_show_num_0_1' (0#1) [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-17616-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_show_num_0_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_util_vector_logic_0_0' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-17616-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_util_vector_logic_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_util_vector_logic_0_0' (0#1) [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-17616-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_util_vector_logic_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_v_axi4s_vid_out_0_0' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-17616-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_v_axi4s_vid_out_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_v_axi4s_vid_out_0_0' (0#1) [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-17616-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_v_axi4s_vid_out_0_0_stub.v:6]
 WARNING: [Synth 8-7071] port 'vid_vblank' of module 'ZYNQ_CORE_v_axi4s_vid_out_0_0' is unconnected for instance 'v_axi4s_vid_out_0' [d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:995]
 WARNING: [Synth 8-7071] port 'vid_hblank' of module 'ZYNQ_CORE_v_axi4s_vid_out_0_0' is unconnected for instance 'v_axi4s_vid_out_0' [d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:995]
 WARNING: [Synth 8-7071] port 'vid_field_id' of module 'ZYNQ_CORE_v_axi4s_vid_out_0_0' is unconnected for instance 'v_axi4s_vid_out_0' [d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:995]
@@ -159,12 +159,12 @@ WARNING: [Synth 8-7071] port 'fifo_read_level' of module 'ZYNQ_CORE_v_axi4s_vid_
 WARNING: [Synth 8-7071] port 'status' of module 'ZYNQ_CORE_v_axi4s_vid_out_0_0' is unconnected for instance 'v_axi4s_vid_out_0' [d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:995]
 WARNING: [Synth 8-7071] port 'sof_state_out' of module 'ZYNQ_CORE_v_axi4s_vid_out_0_0' is unconnected for instance 'v_axi4s_vid_out_0' [d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:995]
 WARNING: [Synth 8-7023] instance 'v_axi4s_vid_out_0' of module 'ZYNQ_CORE_v_axi4s_vid_out_0_0' has 32 connections declared, but only 23 given [d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:995]
-INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_v_tc_0_0' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-9452-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_v_tc_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_v_tc_0_0' (0#1) [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-9452-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_v_tc_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_v_tc_0_0' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-17616-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_v_tc_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_v_tc_0_0' (0#1) [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-17616-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_v_tc_0_0_stub.v:6]
 WARNING: [Synth 8-7071] port 'fsync_out' of module 'ZYNQ_CORE_v_tc_0_0' is unconnected for instance 'v_tc_0' [d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:1019]
 WARNING: [Synth 8-7023] instance 'v_tc_0' of module 'ZYNQ_CORE_v_tc_0_0' has 11 connections declared, but only 10 given [d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:1019]
-INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_v_vid_in_axi4s_0_0' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-9452-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_v_vid_in_axi4s_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_v_vid_in_axi4s_0_0' (0#1) [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-9452-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_v_vid_in_axi4s_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'ZYNQ_CORE_v_vid_in_axi4s_0_0' [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-17616-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_v_vid_in_axi4s_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ZYNQ_CORE_v_vid_in_axi4s_0_0' (0#1) [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/.Xil/Vivado-17616-LAPTOP-DUUNQKAE/realtime/ZYNQ_CORE_v_vid_in_axi4s_0_0_stub.v:6]
 WARNING: [Synth 8-7071] port 'fid' of module 'ZYNQ_CORE_v_vid_in_axi4s_0_0' is unconnected for instance 'v_vid_in_axi4s_0' [d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:1030]
 WARNING: [Synth 8-7071] port 'vtd_active_video' of module 'ZYNQ_CORE_v_vid_in_axi4s_0_0' is unconnected for instance 'v_vid_in_axi4s_0' [d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:1030]
 WARNING: [Synth 8-7071] port 'vtd_vblank' of module 'ZYNQ_CORE_v_vid_in_axi4s_0_0' is unconnected for instance 'v_vid_in_axi4s_0' [d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/synth/ZYNQ_CORE.v:1030]
@@ -263,18 +263,18 @@ WARNING: [Synth 8-7129] Port S00_ARESETN in module ZYNQ_CORE_axi_mem_intercon_1 
 WARNING: [Synth 8-7129] Port S01_ACLK in module ZYNQ_CORE_axi_mem_intercon_1 is either unconnected or has no load
 WARNING: [Synth 8-7129] Port S01_ARESETN in module ZYNQ_CORE_axi_mem_intercon_1 is either unconnected or has no load
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 2901.887 ; gain = 516.434
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 2901.926 ; gain = 515.691
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 2919.801 ; gain = 534.348
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 2919.844 ; gain = 533.609
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 2919.801 ; gain = 534.348
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 2919.844 ; gain = 533.609
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.041 . Memory (MB): peak = 2931.867 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.043 . Memory (MB): peak = 2931.898 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 2 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
@@ -331,10 +331,10 @@ Parsing XDC File [d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/b
 Finished Parsing XDC File [d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_blk_mem_gen_1_1/ZYNQ_CORE_blk_mem_gen_1_1/ZYNQ_CORE_blk_mem_gen_1_1_in_context.xdc] for cell 'ZYNQ_CORE_i/blk_mem_gen_1'
 Parsing XDC File [d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_axi_bram_ctrl_0_0/ZYNQ_CORE_axi_bram_ctrl_0_0/ZYNQ_CORE_axi_bram_ctrl_0_0_in_context.xdc] for cell 'ZYNQ_CORE_i/axi_bram_ctrl_0'
 Finished Parsing XDC File [d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_axi_bram_ctrl_0_0/ZYNQ_CORE_axi_bram_ctrl_0_0/ZYNQ_CORE_axi_bram_ctrl_0_0_in_context.xdc] for cell 'ZYNQ_CORE_i/axi_bram_ctrl_0'
-Parsing XDC File [d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_cnn_top_0_0/ZYNQ_CORE_cnn_top_0_0/ZYNQ_CORE_cnn_top_0_0_in_context.xdc] for cell 'ZYNQ_CORE_i/cnn_top_0'
-Finished Parsing XDC File [d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_cnn_top_0_0/ZYNQ_CORE_cnn_top_0_0/ZYNQ_CORE_cnn_top_0_0_in_context.xdc] for cell 'ZYNQ_CORE_i/cnn_top_0'
 Parsing XDC File [d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_axi_gpio_0_0/ZYNQ_CORE_axi_gpio_0_0/ZYNQ_CORE_axi_gpio_0_0_in_context.xdc] for cell 'ZYNQ_CORE_i/axi_gpio_0'
 Finished Parsing XDC File [d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_axi_gpio_0_0/ZYNQ_CORE_axi_gpio_0_0/ZYNQ_CORE_axi_gpio_0_0_in_context.xdc] for cell 'ZYNQ_CORE_i/axi_gpio_0'
+Parsing XDC File [d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_cnn_top_0_0/ZYNQ_CORE_cnn_top_0_0/ZYNQ_CORE_cnn_top_0_0_in_context.xdc] for cell 'ZYNQ_CORE_i/cnn_top_0'
+Finished Parsing XDC File [d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_cnn_top_0_0/ZYNQ_CORE_cnn_top_0_0/ZYNQ_CORE_cnn_top_0_0_in_context.xdc] for cell 'ZYNQ_CORE_i/cnn_top_0'
 Parsing XDC File [d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_bram_wr_ctrl_0_0/ZYNQ_CORE_bram_wr_ctrl_0_0/ZYNQ_CORE_bram_wr_ctrl_0_0_in_context.xdc] for cell 'ZYNQ_CORE_i/bram_wr_ctrl_0'
 Finished Parsing XDC File [d:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_bram_wr_ctrl_0_0/ZYNQ_CORE_bram_wr_ctrl_0_0/ZYNQ_CORE_bram_wr_ctrl_0_0_in_context.xdc] for cell 'ZYNQ_CORE_i/bram_wr_ctrl_0'
 Parsing XDC File [D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/constrs_1/new/OV.xdc]
@@ -349,25 +349,25 @@ INFO: [Project 1-236] Implementation specific constraints were found while readi
 Resolution: To avoid this warning, move constraints listed in [.Xil/ZYNQ_CORE_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2965.824 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2965.902 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 2 instances were transformed.
   IOBUF => IOBUF (IBUF, OBUFT): 2 instances
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 2965.824 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 2965.902 ; gain = 0.000
 WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'ZYNQ_CORE_i/blk_mem_gen_0' at clock pin 'clka' is different from the actual clock period '13.333', this can lead to different synthesis results.
 WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'ZYNQ_CORE_i/blk_mem_gen_1' at clock pin 'clkb' is different from the actual clock period '13.333', this can lead to different synthesis results.
 INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 2965.848 ; gain = 580.395
+Finished Constraint Validation : Time (s): cpu = 00:00:06 ; elapsed = 00:00:10 . Memory (MB): peak = 2965.902 ; gain = 579.668
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z020clg484-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 2965.848 ; gain = 580.395
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:06 ; elapsed = 00:00:10 . Memory (MB): peak = 2965.902 ; gain = 579.668
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
@@ -678,15 +678,15 @@ Applied set_property KEEP_HIERARCHY = SOFT for ZYNQ_CORE_i/binarizer_0. (constra
 Applied set_property KEEP_HIERARCHY = SOFT for ZYNQ_CORE_i/blk_mem_gen_1. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for ZYNQ_CORE_i/axi_bram_ctrl_0. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for ZYNQ_CORE_i/xlslice_0. (constraint file  auto generated constraint).
-Applied set_property KEEP_HIERARCHY = SOFT for ZYNQ_CORE_i/cnn_top_0. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for ZYNQ_CORE_i/xlconstant_0. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for ZYNQ_CORE_i/axi_gpio_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for ZYNQ_CORE_i/cnn_top_0. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for ZYNQ_CORE_i/bram_wr_ctrl_0. (constraint file  auto generated constraint).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 2965.848 ; gain = 580.395
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:06 ; elapsed = 00:00:11 . Memory (MB): peak = 2965.902 ; gain = 579.668
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:11 . Memory (MB): peak = 2965.848 ; gain = 580.395
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:11 . Memory (MB): peak = 2965.902 ; gain = 579.668
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -739,25 +739,25 @@ WARNING: [Synth 8-7129] Port M02_ACLK in module ZYNQ_CORE_ps7_0_axi_periph_1 is 
 WARNING: [Synth 8-7129] Port M02_ARESETN in module ZYNQ_CORE_ps7_0_axi_periph_1 is either unconnected or has no load
 INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:07 ; elapsed = 00:00:12 . Memory (MB): peak = 2965.848 ; gain = 580.395
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:07 ; elapsed = 00:00:12 . Memory (MB): peak = 2965.902 ; gain = 579.668
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:16 . Memory (MB): peak = 2965.848 ; gain = 580.395
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:16 . Memory (MB): peak = 2965.902 ; gain = 579.668
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:16 . Memory (MB): peak = 2965.848 ; gain = 580.395
+Finished Timing Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:16 . Memory (MB): peak = 2965.902 ; gain = 579.668
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:10 ; elapsed = 00:00:16 . Memory (MB): peak = 2965.848 ; gain = 580.395
+Finished Technology Mapping : Time (s): cpu = 00:00:10 ; elapsed = 00:00:16 . Memory (MB): peak = 2965.902 ; gain = 579.668
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -775,37 +775,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:12 ; elapsed = 00:00:18 . Memory (MB): peak = 2965.848 ; gain = 580.395
+Finished IO Insertion : Time (s): cpu = 00:00:12 ; elapsed = 00:00:19 . Memory (MB): peak = 2965.902 ; gain = 579.668
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:12 ; elapsed = 00:00:18 . Memory (MB): peak = 2965.848 ; gain = 580.395
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:12 ; elapsed = 00:00:19 . Memory (MB): peak = 2965.902 ; gain = 579.668
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:12 ; elapsed = 00:00:19 . Memory (MB): peak = 2965.848 ; gain = 580.395
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:12 ; elapsed = 00:00:19 . Memory (MB): peak = 2965.902 ; gain = 579.668
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:12 ; elapsed = 00:00:19 . Memory (MB): peak = 2965.848 ; gain = 580.395
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:12 ; elapsed = 00:00:19 . Memory (MB): peak = 2965.902 ; gain = 579.668
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:12 ; elapsed = 00:00:19 . Memory (MB): peak = 2965.848 ; gain = 580.395
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:12 ; elapsed = 00:00:19 . Memory (MB): peak = 2965.902 ; gain = 579.668
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:12 ; elapsed = 00:00:19 . Memory (MB): peak = 2965.848 ; gain = 580.395
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:12 ; elapsed = 00:00:19 . Memory (MB): peak = 2965.902 ; gain = 579.668
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -877,18 +877,18 @@ Report Cell Usage:
 |31    |OBUF                            |     2|
 +------+--------------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:12 ; elapsed = 00:00:19 . Memory (MB): peak = 2965.848 ; gain = 580.395
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:12 ; elapsed = 00:00:19 . Memory (MB): peak = 2965.902 ; gain = 579.668
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 50 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:08 ; elapsed = 00:00:17 . Memory (MB): peak = 2965.848 ; gain = 534.348
-Synthesis Optimization Complete : Time (s): cpu = 00:00:12 ; elapsed = 00:00:19 . Memory (MB): peak = 2965.848 ; gain = 580.395
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:08 ; elapsed = 00:00:17 . Memory (MB): peak = 2965.902 ; gain = 533.609
+Synthesis Optimization Complete : Time (s): cpu = 00:00:12 ; elapsed = 00:00:19 . Memory (MB): peak = 2965.902 ; gain = 579.668
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.037 . Memory (MB): peak = 2965.848 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.035 . Memory (MB): peak = 2965.902 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 2 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2965.848 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2965.902 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 2 instances were transformed.
   IOBUF => IOBUF (IBUF, OBUFT): 2 instances
@@ -897,7 +897,7 @@ Synth Design complete | Checksum: 511556c6
 INFO: [Common 17-83] Releasing license: Synthesis
 124 Infos, 168 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:15 ; elapsed = 00:00:23 . Memory (MB): peak = 2965.848 ; gain = 996.469
+synth_design: Time (s): cpu = 00:00:14 ; elapsed = 00:00:22 . Memory (MB): peak = 2965.902 ; gain = 996.766
 INFO: [Common 17-1381] The checkpoint 'D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.runs/synth_1/ZYNQ_CORE_wrapper.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file ZYNQ_CORE_wrapper_utilization_synth.rpt -pb ZYNQ_CORE_wrapper_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Sun Mar 30 14:22:02 2025...
+INFO: [Common 17-206] Exiting Vivado at Sun Mar 30 15:43:31 2025...

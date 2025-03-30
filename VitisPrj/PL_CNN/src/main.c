@@ -20,7 +20,6 @@
 #include "cycle_num.h"
 #include "xgpio.h"
 
-#define LED_CHANNEL 1
 #define PL_READY_PIN_ID XPAR_GPIO_0_DEVICE_ID
 
 void output_max_index();
@@ -62,13 +61,13 @@ int main(void)
 		xil_printf("Gpio Initialization Failed\r\n");
 		return XST_FAILURE;
 	}
-	XGpio_SetDataDirection(&Gpio, LED_CHANNEL, 1); // 设置GPIO方向为输入
+	XGpio_SetDataDirection(&Gpio, 1, 1); // 设置GPIO方向为输入
 
 	// 载入参数
 	param_init();
 	while (1)
 	{
-		if (XGpio_DiscreteRead(&Gpio, LED_CHANNEL) == 1)
+		if (XGpio_DiscreteRead(&Gpio, 1) == 1)
 		{
 			/* 全连接层 */
 			affine_layer1();

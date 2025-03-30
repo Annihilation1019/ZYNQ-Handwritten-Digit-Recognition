@@ -52,7 +52,7 @@
 
 (* X_CORE_INFO = "bram_wr_ctrl,Vivado 2023.1" *)
 (* CHECK_LICENSE_TYPE = "ZYNQ_CORE_bram_wr_ctrl_0_0,bram_wr_ctrl,{}" *)
-(* CORE_GENERATION_INFO = "ZYNQ_CORE_bram_wr_ctrl_0_0,bram_wr_ctrl,{x_ipProduct=Vivado 2023.1,x_ipVendor=xilinx.com,x_ipLibrary=module_ref,x_ipName=bram_wr_ctrl,x_ipVersion=1.0,x_ipCoreRevision=1,x_ipLanguage=VERILOG,x_ipSimLanguage=MIXED,TIMER=35000000}" *)
+(* CORE_GENERATION_INFO = "ZYNQ_CORE_bram_wr_ctrl_0_0,bram_wr_ctrl,{x_ipProduct=Vivado 2023.1,x_ipVendor=xilinx.com,x_ipLibrary=module_ref,x_ipName=bram_wr_ctrl,x_ipVersion=1.0,x_ipCoreRevision=1,x_ipLanguage=VERILOG,x_ipSimLanguage=MIXED,TIMER=3500000}" *)
 (* IP_DEFINITION_SOURCE = "module_ref" *)
 (* DowngradeIPIdentifiedWarnings = "yes" *)
 module ZYNQ_CORE_bram_wr_ctrl_0_0 (
@@ -82,7 +82,7 @@ output wire wr_en;
 output wire pl_ready;
 
   bram_wr_ctrl #(
-    .TIMER(35000000)
+    .TIMER(3500000)
   ) inst (
     .clk(clk),
     .rstn(rstn),

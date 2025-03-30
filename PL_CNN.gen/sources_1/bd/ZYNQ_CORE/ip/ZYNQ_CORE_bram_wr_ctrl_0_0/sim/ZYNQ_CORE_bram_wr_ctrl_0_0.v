@@ -81,7 +81,7 @@ output wire wr_en;
 output wire pl_ready;
 
   bram_wr_ctrl #(
-    .TIMER(35000000)
+    .TIMER(3500000)
   ) inst (
     .clk(clk),
     .rstn(rstn),

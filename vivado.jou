@@ -15,3 +15,36 @@ start_gui
 open_project D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.xpr
 update_compile_order -fileset sources_1
 update_module_reference ZYNQ_CORE_cnn_top_0_0
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+startgroup
+set_property -dict [list \
+  CONFIG.C_ALL_OUTPUTS_2 {1} \
+  CONFIG.C_DOUT_DEFAULT_2 {0x0} \
+  CONFIG.C_GPIO2_WIDTH {1} \
+  CONFIG.C_IS_DUAL {1} \
+] [get_bd_cells axi_gpio_0]
+endgroup
+update_module_reference ZYNQ_CORE_bram_wr_ctrl_0_0
+startgroup
+set_property CONFIG.C_IS_DUAL {0} [get_bd_cells axi_gpio_0]
+endgroup
+update_module_reference ZYNQ_CORE_bram_wr_ctrl_0_0
+regenerate_bd_layout
+regenerate_bd_layout
+regenerate_bd_layout
+regenerate_bd_layout
+regenerate_bd_layout
+validate_bd_design
+save_bd_design
+make_wrapper -files [get_files D:/Programs/Workspace/Xilinx_Prj/PL_CNN/PL_CNN.srcs/sources_1/bd/ZYNQ_CORE/ZYNQ_CORE.bd] -top
+reset_run ZYNQ_CORE_axi_gpio_0_0_synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 20
+wait_on_run synth_1
+launch_runs impl_1 -jobs 20
+wait_on_run impl_1
+open_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 20
+wait_on_run impl_1
+write_hw_platform -fixed -include_bit -force -file D:/Programs/Workspace/Xilinx_Prj/PL_CNN/ZYNQ_CORE_wrapper.xsa

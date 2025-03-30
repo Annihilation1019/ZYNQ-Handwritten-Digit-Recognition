@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7z020clg484-1" LaunchTime="1743315630" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/ZYNQ_CORE_wrapper.dcp">
+<GenRun Id="synth_1" LaunchPart="xc7z020clg484-1" LaunchTime="1743320455" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/ZYNQ_CORE_wrapper.dcp">
   <File Type="PA-TCL" Name="ZYNQ_CORE_wrapper.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="ZYNQ_CORE_wrapper_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="ZYNQ_CORE_wrapper_reports.tcl"/>
   <File Type="RDS-RDS" Name="ZYNQ_CORE_wrapper.vds"/>
   <File Type="RDS-UTIL" Name="ZYNQ_CORE_wrapper_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="ZYNQ_CORE_wrapper_utilization_synth.pb"/>
   <File Type="RDS-DCP" Name="ZYNQ_CORE_wrapper.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="ZYNQ_CORE_wrapper_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="ZYNQ_CORE_wrapper_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/new/show_num.v">
@@ -260,13 +263,13 @@
     <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2023"/>
     <Step Id="synth_design"/>
   </Strategy>
-  <BlockFileSet Type="BlockSrcs" Name="ZYNQ_CORE_processing_system7_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="ZYNQ_CORE_blk_mem_gen_1_1"/>
-  <BlockFileSet Type="BlockSrcs" Name="ZYNQ_CORE_axi_gpio_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="ZYNQ_CORE_bram_wr_ctrl_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="ZYNQ_CORE_xbar_1"/>
-  <BlockFileSet Type="BlockSrcs" Name="ZYNQ_CORE_border_adder_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="ZYNQ_CORE_axi_gpio_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="ZYNQ_CORE_blk_mem_gen_1_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="ZYNQ_CORE_processing_system7_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="ZYNQ_CORE_cnn_top_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="ZYNQ_CORE_axi_bram_ctrl_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="ZYNQ_CORE_border_adder_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="ZYNQ_CORE_xbar_1"/>
   <BlockFileSet Type="BlockSrcs" Name="ZYNQ_CORE_binarizer_0_0"/>
 </GenRun>

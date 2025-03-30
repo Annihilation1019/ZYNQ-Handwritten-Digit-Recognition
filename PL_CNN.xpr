@@ -242,6 +242,9 @@
         <CompFileExtendedInfo CompFileName="ZYNQ_CORE.bd" FileRelPathName="ip/ZYNQ_CORE_axi_bram_ctrl_0_0/ZYNQ_CORE_axi_bram_ctrl_0_0.xci">
           <Proxy FileSetName="ZYNQ_CORE_axi_bram_ctrl_0_0"/>
         </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="ZYNQ_CORE.bd" FileRelPathName="ip/ZYNQ_CORE_cnn_top_0_0/ZYNQ_CORE_cnn_top_0_0.xci">
+          <Proxy FileSetName="ZYNQ_CORE_cnn_top_0_0"/>
+        </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="ZYNQ_CORE.bd" FileRelPathName="ip/ZYNQ_CORE_processing_system7_0_0/ZYNQ_CORE_processing_system7_0_0.xci">
           <Proxy FileSetName="ZYNQ_CORE_processing_system7_0_0"/>
         </CompFileExtendedInfo>
@@ -437,6 +440,12 @@
         <Option Name="UseBlackboxStub" Val="1"/>
       </Config>
     </FileSet>
+    <FileSet Name="ZYNQ_CORE_cnn_top_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/ZYNQ_CORE_cnn_top_0_0" RelGenDir="$PGENDIR/ZYNQ_CORE_cnn_top_0_0">
+      <Config>
+        <Option Name="TopModule" Val="ZYNQ_CORE_cnn_top_0_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
     <FileSet Name="ZYNQ_CORE_bram_wr_ctrl_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/ZYNQ_CORE_bram_wr_ctrl_0_0" RelGenDir="$PGENDIR/ZYNQ_CORE_bram_wr_ctrl_0_0">
       <Config>
         <Option Name="TopModule" Val="ZYNQ_CORE_bram_wr_ctrl_0_0"/>
@@ -543,9 +552,23 @@
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
+    <Run Id="ZYNQ_CORE_cnn_top_0_0_synth_1" Type="Ft3:Synth" SrcSet="ZYNQ_CORE_cnn_top_0_0" Part="xc7z020clg484-1" ConstrsSet="ZYNQ_CORE_cnn_top_0_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/ZYNQ_CORE_cnn_top_0_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/ZYNQ_CORE_cnn_top_0_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/ZYNQ_CORE_cnn_top_0_0_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2023">
+          <Desc>Vivado Synthesis Defaults</Desc>
+        </StratHandle>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2023"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
     <Run Id="ZYNQ_CORE_bram_wr_ctrl_0_0_synth_1" Type="Ft3:Synth" SrcSet="ZYNQ_CORE_bram_wr_ctrl_0_0" Part="xc7z020clg484-1" ConstrsSet="ZYNQ_CORE_bram_wr_ctrl_0_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/ZYNQ_CORE_bram_wr_ctrl_0_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/ZYNQ_CORE_bram_wr_ctrl_0_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/ZYNQ_CORE_bram_wr_ctrl_0_0_synth_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2023"/>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2023">
+          <Desc>Vivado Synthesis Defaults</Desc>
+        </StratHandle>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -690,9 +713,30 @@
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
+    <Run Id="ZYNQ_CORE_cnn_top_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg484-1" ConstrsSet="ZYNQ_CORE_cnn_top_0_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="ZYNQ_CORE_cnn_top_0_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/ZYNQ_CORE_cnn_top_0_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/ZYNQ_CORE_cnn_top_0_0_impl_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023">
+          <Desc>Default settings for Implementation.</Desc>
+        </StratHandle>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2023"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
     <Run Id="ZYNQ_CORE_bram_wr_ctrl_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg484-1" ConstrsSet="ZYNQ_CORE_bram_wr_ctrl_0_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="ZYNQ_CORE_bram_wr_ctrl_0_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/ZYNQ_CORE_bram_wr_ctrl_0_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/ZYNQ_CORE_bram_wr_ctrl_0_0_impl_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023"/>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023">
+          <Desc>Default settings for Implementation.</Desc>
+        </StratHandle>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>

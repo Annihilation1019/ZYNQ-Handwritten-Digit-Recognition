@@ -8,11 +8,11 @@
     "gen_directory": "../../../../../../PL_CNN.gen/sources_1/bd/ZYNQ_CORE/ip/ZYNQ_CORE_bram_wr_ctrl_0_0",
     "parameters": {
       "component_parameters": {
-        "TIMER": [ { "value": "35000000", "resolve_type": "user", "format": "long", "usage": "all" } ],
+        "TIMER": [ { "value": "3500000", "resolve_type": "user", "format": "long", "usage": "all" } ],
         "Component_Name": [ { "value": "ZYNQ_CORE_bram_wr_ctrl_0_0", "resolve_type": "user", "usage": "all" } ]
       },
       "model_parameters": {
-        "TIMER": [ { "value": "35000000", "resolve_type": "generated", "format": "long", "usage": "all" } ]
+        "TIMER": [ { "value": "3500000", "resolve_type": "generated", "format": "long", "usage": "all" } ]
       },
       "project_parameters": {
         "ARCHITECTURE": [ { "value": "zynq" } ],

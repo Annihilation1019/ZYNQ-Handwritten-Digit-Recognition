@@ -7,7 +7,8 @@
       "name": "ZYNQ_CORE",
       "rev_ctrl_bd_flag": "RevCtrlBdOff",
       "synth_flow_mode": "Hierarchical",
-      "tool_version": "2023.1"
+      "tool_version": "2023.1",
+      "validated": "true"
     },
     "design_tree": {
       "processing_system7_0": "",
@@ -56,8 +57,8 @@
       "xlslice_0": "",
       "xlconstant_0": "",
       "axi_gpio_0": "",
-      "bram_wr_ctrl_0": "",
-      "cnn_top_0": ""
+      "cnn_top_0": "",
+      "bram_wr_ctrl_0": ""
     },
     "interface_ports": {
       "DDR": {
@@ -259,6 +260,10 @@
         "type": "rst",
         "direction": "I",
         "parameters": {
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
           "POLARITY": {
             "value": "ACTIVE_LOW"
           }
@@ -266,11 +271,47 @@
       },
       "TMDS_Clk_p_0": {
         "type": "clk",
-        "direction": "O"
+        "direction": "O",
+        "parameters": {
+          "FREQ_HZ": {
+            "value": "100000000",
+            "value_src": "default"
+          },
+          "FREQ_TOLERANCE_HZ": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.0",
+            "value_src": "default"
+          }
+        }
       },
       "TMDS_Clk_n_0": {
         "type": "clk",
-        "direction": "O"
+        "direction": "O",
+        "parameters": {
+          "FREQ_HZ": {
+            "value": "100000000",
+            "value_src": "default"
+          },
+          "FREQ_TOLERANCE_HZ": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.0",
+            "value_src": "default"
+          }
+        }
       },
       "TMDS_Data_p_0": {
         "direction": "O",
@@ -298,7 +339,17 @@
       },
       "cam_rst_n_0": {
         "type": "rst",
-        "direction": "O"
+        "direction": "O",
+        "parameters": {
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "POLARITY": {
+            "value": "ACTIVE_LOW",
+            "value_src": "const_prop"
+          }
+        }
       },
       "cam_pwdn_0": {
         "direction": "O"
@@ -2395,6 +2446,63 @@
           }
         }
       },
+      "cnn_top_0": {
+        "vlnv": "xilinx.com:module_ref:cnn_top:1.0",
+        "xci_name": "ZYNQ_CORE_cnn_top_0_0",
+        "xci_path": "ip\\ZYNQ_CORE_cnn_top_0_0\\ZYNQ_CORE_cnn_top_0_0.xci",
+        "inst_hier_path": "cnn_top_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "cnn_top",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "sclk": {
+            "direction": "I",
+            "parameters": {
+              "FREQ_HZ": {
+                "value": "75000000",
+                "value_src": "ip_prop"
+              },
+              "PHASE": {
+                "value": "0.0",
+                "value_src": "ip_prop"
+              },
+              "CLK_DOMAIN": {
+                "value": "/clk_wiz_0_clk_out1",
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "s_rst_n": {
+            "type": "rst",
+            "direction": "I",
+            "parameters": {
+              "POLARITY": {
+                "value": "ACTIVE_LOW",
+                "value_src": "constant"
+              }
+            }
+          },
+          "bin_data": {
+            "direction": "I"
+          },
+          "bin_data_vld": {
+            "direction": "I"
+          },
+          "pool_data": {
+            "direction": "O",
+            "left": "31",
+            "right": "0"
+          },
+          "pool_data_vld": {
+            "direction": "O"
+          },
+          "sys_start": {
+            "direction": "O"
+          }
+        }
+      },
       "bram_wr_ctrl_0": {
         "vlnv": "xilinx.com:module_ref:bram_wr_ctrl:1.0",
         "xci_name": "ZYNQ_CORE_bram_wr_ctrl_0_0",
@@ -2463,49 +2571,6 @@
             "direction": "O"
           },
           "pl_ready": {
-            "direction": "O"
-          }
-        }
-      },
-      "cnn_top_0": {
-        "vlnv": "xilinx.com:module_ref:cnn_top:1.0",
-        "xci_name": "ZYNQ_CORE_cnn_top_0_0",
-        "xci_path": "ip\\ZYNQ_CORE_cnn_top_0_0\\ZYNQ_CORE_cnn_top_0_0.xci",
-        "inst_hier_path": "cnn_top_0",
-        "reference_info": {
-          "ref_type": "hdl",
-          "ref_name": "cnn_top",
-          "boundary_crc": "0x0"
-        },
-        "ports": {
-          "sclk": {
-            "direction": "I"
-          },
-          "s_rst_n": {
-            "type": "rst",
-            "direction": "I",
-            "parameters": {
-              "POLARITY": {
-                "value": "ACTIVE_LOW",
-                "value_src": "constant"
-              }
-            }
-          },
-          "bin_data": {
-            "direction": "I"
-          },
-          "bin_data_vld": {
-            "direction": "I"
-          },
-          "pool_data": {
-            "direction": "O",
-            "left": "31",
-            "right": "0"
-          },
-          "pool_data_vld": {
-            "direction": "O"
-          },
-          "sys_start": {
             "direction": "O"
           }
         }
@@ -2754,8 +2819,8 @@
           "border_adder_0/pclk",
           "binarizer_0/pclk",
           "blk_mem_gen_1/clkb",
-          "bram_wr_ctrl_0/clk",
-          "cnn_top_0/sclk"
+          "cnn_top_0/sclk",
+          "bram_wr_ctrl_0/clk"
         ]
       },
       "clk_wiz_0_clk_out2": {
@@ -2778,8 +2843,8 @@
           "show_num_0/rstn",
           "border_adder_0/rstn",
           "binarizer_0/rstn",
-          "bram_wr_ctrl_0/rstn",
-          "cnn_top_0/s_rst_n"
+          "cnn_top_0/s_rst_n",
+          "bram_wr_ctrl_0/rstn"
         ]
       },
       "cnn_top_0_pool_data": {

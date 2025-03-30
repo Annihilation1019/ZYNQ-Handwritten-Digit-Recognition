@@ -40,3 +40,6 @@ platform generate
 platform config -updatehw {D:/Programs/Workspace/Xilinx_Prj/PL_CNN/ZYNQ_CORE_wrapper.xsa}
 platform active {ZYNQ_CORE_wrapper}
 platform generate
+platform active {ZYNQ_CORE_wrapper}
+platform config -updatehw {D:/Programs/Workspace/Xilinx_Prj/PL_CNN/ZYNQ_CORE_wrapper.xsa}
+platform generate -domains 
